@@ -1,5 +1,10 @@
 import { connect } from 'react-redux';
 
+import {
+  selectedPaintingId,
+  unselectPainting,
+} from 'src/actions/mainActions';
+
 import PictureModal from 'src/components/PictureModal';
 
 /**
@@ -7,14 +12,20 @@ import PictureModal from 'src/components/PictureModal';
  */
 
 const mapStateToProps = (state) => ({
-
+  showedPainting: state.main.showedPainting,
 });
 
 /**
  * To dispatch function in the component
  */
 const mapDispatchToProps = (dispatch) => ({
+  selectedPaintingId: (id) => {
+    dispatch(selectedPaintingId(id));
+  },
 
+  unselectPainting: () => {
+    dispatch(unselectPainting());
+  },
 });
 
 // === Assistant creation for the component

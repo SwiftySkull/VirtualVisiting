@@ -1,3 +1,5 @@
+export const imageUrl = 'https://back.denise-margoni.fr/';
+
 export const placeURL = {
   Bretagne: 'Bretagne', // 1                      OK
   Bureau: 'Bureau', // 2                          OK
