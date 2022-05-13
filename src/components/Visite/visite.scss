@@ -1,0 +1,171 @@
+@use 'src/styles/_vars';
+
+#visite {
+  
+  .visite {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    position: relative;
+    
+    .picture {
+      height: calc(100vh - vars.$header);
+      width: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      img {  
+        max-height: 100%;
+        max-width: 100%;
+      }
+
+      .info {
+        position: absolute;
+
+        &:hover, &:focus {
+          border: 2px solid orangered;
+          cursor: pointer;
+        }
+      }
+
+      // .tableau {
+      //   height: 115px;
+      //   width: 75px;
+      //   right: calc(((100% - 627px) / 2) + 30px);
+      //   border-radius: 100%;
+      //   top: 330px;
+      //   border-color: blue !important;
+      // }
+    }
+
+    .arrow {
+      position: absolute;
+
+      .pointe {
+        border-bottom: 20px solid transparent;
+        border-top: 20px solid transparent;
+      }
+
+      .bout {
+        background: rgb(71, 71, 71);
+        height: 20px;
+        width: 50px;
+        margin: auto;
+      }
+    }
+
+    .turn-left {
+      bottom: 30%;
+      left: 5%;
+      display: flex;
+
+      @media (min-width: vars.$large) {
+        left: 15%;
+      }
+
+      @media (min-width: vars.$big) {
+        left: 25%;
+      }
+
+      .pointe {
+        border-right: 30px solid rgb(71, 71, 71);
+      }
+
+      &:hover, &:focus {
+        .pointe {
+          border-right-color: white;
+          animation: arrowLeftMove 1.2s infinite linear;
+        }
+
+        .bout {
+          background: white;
+          animation: arrowLeftMove 1.2s infinite linear;
+        }
+      }
+    }
+
+    .turn-right {
+      bottom: 30%;
+      right: 5%;
+      display: flex;
+
+      @media (min-width: vars.$large) {
+        right: 15%;
+      }
+
+      @media (min-width: vars.$big) {
+        right: 25%;
+      }
+
+      .pointe {
+        border-left: 30px solid rgb(71, 71, 71);
+      }
+
+      &:hover, &:focus {
+        .pointe {
+          border-left-color: white;
+          animation: arrowRightMove 1.2s infinite linear;
+        }
+
+        .bout {
+          background: white;
+          animation: arrowRightMove 1.2s infinite linear;
+        }
+      }
+    }
+
+    .go-forward {
+      bottom: 160px;
+      left: calc(50% - 25px);
+      border-radius: 100%;
+      height: 40px;
+      width: 70px;
+      border: 5px solid rgb(71, 71, 71);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .intern-go {
+        background: rgb(71, 71, 71);
+        border-radius: 100%;
+        width: 70%;
+        height: 70%;
+      }
+
+      &:hover, &:focus {
+        border-color: white;
+        animation: move 1.2s infinite linear;
+
+        .intern-go {
+          background: white;
+        }
+      }
+
+      &:active {
+        box-shadow: 0 4px 4px 3px black;
+      }
+    }
+  }
+}
+
+@keyframes move {
+  50% {
+    transform: scale(1.3);
+  }
+}
+
+@keyframes arrowLeftMove {
+  50% {
+    transform: translateX(-15px);
+  }
+}
+
+@keyframes arrowRightMove {
+  50% {
+    transform: translateX(15px);
+  }
+}

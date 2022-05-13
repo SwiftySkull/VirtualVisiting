@@ -1,0 +1,53 @@
+@use 'src/styles/_vars';
+
+#home {
+  background-color: black;
+  text-align: center;
+  height: calc(100vh - vars.$header);
+  width: 100%;
+  margin: auto;
+
+  .entry-picture {
+    height: calc(100vh - vars.$header);
+    width: 100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  button {
+    background-color: white;
+    border: vars.$boxBorder;
+    border-radius: vars.$boxBorderRadius;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    position: absolute;
+    left: calc(50% - 112px);
+
+    @media (min-width: vars.$medium) {
+      font-size: 1.2rem;
+      left: calc(50% - 120px);
+    }
+
+    @media (min-width: vars.$inter) {
+      font-size: 1.3rem;
+      left: calc(50% - 127px);
+    }
+
+    &:hover, &:focus {
+      background-color: vars.$thirdColor;
+    }
+
+    &:active {
+      color: vars.$textHoverColor;
+      background-color: black;
+    }
+  }
+}

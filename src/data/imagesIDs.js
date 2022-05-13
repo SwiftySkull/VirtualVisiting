@@ -1,0 +1,58 @@
+export default {
+  21: {
+    id: 21,
+    image: BurN,
+    top: '',
+    left: 22,
+    right: 28,
+  },
+  22: {
+    id: 22,
+    image: BurNE,
+    top: '',
+    left: 23,
+    right: 21,
+  },
+  23: {
+    id: 23,
+    image: BurE,
+    top: '',
+    left: 24,
+    right: 22,
+  },
+  24: {
+    id: 24,
+    image: BurSE,
+    top: '',
+    left: 25,
+    right: 23,
+  },
+  25: {
+    id: 25,
+    image: BurS,
+    top: '',
+    left: 26,
+    right: 24,
+  },
+  26: {
+    id: 26,
+    image: BurSO,
+    top: '',
+    left: 27,
+    right: 25,
+  },
+  27: {
+    id: 27,
+    image: BurO,
+    top: '',
+    left: 28,
+    right: 26,
+  },
+  28: {
+    id: 28,
+    image: BurNO,
+    top: '',
+    left: 21,
+    right: 27,
+  },
+};

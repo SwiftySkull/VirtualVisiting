@@ -1,0 +1,26 @@
+// == Screen sizes
+$small: 460px; // vars.$small;
+$medium: 720px; // vars.$medium;
+$inter: 900px; // vars.$inter;
+$large: 1080px; // vars.$large;
+$big: 1300px; // vars.$big;
+$extreme: 1600px; // vars.$extreme;
+
+// == Colors
+$mainColor: rgb(102, 102, 102); // vars.$mainColor;
+$secondaryColor: rgb(153, 153, 153); // vars.$secondaryColor;
+$thirdColor: rgba(204, 204, 204); // vars.$thirdColor
+
+// == Box
+$boxBorder: solid 1px $mainColor; // vars.$boxBorder;
+$boxBorderRadius: 10px; // vars.$boxBorderRadius;
+
+// == Hover & Shadows
+$textHoverColor: $secondaryColor; // vars.$textHoverColor;
+$textHoverDecoration: underline; // vars.$textHoverDecoration;
+$boxHoverShadow: 2px 2px 2px 2px $secondaryColor; // vars.$boxHoverShadow;
+$imageShadow: 1px 1px 1px 1px black; // vars.$imageShadow;
+
+$clickBackgroundColor: $thirdColor; // vars.$clickBackgroundColor
+
+$header: 100px; // vars.$header
