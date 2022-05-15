@@ -19,7 +19,14 @@ const Header = ({
 
   return (
     <div id="header">
-      <p>Bienvenue dans la visite virtuelle de la Rétrospective Denise Margoni</p>
+      <div>
+        <p style={{ fontSize: '1.2rem' }}>Bienvenue dans la visite virtuelle de la</p>
+        <h1 style={{ fontSize: '1.5rem' }}>Rétrospective Denise Margoni</h1>
+      </div>
+      <nav>
+        <Link to="/">Retour à l'entrée</Link>
+        <a href="https://denise-margoni.fr/" target="_blank" rel="noreferrer noopener">Site officiel</a>
+      </nav>
     </div>
   );
 };

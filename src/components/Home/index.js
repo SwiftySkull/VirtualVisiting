@@ -23,7 +23,16 @@ const Home = ({
     <div id="home">
       <div className="entry-picture">
         <img src={Entree} alt="" />
-        <Link to="/Entree/N"><button type="button">Commencer la visite</button></Link>
+        <div className="explication-modal">
+          <div className="explication-text">
+            <ul>
+              <li>Lors de votre visite vous aurez des flèches pour tourner</li>
+              <li>Un cercle blanc apparait en bas de votre écran pour avancer ou reculer suivant la situation.</li>
+              <li>Vous pouvez appuyer sur les tableaux ou les textes pour les agrandir/les lire.</li>
+            </ul>
+          </div>
+          <Link to="/Entree/N"><button type="button">Commencer la visite</button></Link>
+        </div>
       </div>
     </div>
   );

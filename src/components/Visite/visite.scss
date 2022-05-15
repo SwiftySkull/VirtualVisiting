@@ -54,7 +54,7 @@
       }
 
       .bout {
-        background: rgb(71, 71, 71);
+        background: rgb(152, 152, 152);
         height: 20px;
         width: 50px;
         margin: auto;
@@ -66,6 +66,10 @@
       left: 5%;
       display: flex;
 
+      @media (max-width: vars.$medium) {
+        bottom: 15%;
+      }
+
       @media (min-width: vars.$large) {
         left: 15%;
       }
@@ -75,7 +79,7 @@
       }
 
       .pointe {
-        border-right: 30px solid rgb(71, 71, 71);
+        border-right: 30px solid rgb(152, 152, 152);
       }
 
       &:hover, &:focus {
@@ -96,6 +100,10 @@
       right: 5%;
       display: flex;
 
+      @media (max-width: vars.$medium) {
+        bottom: 15%;
+      }
+
       @media (min-width: vars.$large) {
         right: 15%;
       }
@@ -105,7 +113,7 @@
       }
 
       .pointe {
-        border-left: 30px solid rgb(71, 71, 71);
+        border-left: 30px solid rgb(152, 152, 152);
       }
 
       &:hover, &:focus {
@@ -127,13 +135,17 @@
       border-radius: 100%;
       height: 40px;
       width: 70px;
-      border: 5px solid rgb(71, 71, 71);
+      border: 5px solid rgb(152, 152, 152);
       display: flex;
       justify-content: center;
       align-items: center;
 
+      @media (max-width: vars.$medium) {
+        bottom: 10%;
+      }
+
       .intern-go {
-        background: rgb(71, 71, 71);
+        background: rgb(152, 152, 152);
         border-radius: 100%;
         width: 70%;
         height: 70%;
