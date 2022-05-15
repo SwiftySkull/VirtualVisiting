@@ -1,11 +1,13 @@
 import {
   SAVE_PAINTING,
   UNSELECT_PAINTING,
+  CLOSE_MODAL,
 } from 'src/actions/mainActions';
 
 const initialState = {
   language: 'fr',
   showedPainting: {},
+  modal: true,
 };
 
 /**
@@ -13,6 +15,12 @@ const initialState = {
  */
 function mainReducer(state = initialState, action) {
   switch (action.type) {
+    case CLOSE_MODAL:
+      return {
+        ...state,
+        modal: false,
+      };
+
     case SAVE_PAINTING:
       return {
         ...state,

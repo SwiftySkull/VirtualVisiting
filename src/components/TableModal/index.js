@@ -5,6 +5,8 @@ import { NavLink, Link } from 'react-router-dom';
 import { useParams } from 'react-router';
 
 // == Import
+import Modal from 'src/containers/Modal';
+
 import './tableModal.scss';
 
 import tableIDs from 'src/data/tableIDs';
@@ -39,6 +41,7 @@ const TableModal = ({
           <p className="text">Retour</p>
         </div>
       </div>
+      <Modal />
     </div>
   );
 };

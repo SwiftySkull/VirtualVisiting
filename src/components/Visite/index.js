@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import { useParams } from 'react-router';
 
 // == Import
+import Modal from 'src/containers/Modal';
+
 import './visite.scss';
 
 import { all } from 'src/data';
@@ -14,7 +16,7 @@ import { all } from 'src/data';
  * Visite component
  */
 const Visite = ({
-
+  
 }) => {
   useEffect(() => {
 
@@ -67,6 +69,7 @@ const Visite = ({
           <div onClick={back} onKeyDown={backByKey} className="go-forward arrow" value="" title="Se déplacer"><div className="intern-go" /></div>
         )}
       </div>
+      <Modal />
     </div>
   );
 };

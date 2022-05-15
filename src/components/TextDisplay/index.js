@@ -28,13 +28,11 @@ const TextDisplay = ({
     window.history.back();
   };
 
-  const xxx = textDisplay.find((text) => texte === text.name);
-
-  console.log(xxx);
+  const foundText = textDisplay.find((text) => texte === text.name);
 
   return (
     <div id="textDisplay">
-      <div className="content" dangerouslySetInnerHTML={createMarkup(xxx.content)} />
+      <div className="content" dangerouslySetInnerHTML={createMarkup(foundText.content)} />
       <button type="button" onClick={back}>Retour à la visite</button>
     </div>
   );

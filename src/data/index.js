@@ -229,7 +229,7 @@ export const all = {
           style: {
             height: 200,
             width: 200,
-            right: 0,
+            right: 50,
             top: 300,
           },
           painting: `/${autresURL.lecture}/Retrospective`,
