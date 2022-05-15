@@ -13,7 +13,7 @@ import Entree from 'src/assets/images/Canon/IMG_4064.JPG';
  * Home component
  */
 const Home = ({
-
+  closeModal,
 }) => {
   useEffect(() => {
 
@@ -31,7 +31,7 @@ const Home = ({
               <li>Vous pouvez appuyer sur les tableaux ou les textes pour les agrandir/les lire.</li>
             </ul>
           </div>
-          <Link to="/Entree/N"><button type="button">Commencer la visite</button></Link>
+          <Link to="/Entree/N"><button type="button" onClick={closeModal}>Commencer la visite</button></Link>
         </div>
       </div>
     </div>
@@ -39,7 +39,7 @@ const Home = ({
 };
 
 Home.propTypes = {
-
+  closeModal: PropTypes.func.isRequired,
 };
 
 Home.defaultProps = {

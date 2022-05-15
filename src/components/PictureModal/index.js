@@ -5,8 +5,6 @@ import { NavLink, Link } from 'react-router-dom';
 import { useParams } from 'react-router';
 
 // == Import
-import Modal from 'src/containers/Modal';
-
 import './pictureModal.scss';
 
 import OUPS from 'src/assets/images/IMG_3175.JPG';
@@ -57,7 +55,6 @@ const PictureModal = ({
           <p className="text">Retour</p>
         </div>
       </div>
-      <Modal />
     </div>
   );
 };

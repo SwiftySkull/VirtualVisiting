@@ -1,5 +1,7 @@
 import { connect } from 'react-redux';
 
+import { closeModal } from 'src/actions/mainActions';
+
 import Home from 'src/components/Home';
 
 /**
@@ -14,7 +16,9 @@ const mapStateToProps = (state) => ({
  * To dispatch function in the component
  */
 const mapDispatchToProps = (dispatch) => ({
-
+  closeModal: () => {
+    dispatch(closeModal());
+  },
 });
 
 // === Assistant creation for the component
