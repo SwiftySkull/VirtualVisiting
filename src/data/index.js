@@ -9,72 +9,66 @@ export const all = {
     Bretagne: {
       id: 211,
       image: photos.Bretagne,
-      left: {
+      leftTurn: {
         id: 17,
         link: `/${placeURL.Bretagne}/${directionURL.O}`,
       },
-      right: {
+      rightTurn: {
         id: 11,
         link: `/${placeURL.Bretagne}/${directionURL.N}`,
       },
       actions: [
         // {
         //   style: {
-        //     height: '70px',
-        //     width: '70px',
-        //     right: 'calc(((100% - 627px) / 2) + 180px)',
-        //     borderRadius: '100%',
-        //     top: '225px',
+        //     height: 70,
+        //     width: 70,
+        //     right: 180,
+        //     top: 225,
         //   },
         //   painting: `/${autresURL.peinture}/757`,
         // },
         // {
         //   style: {
-        //     height: '80px',
-        //     width: '120px',
-        //     left: 'calc(((100% - 627px) / 2) + 120px)',
-        //     borderRadius: '100%',
-        //     top: '340px',
+        //     height: 80,
+        //     width: 120,
+        //     left: 120,
+        //     top: 340,
         //   },
         //   painting: `/${autresURL.peinture}/217`,
         // },
         // {
         //   style: {
-        //     height: '140px',
-        //     width: '200px',
-        //     left: 'calc(((100% - 627px) / 2) + 200px)',
-        //     borderRadius: '100%',
-        //     bottom: '220px',
+        //     height: 140,
+        //     width: 200,
+        //     left: 200,
+        //     bottom: 220,
         //   },
         //   painting: `/${autresURL.peinture}/208`,
         // },
         // {
         //   style: {
-        //     height: '140px',
-        //     width: '250px',
-        //     right: 'calc(((100% - 627px) / 2) + 140px)',
-        //     borderRadius: '100%',
-        //     top: '300px',
+        //     height: 140,
+        //     width: 250,
+        //     right: 140,
+        //     top: 300,
         //   },
         //   painting: `/${autresURL.lecture}/Bretagne`,
         // },
         // {
         //   style: {
-        //     height: '100px',
-        //     width: '250px',
-        //     left: 'calc(((100% - 627px) / 2) + 110px)',
-        //     borderRadius: '100%',
-        //     top: '170px',
+        //     height: 100,
+        //     width: 250,
+        //     left: 110,
+        //     top: 170,
         //   },
         //   painting: `/${autresURL.lecture}/Bretagne`,
         // },
         {
           style: {
-            height: '100px',
-            width: '300px',
-            left: 'calc(((100% - 627px) / 2) + 110px)',
-            borderRadius: '100%',
-            top: '40px',
+            height: 100,
+            width: 300,
+            left: 110,
+            top: 40,
           },
           painting: `/${autresURL.lecture}/Bretagne`,
         },
@@ -85,22 +79,21 @@ export const all = {
     Livre: {
       id: 212,
       image: photos.Livre,
-      left: {
+      leftTurn: {
         id: 161,
         link: `/${placeURL.Table}/1`,
       },
-      right: {
+      rightTurn: {
         id: 167,
         link: `/${placeURL.Table}/7`,
       },
       actions: [
         {
           style: {
-            height: '250px',
-            width: '250px',
-            right: 'calc(((100% - 627px) / 2) + 0px)',
-            borderRadius: '100%',
-            top: '240px',
+            height: 250,
+            width: 250,
+            right: 0,
+            top: 240,
           },
           painting: `/${autresURL.dessins_table}/4160`,
         },
@@ -111,22 +104,21 @@ export const all = {
     Fauve: {
       id: 213,
       image: photos.Fauve,
-      left: {
+      leftTurn: {
         id: 111,
         link: `/${placeURL.Orchestre}/${directionURL.N}`,
       },
-      right: {
+      rightTurn: {
         id: 113,
         link: `/${placeURL.Orchestre}/${directionURL.E}`,
       },
       actions: [
         {
           style: {
-            height: '300px',
-            width: '300px',
-            left: 'calc(((100% - 627px) / 2) + 150px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 300,
+            width: 300,
+            left: 150,
+            top: 300,
           },
           painting: `/${autresURL.lecture}/Fauve`,
         },
@@ -137,32 +129,30 @@ export const all = {
     Muret: {
       id: 214,
       image: photos.Muret,
-      left: {
+      leftTurn: {
         id: false,
         link: '#',
       },
-      right: {
+      rightTurn: {
         id: false,
         link: '#',
       },
       actions: [
         {
           style: {
-            height: '90px',
-            width: '150px',
-            left: 'calc(((100% - 627px) / 2) + 235px)',
-            borderRadius: '100%',
-            top: '95px',
+            height: 90,
+            width: 150,
+            left: 235,
+            top: 95,
           },
           painting: `/${autresURL.peinture}/245`,
         },
         {
           style: {
-            height: '350px',
-            width: '270px',
-            left: 'calc(((100% - 627px) / 2) + 180px)',
-            borderRadius: '100%',
-            top: '265px',
+            height: 350,
+            width: 270,
+            left: 180,
+            top: 265,
           },
           painting: `/${autresURL.peinture}/269`,
         },
@@ -173,11 +163,11 @@ export const all = {
     Portraits: {
       id: 215,
       image: photos.Portraits,
-      left: {
+      leftTurn: {
         id: false,
         link: '#',
       },
-      right: {
+      rightTurn: {
         id: false,
         link: '#',
       },
@@ -188,20 +178,19 @@ export const all = {
     Eugenio: {
       id: 216,
       image: photos.Eugenio,
-      left: {
+      leftTurn: {
         id: false,
       },
-      right: {
+      rightTurn: {
         id: false,
       },
       actions: [
         {
           style: {
-            height: '200px',
-            width: '200px',
-            right: 'calc(((100% - 627px) / 2) + 200px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 200,
+            width: 200,
+            right: 200,
+            top: 300,
           },
           painting: `/${autresURL.lecture}/Eugenio`,
         },
@@ -212,11 +201,11 @@ export const all = {
     Mannequin: {
       id: 217,
       image: photos.Mannequin,
-      left: {
+      leftTurn: {
         id: true,
         link: `/${placeURL.Mannequin}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: true,
         link: `/${placeURL.Mannequin}/${directionURL.O}`,
       },
@@ -227,22 +216,21 @@ export const all = {
     Entree: {
       id: 218,
       image: photos.Entree,
-      left: {
+      leftTurn: {
         id: true,
         link: `/${placeURL.Entree}/${directionURL.NO}`,
       },
-      right: {
+      rightTurn: {
         id: true,
         link: `/${placeURL.Entree}/${directionURL.NE}`,
       },
       actions: [
         {
           style: {
-            height: '200px',
-            width: '200px',
-            right: 'calc(((100% - 627px) / 2) + 0px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 200,
+            width: 200,
+            right: 0,
+            top: 300,
           },
           painting: `/${autresURL.lecture}/Retrospective`,
         },
@@ -253,22 +241,21 @@ export const all = {
     Remerciements: {
       id: 219,
       image: photos.Remerciements,
-      left: {
+      leftTurn: {
         id: true,
         link: `/${placeURL.Entree}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: true,
         link: `/${placeURL.Entree}/${directionURL.O}`,
       },
       actions: [
         {
           style: {
-            height: '300px',
-            width: '300px',
-            left: 'calc(((100% - 627px) / 2) + 110px)',
-            borderRadius: '100%',
-            top: '220px',
+            height: 300,
+            width: 300,
+            left: 110,
+            top: 220,
           },
           painting: `/${autresURL.lecture}/Remerciements`,
         },
@@ -279,22 +266,21 @@ export const all = {
     Predilection: {
       id: 220,
       image: photos.Predilection,
-      left: {
+      leftTurn: {
         id: true,
         link: `/${placeURL.Entree}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: true,
         link: `/${placeURL.Entree}/${directionURL.O}`,
       },
       actions: [
         {
           style: {
-            height: '300px',
-            width: '300px',
-            left: 'calc(((100% - 627px) / 2) + 160px)',
-            borderRadius: '100%',
-            top: '220px',
+            height: 300,
+            width: 300,
+            left: 160,
+            top: 220,
           },
           painting: `/${autresURL.lecture}/Predilection`,
         },
@@ -305,22 +291,21 @@ export const all = {
     'Alain-Margoni': {
       id: 220,
       image: photos.Alain,
-      left: {
+      leftTurn: {
         id: true,
         link: `/${placeURL.Entree}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: true,
         link: `/${placeURL.Entree}/${directionURL.O}`,
       },
       actions: [
         {
           style: {
-            height: '300px',
-            width: '300px',
-            left: 'calc(((100% - 627px) / 2) + 160px)',
-            borderRadius: '100%',
-            top: '220px',
+            height: 300,
+            width: 300,
+            left: 160,
+            top: 220,
           },
           painting: `/${autresURL.lecture}/Alain-Margoni`,
         },
@@ -331,52 +316,48 @@ export const all = {
     Parfum: {
       id: 221,
       image: photos.Parfum,
-      left: {
+      leftTurn: {
         id: true,
         link: `/${placeURL.Parfum}/${directionURL.SE}`,
       },
-      right: {
+      rightTurn: {
         id: true,
         link: `/${placeURL.Parfum}/${directionURL.S}`,
       },
       actions: [
         {
           style: {
-            height: '200px',
-            width: '200px',
-            right: 'calc(((100% - 627px) / 2) + 225px)',
-            borderRadius: '100%',
-            top: '30px',
+            height: 200,
+            width: 200,
+            right: 225,
+            top: 30,
           },
           painting: `/${autresURL.Affiches}/Foulard1`,
         },
         {
           style: {
-            height: '200px',
-            width: '200px',
-            right: 'calc(((100% - 627px) / 2) + 230px)',
-            borderRadius: '100%',
-            top: '270px',
+            height: 200,
+            width: 200,
+            right: 230,
+            top: 270,
           },
           painting: `/${autresURL.Affiches}/Foulard2`,
         },
         {
           style: {
-            height: '160px',
-            width: '180px',
-            right: 'calc(((100% - 627px) / 2) + 230px)',
-            borderRadius: '100%',
-            bottom: '200px',
+            height: 160,
+            width: 180,
+            right: 230,
+            bottom: 200,
           },
           painting: `/${autresURL.Affiches}/Foulard3`,
         },
         {
           style: {
-            height: '130px',
-            width: '180px',
-            right: 'calc(((100% - 627px) / 2) + 230px)',
-            borderRadius: '100%',
-            bottom: '20px',
+            height: 130,
+            width: 180,
+            right: 230,
+            bottom: 20,
           },
           painting: `/${autresURL.Affiches}/Foulard4`,
         },
@@ -387,11 +368,11 @@ export const all = {
     Foulard1: {
       id: 222,
       image: photos.Foulard1,
-      left: {
+      leftTurn: {
         id: false,
         link: '#',
       },
-      right: {
+      rightTurn: {
         id: false,
         link: '#',
       },
@@ -402,11 +383,11 @@ export const all = {
     Foulard2: {
       id: 223,
       image: photos.Foulard2,
-      left: {
+      leftTurn: {
         id: false,
         link: '#',
       },
-      right: {
+      rightTurn: {
         id: false,
         link: '#',
       },
@@ -417,11 +398,11 @@ export const all = {
     Foulard3: {
       id: 224,
       image: photos.Foulard3,
-      left: {
+      leftTurn: {
         id: false,
         link: '#',
       },
-      right: {
+      rightTurn: {
         id: false,
         link: '#',
       },
@@ -432,11 +413,11 @@ export const all = {
     Foulard4: {
       id: 225,
       image: photos.Foulard4,
-      left: {
+      leftTurn: {
         id: false,
         link: '#',
       },
-      right: {
+      rightTurn: {
         id: false,
         link: '#',
       },
@@ -449,30 +430,28 @@ export const all = {
     N: {
       id: 11,
       image: photos.BreN,
-      left: {
+      leftTurn: {
         id: 18,
         link: `/${placeURL.Bretagne}/${directionURL.NO}`,
       },
-      right: {
+      rightTurn: {
         id: 12,
         link: `/${placeURL.Bretagne}/${directionURL.NE}`,
       },
       actions: [
         {
           style: {
-            height: '160px',
-            width: '190px',
-            left: 'calc(((100% - 627px) / 2) + 140px)',
-            borderRadius: '100%',
+            height: 160,
+            width: 190,
+            left: 140,
           },
           painting: `/${autresURL.peinture}/205`,
         },
         {
           style: {
-            height: '140px',
-            width: '150px',
-            right: 'calc(((100% - 627px) / 2) + 70px)',
-            borderRadius: '100%',
+            height: 140,
+            width: 150,
+            right: 70,
           },
           painting: `/${autresURL.peinture}/210`,
         },
@@ -483,32 +462,30 @@ export const all = {
     NE: {
       id: 12,
       image: photos.BreNE,
-      left: {
+      leftTurn: {
         id: 11,
         link: `/${placeURL.Bretagne}/${directionURL.N}`,
       },
-      right: {
+      rightTurn: {
         id: 13,
         link: `/${placeURL.Bretagne}/${directionURL.E}`,
       },
       actions: [
         {
           style: {
-            height: '160px',
-            width: '170px',
-            left: 'calc(((100% - 627px) / 2) + 170px)',
-            borderRadius: '100%',
-            top: '280px',
+            height: 160,
+            width: 170,
+            left: 170,
+            top: 280,
           },
           painting: `/${autresURL.peinture}/210`,
         },
         {
           style: {
-            height: '60px',
-            width: '60px',
-            right: 'calc(((100% - 627px) / 2) + 200px)',
-            borderRadius: '100%',
-            top: '328px',
+            height: 60,
+            width: 60,
+            right: 200,
+            top: 328,
           },
           painting: `/${autresURL.peinture}/208`,
         },
@@ -519,11 +496,11 @@ export const all = {
     E: {
       id: 13,
       image: photos.BreE,
-      left: {
+      leftTurn: {
         id: 12,
         link: `/${placeURL.Bretagne}/${directionURL.NE}`,
       },
-      right: {
+      rightTurn: {
         id: 14,
         link: `/${placeURL.Bretagne}/${directionURL.SE}`,
       },
@@ -534,22 +511,21 @@ export const all = {
     SE: {
       id: 14,
       image: photos.BreSE,
-      left: {
+      leftTurn: {
         id: 13,
         link: `/${placeURL.Bretagne}/${directionURL.E}`,
       },
-      right: {
+      rightTurn: {
         id: 15,
         link: `/${placeURL.Bretagne}/${directionURL.S}`,
       },
       actions: [
         {
           style: {
-            height: '80px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 230px)',
-            borderRadius: '100%',
-            bottom: '250px',
+            height: 80,
+            width: 80,
+            left: 230,
+            bottom: 250,
           },
           painting: `/${placeURL.Table}/5`,
         },
@@ -560,11 +536,11 @@ export const all = {
     S: {
       id: 15,
       image: photos.BreS,
-      left: {
+      leftTurn: {
         id: 14,
         link: `/${placeURL.Bretagne}/${directionURL.SE}`,
       },
-      right: {
+      rightTurn: {
         id: 16,
         link: `/${placeURL.Bretagne}/${directionURL.SO}`,
       },
@@ -575,32 +551,30 @@ export const all = {
     SO: {
       id: 16,
       image: photos.BreSO,
-      left: {
+      leftTurn: {
         id: 15,
         link: `/${placeURL.Bretagne}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: 17,
         link: `/${placeURL.Bretagne}/${directionURL.O}`,
       },
       actions: [
         {
           style: {
-            height: '180px',
-            width: '150px',
-            left: 'calc(((100% - 627px) / 2) + 140px)',
-            borderRadius: '100%',
-            top: '135px',
+            height: 180,
+            width: 150,
+            left: 140,
+            top: 135,
           },
           painting: `/${autresURL.peinture}/8`,
         },
         {
           style: {
-            height: '180px',
-            width: '170px',
-            left: 'calc(((100% - 627px) / 2) + 120px)',
-            borderRadius: '100%',
-            bottom: '280px',
+            height: 180,
+            width: 170,
+            left: 120,
+            bottom: 280,
           },
           painting: `/${autresURL.peinture}/438`,
         },
@@ -611,11 +585,11 @@ export const all = {
     O: {
       id: 17,
       image: photos.BreO,
-      left: {
+      leftTurn: {
         id: 16,
         link: `/${placeURL.Bretagne}/${directionURL.SO}`,
       },
-      right: {
+      rightTurn: {
         id: 18,
         link: `/${placeURL.Bretagne}/${directionURL.NO}`,
       },
@@ -626,22 +600,21 @@ export const all = {
     NO: {
       id: 18,
       image: photos.BreNO,
-      left: {
+      leftTurn: {
         id: 17,
         link: `/${placeURL.Bretagne}/${directionURL.O}`,
       },
-      right: {
+      rightTurn: {
         id: 11,
         link: `/${placeURL.Bretagne}/${directionURL.N}`,
       },
       actions: [
         {
           style: {
-            height: '250px',
-            width: '180px',
-            left: 'calc(((100% - 627px) / 2) + 220px)',
-            borderRadius: '100%',
-            top: '280px',
+            height: 250,
+            width: 180,
+            left: 220,
+            top: 280,
           },
           painting: `/${autresURL.Affiches}/Bretagne`,
         },
@@ -654,32 +627,30 @@ export const all = {
     N: {
       id: 21,
       image: photos.BurN,
-      left: {
+      leftTurn: {
         id: 28,
         link: `/${placeURL.Bureau}/${directionURL.NO}`,
       },
-      right: {
+      rightTurn: {
         id: 22,
         link: `/${placeURL.Bureau}/${directionURL.NE}`,
       },
       actions: [
         {
           style: {
-            height: '160px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 70px)',
-            borderRadius: '100%',
-            top: '200px',
+            height: 160,
+            width: 80,
+            left: 70,
+            top: 200,
           },
           painting: `/${autresURL.peinture}/8`,
         },
         {
           style: {
-            height: '140px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 70px)',
-            borderRadius: '100%',
-            top: '400px',
+            height: 140,
+            width: 80,
+            left: 70,
+            top: 400,
           },
           painting: `/${autresURL.peinture}/438`,
         },
@@ -690,22 +661,21 @@ export const all = {
     NE: {
       id: 22,
       image: photos.BurNE,
-      left: {
+      leftTurn: {
         id: 21,
         link: `/${placeURL.Bureau}/${directionURL.N}`,
       },
-      right: {
+      rightTurn: {
         id: 23,
         link: `/${placeURL.Bureau}/${directionURL.E}`,
       },
       actions: [
         {
           style: {
-            height: '80px',
-            width: '80px',
-            right: 'calc(((100% - 627px) / 2) + 180px)',
-            borderRadius: '100%',
-            bottom: '200px',
+            height: 80,
+            width: 80,
+            right: 180,
+            bottom: 200,
           },
           painting: `/${placeURL.Table}/4`,
         },
@@ -716,11 +686,11 @@ export const all = {
     E: {
       id: 23,
       image: photos.BurE,
-      left: {
+      leftTurn: {
         id: 22,
         link: `/${placeURL.Bureau}/${directionURL.NE}`,
       },
-      right: {
+      rightTurn: {
         id: 24,
         link: `/${placeURL.Bureau}/${directionURL.SE}`,
       },
@@ -731,62 +701,57 @@ export const all = {
     SE: {
       id: 24,
       image: photos.BurSE,
-      left: {
+      leftTurn: {
         id: 23,
         link: `/${placeURL.Bureau}/${directionURL.E}`,
       },
-      right: {
+      rightTurn: {
         id: 25,
         link: `/${placeURL.Bureau}/${directionURL.S}`,
       },
       actions: [
         {
           style: {
-            height: '60px',
-            width: '50px',
-            left: 'calc(((100% - 627px) / 2) + 235px)',
-            borderRadius: '100%',
-            top: '345px',
+            height: 60,
+            width: 50,
+            left: 235,
+            top: 345,
           },
           painting: `/${autresURL.peinture}/518`,
         },
         {
           style: {
-            height: '60px',
-            width: '70px',
-            right: 'calc(((100% - 627px) / 2) + 215px)',
-            borderRadius: '100%',
-            top: '295px',
+            height: 60,
+            width: 70,
+            right: 215,
+            top: 295,
           },
           painting: `/${autresURL.peinture}/217`,
         },
         {
           style: {
-            height: '60px',
-            width: '80px',
-            right: 'calc(((100% - 627px) / 2) + 210px)',
-            borderRadius: '100%',
-            top: '397px',
+            height: 60,
+            width: 80,
+            right: 210,
+            top: 397,
           },
           painting: `/${autresURL.peinture}/454`,
         },
         {
           style: {
-            height: '100px',
-            width: '110px',
-            right: 'calc(((100% - 627px) / 2) + 10px)',
-            borderRadius: '100%',
-            top: '275px',
+            height: 100,
+            width: 110,
+            right: 10,
+            top: 275,
           },
           painting: `/${autresURL.peinture}/216`,
         },
         {
           style: {
-            height: '100px',
-            width: '110px',
-            right: 'calc(((100% - 627px) / 2) + 10px)',
-            borderRadius: '100%',
-            top: '405px',
+            height: 100,
+            width: 110,
+            right: 10,
+            top: 405,
           },
           painting: `/${autresURL.peinture}/458`,
         },
@@ -797,42 +762,39 @@ export const all = {
     S: {
       id: 25,
       image: photos.BurS,
-      left: {
+      leftTurn: {
         id: 24,
         link: `/${placeURL.Bureau}/${directionURL.SE}`,
       },
-      right: {
+      rightTurn: {
         id: 26,
         link: `/${placeURL.Bureau}/${directionURL.SO}`,
       },
       actions: [
         {
           style: {
-            height: '100px',
-            width: '130px',
-            left: 'calc(((100% - 627px) / 2) + 130px)',
-            borderRadius: '100%',
-            top: '260px',
+            height: 100,
+            width: 130,
+            left: 130,
+            top: 260,
           },
           painting: `/${autresURL.peinture}/216`,
         },
         {
           style: {
-            height: '90px',
-            width: '130px',
-            left: 'calc(((100% - 627px) / 2) + 130px)',
-            borderRadius: '100%',
-            top: '390px',
+            height: 90,
+            width: 130,
+            left: 130,
+            top: 390,
           },
           painting: `/${autresURL.peinture}/458`,
         },
         {
           style: {
-            height: '180px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 285px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 180,
+            width: 80,
+            left: 285,
+            top: 300,
           },
           painting: `/${autresURL.Affiches}/Muret`,
         },
@@ -843,11 +805,11 @@ export const all = {
     SO: {
       id: 26,
       image: photos.BurSO,
-      left: {
+      leftTurn: {
         id: 25,
         link: `/${placeURL.Bureau}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: 27,
         link: `/${placeURL.Bureau}/${directionURL.O}`,
       },
@@ -857,22 +819,21 @@ export const all = {
     O: {
       id: 27,
       image: photos.BurO,
-      left: {
+      leftTurn: {
         id: 26,
         link: `/${placeURL.Bureau}/${directionURL.SO}`,
       },
-      right: {
+      rightTurn: {
         id: 28,
         link: `/${placeURL.Bureau}/${directionURL.NO}`,
       },
       actions: [
         {
           style: {
-            height: '200px',
-            width: '130px',
-            right: 'calc(((100% - 627px) / 2) + 30px)',
-            borderRadius: '100%',
-            top: '305px',
+            height: 200,
+            width: 130,
+            right: 30,
+            top: 305,
           },
           painting: `/${autresURL.peinture}/211`,
         },
@@ -883,42 +844,39 @@ export const all = {
     NO: {
       id: 28,
       image: photos.BurNO,
-      left: {
+      leftTurn: {
         id: 27,
         link: `/${placeURL.Bureau}/${directionURL.O}`,
       },
-      right: {
+      rightTurn: {
         id: 21,
         link: `/${placeURL.Bureau}/${directionURL.N}`,
       },
       actions: [
         {
           style: {
-            height: '185px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 110px)',
-            borderRadius: '100%',
-            top: '310px',
+            height: 185,
+            width: 100,
+            left: 110,
+            top: 310,
           },
           painting: `/${autresURL.peinture}/211`,
         },
         {
           style: {
-            height: '160px',
-            width: '90px',
-            right: 'calc(((100% - 627px) / 2) + 200px)',
-            borderRadius: '100%',
-            top: '200px',
+            height: 160,
+            width: 90,
+            right: 200,
+            top: 200,
           },
           painting: `/${autresURL.peinture}/8`,
         },
         {
           style: {
-            height: '140px',
-            width: '90px',
-            right: 'calc(((100% - 627px) / 2) + 200px)',
-            borderRadius: '100%',
-            bottom: '300px',
+            height: 140,
+            width: 90,
+            right: 200,
+            bottom: 300,
           },
           painting: `/${autresURL.peinture}/438`,
         },
@@ -931,102 +889,93 @@ export const all = {
     N: {
       id: 31,
       image: photos.CoulN,
-      left: {
+      leftTurn: {
         id: 38,
         link: `/${placeURL.Couloir_gauche}/${directionURL.NO}`,
       },
-      right: {
+      rightTurn: {
         id: 32,
         link: `/${placeURL.Couloir_gauche}/${directionURL.NE}`,
       },
       actions: [
         {
           style: {
-            height: '100px',
-            width: '60px',
-            left: 'calc(((100% - 627px) / 2) + 33px)',
-            borderRadius: '100%',
-            top: '345px',
+            height: 100,
+            width: 60,
+            left: 33,
+            top: 345,
           },
           painting: `/${autresURL.peinture}/178`,
         },
         {
           style: {
-            height: '35px',
-            width: '45px',
-            left: 'calc(((100% - 627px) / 2) + 110px)',
-            borderRadius: '100%',
-            top: '340px',
+            height: 35,
+            width: 45,
+            left: 110,
+            top: 340,
           },
           painting: `/${autresURL.peinture}/77`,
         },
         {
           style: {
-            height: '35px',
-            width: '45px',
-            left: 'calc(((100% - 627px) / 2) + 112px)',
-            borderRadius: '100%',
-            top: '385px',
+            height: 35,
+            width: 45,
+            left: 112,
+            top: 385,
           },
           painting: `/${autresURL.peinture}/76`,
         },
         {
           style: {
-            height: '43px',
-            width: '58px',
-            left: 'calc(((100% - 627px) / 2) + 175px)',
-            borderRadius: '100%',
-            top: '334px',
+            height: 43,
+            width: 58,
+            left: 175,
+            top: 334,
           },
           painting: `/${autresURL.peinture}/94`,
         },
         {
           style: {
-            height: '45px',
-            width: '57px',
-            left: 'calc(((100% - 627px) / 2) + 177px)',
-            borderRadius: '100%',
-            top: '383px',
+            height: 45,
+            width: 57,
+            left: 177,
+            top: 383,
           },
           painting: `/${autresURL.peinture}/84`,
         },
         {
           style: {
-            height: '67px',
-            width: '57px',
-            left: 'calc(((100% - 627px) / 2) + 257px)',
-            borderRadius: '100%',
-            top: '348px',
+            height: 67,
+            width: 57,
+            left: 257,
+            top: 348,
           },
           painting: `/${autresURL.peinture}/69`,
         },
         {
           style: {
-            height: '48px',
-            width: '57px',
-            right: 'calc(((100% - 627px) / 2) + 235px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 48,
+            width: 57,
+            right: 235,
+            top: 330,
           },
           painting: `/${autresURL.peinture}/82`,
         },
         {
           style: {
-            height: '48px',
-            width: '57px',
-            right: 'calc(((100% - 627px) / 2) + 235px)',
-            borderRadius: '100%',
-            top: '385px',
+            height: 48,
+            width: 57,
+            right: 235,
+            top: 385,
           },
           painting: `/${autresURL.peinture}/319`,
         },
         {
           style: {
-            height: '58px',
-            width: '80px',
-            right: 'calc(((100% - 627px) / 2) + 115px)',
-            borderRadius: '100%',
-            top: '377px',
+            height: 58,
+            width: 80,
+            right: 115,
+            top: 377,
           },
           painting: `/${autresURL.peinture}/275`,
         },
@@ -1037,32 +986,30 @@ export const all = {
     NE: {
       id: 32,
       image: photos.CoulNE,
-      left: {
+      leftTurn: {
         id: 31,
         link: `/${placeURL.Couloir_gauche}/${directionURL.N}`,
       },
-      right: {
+      rightTurn: {
         id: 33,
         link: `/${placeURL.Couloir_gauche}/${directionURL.E}`,
       },
       actions: [
         {
           style: {
-            height: '65px',
-            width: '85px',
-            left: 'calc(((100% - 627px) / 2) + 130px)',
-            borderRadius: '100%',
-            top: '355px',
+            height: 65,
+            width: 85,
+            left: 130,
+            top: 355,
           },
           painting: `/${autresURL.peinture}/275`,
         },
         {
           style: {
-            height: '120px',
-            width: '130px',
-            right: 'calc(((100% - 627px) / 2) + 120px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 120,
+            width: 130,
+            right: 120,
+            top: 330,
           },
           painting: `/${autresURL.peinture}/557`,
         },
@@ -1073,42 +1020,39 @@ export const all = {
     E: {
       id: 33,
       image: photos.CoulE,
-      left: {
+      leftTurn: {
         id: 32,
         link: `/${placeURL.Couloir_gauche}/${directionURL.NE}`,
       },
-      right: {
+      rightTurn: {
         id: 34,
         link: `/${placeURL.Couloir_gauche}/${directionURL.SE}`,
       },
       actions: [
         {
           style: {
-            height: '125px',
-            width: '115px',
-            left: 'calc(((100% - 627px) / 2) + 45px)',
-            borderRadius: '100%',
-            top: '350px',
+            height: 125,
+            width: 115,
+            left: 45,
+            top: 350,
           },
           painting: `/${autresURL.peinture}/557`,
         },
         {
           style: {
-            height: '110px',
-            width: '90px',
-            right: 'calc(((100% - 627px) / 2) + 250px)',
-            borderRadius: '100%',
-            top: '350px',
+            height: 110,
+            width: 90,
+            right: 250,
+            top: 350,
           },
           painting: `/${autresURL.peinture}/750`,
         },
         {
           style: {
-            height: '150px',
-            width: '90px',
-            right: 'calc(((100% - 627px) / 2) + 95px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 150,
+            width: 90,
+            right: 95,
+            top: 330,
           },
           painting: `/${autresURL.peinture}/384`,
         },
@@ -1119,22 +1063,21 @@ export const all = {
     SE: {
       id: 34,
       image: photos.CoulSE,
-      left: {
+      leftTurn: {
         id: 33,
         link: `/${placeURL.Couloir_gauche}/${directionURL.E}`,
       },
-      right: {
+      rightTurn: {
         id: 35,
         link: `/${placeURL.Couloir_gauche}/${directionURL.S}`,
       },
       actions: [
         {
           style: {
-            height: '120px',
-            width: '175px',
-            right: 'calc(((100% - 627px) / 2) + 60px)',
-            borderRadius: '100%',
-            top: '315px',
+            height: 120,
+            width: 175,
+            right: 60,
+            top: 315,
           },
           painting: `/${autresURL.peinture}/223`,
         },
@@ -1145,42 +1088,39 @@ export const all = {
     S: {
       id: 35,
       image: photos.CoulS,
-      left: {
+      leftTurn: {
         id: 34,
         link: `/${placeURL.Couloir_gauche}/${directionURL.SE}`,
       },
-      right: {
+      rightTurn: {
         id: 36,
         link: `/${placeURL.Couloir_gauche}/${directionURL.SO}`,
       },
       actions: [
         {
           style: {
-            height: '107px',
-            width: '125px',
-            left: 'calc(((100% - 627px) / 2) + 10px)',
-            borderRadius: '100%',
-            top: '328px',
+            height: 107,
+            width: 125,
+            left: 10,
+            top: 328,
           },
           painting: `/${autresURL.peinture}/223`,
         },
         {
           style: {
-            height: '155px',
-            width: '190px',
-            left: 'calc(((100% - 627px) / 2) + 170px)',
-            borderRadius: '100%',
-            top: '305px',
+            height: 155,
+            width: 190,
+            left: 170,
+            top: 305,
           },
           painting: `/${autresURL.peinture}/220`,
         },
         {
           style: {
-            height: '170px',
-            width: '100px',
-            right: 'calc(((100% - 627px) / 2) + 125px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 170,
+            width: 100,
+            right: 125,
+            top: 300,
           },
           painting: `/${autresURL.peinture}/221`,
         },
@@ -1191,72 +1131,66 @@ export const all = {
     SO: {
       id: 36,
       image: photos.CoulSO,
-      left: {
+      leftTurn: {
         id: 35,
         link: `/${placeURL.Couloir_gauche}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: 37,
         link: `/${placeURL.Couloir_gauche}/${directionURL.O}`,
       },
       actions: [
         {
           style: {
-            height: '180px',
-            width: '95px',
-            left: 'calc(((100% - 627px) / 2) + 15px)',
-            borderRadius: '100%',
-            top: '305px',
+            height: 180,
+            width: 95,
+            left: 15,
+            top: 305,
           },
           painting: `/${autresURL.peinture}/221`,
         },
         {
           style: {
-            height: '80px',
-            width: '90px',
-            left: 'calc(((100% - 627px) / 2) + 145px)',
-            borderRadius: '100%',
-            top: '275px',
+            height: 80,
+            width: 90,
+            left: 145,
+            top: 275,
           },
           painting: `/${autresURL.peinture}/233`,
         },
         {
           style: {
-            height: '68px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 145px)',
-            borderRadius: '100%',
-            top: '370px',
+            height: 68,
+            width: 80,
+            left: 145,
+            top: 370,
           },
           painting: `/${autresURL.peinture}/230`,
         },
         {
           style: {
-            height: '60px',
-            width: '50px',
-            left: 'calc(((100% - 627px) / 2) + 245px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 60,
+            width: 50,
+            left: 245,
+            top: 300,
           },
           painting: `/${autresURL.peinture}/440`,
         },
         {
           style: {
-            height: '45px',
-            width: '44px',
-            left: 'calc(((100% - 627px) / 2) + 250px)',
-            borderRadius: '100%',
-            top: '375px',
+            height: 45,
+            width: 44,
+            left: 250,
+            top: 375,
           },
           painting: `/${autresURL.peinture}/191`,
         },
         {
           style: {
-            height: '95px',
-            width: '38px',
-            left: 'calc(((100% - 627px) / 2) + 313px)',
-            borderRadius: '100%',
-            top: '345px',
+            height: 95,
+            width: 38,
+            left: 313,
+            top: 345,
           },
           painting: `/${autresURL.peinture}/228`,
         },
@@ -1267,22 +1201,21 @@ export const all = {
     O: {
       id: 37,
       image: photos.CoulO,
-      left: {
+      leftTurn: {
         id: 36,
         link: `/${placeURL.Couloir_gauche}/${directionURL.SO}`,
       },
-      right: {
+      rightTurn: {
         id: 38,
         link: `/${placeURL.Couloir_gauche}/${directionURL.NO}`,
       },
       actions: [
         {
           style: {
-            height: '255px',
-            width: '134px',
-            right: 'calc(((100% - 627px) / 2) + 10px)',
-            borderRadius: '100%',
-            top: '265px',
+            height: 255,
+            width: 134,
+            right: 10,
+            top: 265,
           },
           painting: `/${autresURL.peinture}/179`,
         },
@@ -1293,32 +1226,30 @@ export const all = {
     NO: {
       id: 38,
       image: photos.CoulNO,
-      left: {
+      leftTurn: {
         id: 37,
         link: `/${placeURL.Couloir_gauche}/${directionURL.O}`,
       },
-      right: {
+      rightTurn: {
         id: 31,
         link: `/${placeURL.Couloir_gauche}/${directionURL.N}`,
       },
       actions: [
         {
           style: {
-            height: '275px',
-            width: '195px',
-            left: 'calc(((100% - 627px) / 2) + 83px)',
-            borderRadius: '100%',
-            top: '250px',
+            height: 275,
+            width: 195,
+            left: 83,
+            top: 250,
           },
           painting: `/${autresURL.peinture}/179`,
         },
         {
           style: {
-            height: '103px',
-            width: '65px',
-            right: 'calc(((100% - 627px) / 2) + 203px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 103,
+            width: 65,
+            right: 203,
+            top: 330,
           },
           painting: `/${autresURL.peinture}/178`,
         },
@@ -1331,32 +1262,30 @@ export const all = {
     N: {
       id: 41,
       image: photos.Coul2N,
-      left: {
+      leftTurn: {
         id: 48,
         link: `/${placeURL.Couloir_gauche_2}/${directionURL.NO}`,
       },
-      right: {
+      rightTurn: {
         id: 42,
         link: `/${placeURL.Couloir_gauche_2}/${directionURL.NE}`,
       },
       actions: [
         {
           style: {
-            height: '140px',
-            width: '50px',
-            right: 'calc(((100% - 627px) / 2) + 150px)',
-            borderRadius: '100%',
-            top: '340px',
+            height: 140,
+            width: 50,
+            right: 150,
+            top: 340,
           },
           painting: `/${autresURL.peinture}/428`,
         },
         {
           style: {
-            height: '170px',
-            width: '65px',
-            right: 'calc(((100% - 627px) / 2) + 18px)',
-            borderRadius: '100%',
-            top: '335px',
+            height: 170,
+            width: 65,
+            right: 18,
+            top: 335,
           },
           painting: `/${autresURL.peinture}/675`,
         },
@@ -1367,52 +1296,48 @@ export const all = {
     NE: {
       id: 42,
       image: photos.Coul2NE,
-      left: {
+      leftTurn: {
         id: 41,
         link: `/${placeURL.Couloir_gauche_2}/${directionURL.N}`,
       },
-      right: {
+      rightTurn: {
         id: 43,
         link: `/${placeURL.Couloir_gauche_2}/${directionURL.E}`,
       },
       actions: [
         {
           style: {
-            height: '180px',
-            width: '85px',
-            left: 'calc(((100% - 627px) / 2) + 200px)',
-            borderRadius: '100%',
-            top: '305px',
+            height: 180,
+            width: 85,
+            left: 200,
+            top: 305,
           },
           painting: `/${autresURL.peinture}/675`,
         },
         {
           style: {
-            height: '40px',
-            width: '50px',
-            right: 'calc(((100% - 627px) / 2) + 135px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 40,
+            width: 50,
+            right: 135,
+            top: 300,
           },
           painting: `/${autresURL.peinture}/190`,
         },
         {
           style: {
-            height: '40px',
-            width: '50px',
-            right: 'calc(((100% - 627px) / 2) + 135px)',
-            borderRadius: '100%',
-            top: '340px',
+            height: 40,
+            width: 50,
+            right: 135,
+            top: 340,
           },
           painting: `/${autresURL.peinture}/451`,
         },
         {
           style: {
-            height: '65px',
-            width: '80px',
-            right: 'calc(((100% - 627px) / 2) + 120px)',
-            borderRadius: '100%',
-            top: '387px',
+            height: 65,
+            width: 80,
+            right: 120,
+            top: 387,
           },
           painting: `/${autresURL.peinture}/200`,
         },
@@ -1423,52 +1348,48 @@ export const all = {
     E: {
       id: 43,
       image: photos.Coul2E,
-      left: {
+      leftTurn: {
         id: 42,
         link: `/${placeURL.Couloir_gauche_2}/${directionURL.NE}`,
       },
-      right: {
+      rightTurn: {
         id: 44,
         link: `/${placeURL.Couloir_gauche_2}/${directionURL.SE}`,
       },
       actions: [
         {
           style: {
-            height: '40px',
-            width: '45px',
-            left: 'calc(((100% - 627px) / 2) + 135px)',
-            borderRadius: '100%',
-            top: '291px',
+            height: 40,
+            width: 45,
+            left: 135,
+            top: 291,
           },
           painting: `/${autresURL.peinture}/190`,
         },
         {
           style: {
-            height: '40px',
-            width: '45px',
-            left: 'calc(((100% - 627px) / 2) + 135px)',
-            borderRadius: '100%',
-            top: '335px',
+            height: 40,
+            width: 45,
+            left: 135,
+            top: 335,
           },
           painting: `/${autresURL.peinture}/451`,
         },
         {
           style: {
-            height: '65px',
-            width: '75px',
-            left: 'calc(((100% - 627px) / 2) + 120px)',
-            borderRadius: '100%',
-            top: '380px',
+            height: 65,
+            width: 75,
+            left: 120,
+            top: 380,
           },
           painting: `/${autresURL.peinture}/200`,
         },
         {
           style: {
-            height: '150px',
-            width: '60px',
-            right: 'calc(((100% - 627px) / 2) + 40px)',
-            borderRadius: '100%',
-            top: '340px',
+            height: 150,
+            width: 60,
+            right: 40,
+            top: 340,
           },
           painting: `/${autresURL.peinture}/228`,
         },
@@ -1479,42 +1400,39 @@ export const all = {
     SE: {
       id: 44,
       image: photos.Coul2SE,
-      left: {
+      leftTurn: {
         id: 43,
         link: `/${placeURL.Couloir_gauche_2}/${directionURL.E}`,
       },
-      right: {
+      rightTurn: {
         id: 45,
         link: `/${placeURL.Couloir_gauche_2}/${directionURL.S}`,
       },
       actions: [
         {
           style: {
-            height: '140px',
-            width: '45px',
-            left: 'calc(((100% - 627px) / 2) + 70px)',
-            borderRadius: '100%',
-            top: '320px',
+            height: 140,
+            width: 45,
+            left: 70,
+            top: 320,
           },
           painting: `/${autresURL.peinture}/228`,
         },
         {
           style: {
-            height: '175px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 135px)',
-            borderRadius: '100%',
-            top: '310px',
+            height: 175,
+            width: 100,
+            left: 135,
+            top: 310,
           },
           painting: `/${autresURL.peinture}/222`,
         },
         {
           style: {
-            height: '160px',
-            width: '220px',
-            right: 'calc(((100% - 627px) / 2) + 135px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 160,
+            width: 220,
+            right: 135,
+            top: 330,
           },
           painting: `/${autresURL.peinture}/227`,
         },
@@ -1525,32 +1443,30 @@ export const all = {
     S: {
       id: 45,
       image: photos.Coul2S,
-      left: {
+      leftTurn: {
         id: 44,
         link: `/${placeURL.Couloir_gauche_2}/${directionURL.SE}`,
       },
-      right: {
+      rightTurn: {
         id: 46,
         link: `/${placeURL.Couloir_gauche_2}/${directionURL.SO}`,
       },
       actions: [
         {
           style: {
-            height: '160px',
-            width: '130px',
-            left: 'calc(((100% - 627px) / 2) + 10px)',
-            borderRadius: '100%',
-            top: '320px',
+            height: 160,
+            width: 130,
+            left: 10,
+            top: 320,
           },
           painting: `/${autresURL.peinture}/227`,
         },
         {
           style: {
-            height: '250px',
-            width: '200px',
-            right: 'calc(((100% - 627px) / 2) + 110px)',
-            borderRadius: '100%',
-            top: '320px',
+            height: 250,
+            width: 200,
+            right: 110,
+            top: 320,
           },
           painting: `/${autresURL.Affiches}/Predilection`,
         },
@@ -1561,72 +1477,66 @@ export const all = {
     SO: {
       id: 46,
       image: photos.Coul2SO,
-      left: {
+      leftTurn: {
         id: 45,
         link: `/${placeURL.Couloir_gauche_2}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: 47,
         link: `/${placeURL.Couloir_gauche_2}/${directionURL.O}`,
       },
       actions: [
         {
           style: {
-            height: '250px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 30px)',
-            borderRadius: '100%',
-            top: '340px',
+            height: 250,
+            width: 100,
+            left: 30,
+            top: 340,
           },
           painting: `/${autresURL.Affiches}/Predilection`,
         },
         {
           style: {
-            height: '250px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 200px)',
-            borderRadius: '100%',
-            top: '390px',
+            height: 250,
+            width: 100,
+            left: 200,
+            top: 390,
           },
           painting: `/${autresURL.Affiches}/Parfum`,
         },
         {
           style: {
-            height: '70px',
-            width: '70px',
-            left: 'calc(((100% - 627px) / 2) + 285px)',
-            borderRadius: '100%',
-            top: '273px',
+            height: 70,
+            width: 70,
+            left: 285,
+            top: 273,
           },
           painting: `/${autresURL.peinture}/699`,
         },
         {
           style: {
-            height: '110px',
-            width: '40px',
-            left: 'calc(((100% - 627px) / 2) + 300px)',
-            borderRadius: '100%',
-            top: '380px',
+            height: 110,
+            width: 40,
+            left: 300,
+            top: 380,
           },
           painting: `/${autresURL.peinture}/1042`,
         },
         {
           style: {
-            height: '100px',
-            width: '70px',
-            right: 'calc(((100% - 627px) / 2) + 160px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 100,
+            width: 70,
+            right: 160,
+            top: 330,
           },
           painting: `/${autresURL.peinture}/679`,
         },
         {
           style: {
-            height: '115px',
-            width: '75px',
-            right: 'calc(((100% - 627px) / 2) + 30px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 115,
+            width: 75,
+            right: 30,
+            top: 330,
           },
           painting: `/${autresURL.peinture}/678`,
         },
@@ -1637,32 +1547,30 @@ export const all = {
     O: {
       id: 47,
       image: photos.Coul2O,
-      left: {
+      leftTurn: {
         id: 46,
         link: `/${placeURL.Couloir_gauche_2}/${directionURL.SO}`,
       },
-      right: {
+      rightTurn: {
         id: 48,
         link: `/${placeURL.Couloir_gauche_2}/${directionURL.NO}`,
       },
       actions: [
         {
           style: {
-            height: '100px',
-            width: '70px',
-            left: 'calc(((100% - 627px) / 2) + 145px)',
-            borderRadius: '100%',
-            top: '340px',
+            height: 100,
+            width: 70,
+            left: 145,
+            top: 340,
           },
           painting: `/${autresURL.peinture}/679`,
         },
         {
           style: {
-            height: '100px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 270px)',
-            borderRadius: '100%',
-            top: '340px',
+            height: 100,
+            width: 80,
+            left: 270,
+            top: 340,
           },
           painting: `/${autresURL.peinture}/678`,
         },
@@ -1673,11 +1581,11 @@ export const all = {
     NO: {
       id: 48,
       image: photos.Coul2NO,
-      left: {
+      leftTurn: {
         id: 47,
         link: `/${placeURL.Couloir_gauche_2}/${directionURL.O}`,
       },
-      right: {
+      rightTurn: {
         id: 41,
         link: `/${placeURL.Couloir_gauche_2}/${directionURL.N}`,
       },
@@ -1690,22 +1598,21 @@ export const all = {
     N: {
       id: 51,
       image: photos.EntN,
-      left: {
+      leftTurn: {
         id: 58,
         link: `/${placeURL.Entree}/${directionURL.NO}`,
       },
-      right: {
+      rightTurn: {
         id: 52,
         link: `/${placeURL.Entree}/${directionURL.NE}`,
       },
       actions: [
         {
           style: {
-            height: '200px',
-            width: '300px',
-            right: 'calc(((100% - 627px) / 2) + 100px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 200,
+            width: 300,
+            right: 100,
+            top: 300,
           },
           painting: `/${autresURL.Affiches}/Entree`,
         },
@@ -1716,22 +1623,21 @@ export const all = {
     NE: {
       id: 52,
       image: photos.EntNE,
-      left: {
+      leftTurn: {
         id: 51,
         link: `/${placeURL.Entree}/${directionURL.N}`,
       },
-      right: {
+      rightTurn: {
         id: 53,
         link: `/${placeURL.Entree}/${directionURL.E}`,
       },
       actions: [
         {
           style: {
-            height: '100px',
-            width: '95px',
-            left: 'calc(((100% - 627px) / 2) + 240px)',
-            borderRadius: '100%',
-            top: '342px',
+            height: 100,
+            width: 95,
+            left: 240,
+            top: 342,
           },
           painting: `/${autresURL.peinture}/211`,
         },
@@ -1742,22 +1648,21 @@ export const all = {
     E: {
       id: 53,
       image: photos.EntE,
-      left: {
+      leftTurn: {
         id: 52,
         link: `/${placeURL.Entree}/${directionURL.NE}`,
       },
-      right: {
+      rightTurn: {
         id: 54,
         link: `/${placeURL.Entree}/${directionURL.SE}`,
       },
       actions: [
         {
           style: {
-            height: '120px',
-            width: '70px',
-            right: 'calc(((100% - 627px) / 2) + 115px)',
-            borderRadius: '100%',
-            top: '350px',
+            height: 120,
+            width: 70,
+            right: 115,
+            top: 350,
           },
           painting: `/${autresURL.Affiches}/Muret`,
         },
@@ -1768,22 +1673,21 @@ export const all = {
     SE: {
       id: 54,
       image: photos.EntSE,
-      left: {
+      leftTurn: {
         id: 53,
         link: `/${placeURL.Entree}/${directionURL.E}`,
       },
-      right: {
+      rightTurn: {
         id: 55,
         link: `/${placeURL.Entree}/${directionURL.S}`,
       },
       actions: [
         {
           style: {
-            height: '120px',
-            width: '70px',
-            left: 'calc(((100% - 627px) / 2) + 165px)',
-            borderRadius: '100%',
-            top: '347px',
+            height: 120,
+            width: 70,
+            left: 165,
+            top: 347,
           },
           painting: `/${autresURL.Affiches}/Muret`,
         },
@@ -1794,11 +1698,11 @@ export const all = {
     S: {
       id: 55,
       image: photos.EntS,
-      left: {
+      leftTurn: {
         id: 54,
         link: `/${placeURL.Entree}/${directionURL.SE}`,
       },
-      right: {
+      rightTurn: {
         id: 56,
         link: `/${placeURL.Entree}/${directionURL.SO}`,
       },
@@ -1809,32 +1713,30 @@ export const all = {
     SO: {
       id: 56,
       image: photos.EntSO,
-      left: {
+      leftTurn: {
         id: 55,
         link: `/${placeURL.Entree}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: 57,
         link: `/${placeURL.Entree}/${directionURL.O}`,
       },
       actions: [
         {
           style: {
-            height: '120px',
-            width: '70px',
-            left: 'calc(((100% - 627px) / 2) + 193px)',
-            borderRadius: '100%',
-            top: '325px',
+            height: 120,
+            width: 70,
+            left: 193,
+            top: 325,
           },
           painting: `/${autresURL.Affiches}/Remerciements`,
         },
         {
           style: {
-            height: '200px',
-            width: '100px',
-            right: 'calc(((100% - 627px) / 2) + 40px)',
-            borderRadius: '100%',
-            top: '282px',
+            height: 200,
+            width: 100,
+            right: 40,
+            top: 282,
           },
           painting: `/${autresURL.peinture}/448`,
         },
@@ -1845,52 +1747,48 @@ export const all = {
     O: {
       id: 57,
       image: photos.EntO,
-      left: {
+      leftTurn: {
         id: 56,
         link: `/${placeURL.Entree}/${directionURL.SO}`,
       },
-      right: {
+      rightTurn: {
         id: 58,
         link: `/${placeURL.Entree}/${directionURL.NO}`,
       },
       actions: [
         {
           style: {
-            height: '190px',
-            width: '110px',
-            left: 'calc(((100% - 627px) / 2) + 120px)',
-            borderRadius: '100%',
-            top: '296px',
+            height: 190,
+            width: 110,
+            left: 120,
+            top: 296,
           },
           painting: `/${autresURL.peinture}/448`,
         },
         {
           style: {
-            height: '175px',
-            width: '150px',
-            right: 'calc(((100% - 627px) / 2) + 215px)',
-            borderRadius: '100%',
-            top: '308px',
+            height: 175,
+            width: 150,
+            right: 215,
+            top: 308,
           },
           painting: `/${autresURL.peinture}/266`,
         },
         {
           style: {
-            height: '60px',
-            width: '45px',
-            right: 'calc(((100% - 627px) / 2) + 230px)',
-            borderRadius: '100%',
-            bottom: '270px',
+            height: 60,
+            width: 45,
+            right: 230,
+            bottom: 270,
           },
           painting: `/${autresURL.Affiches}/Alain-Margoni`,
         },
         {
           style: {
-            height: '145px',
-            width: '85px',
-            right: 'calc(((100% - 627px) / 2) + 105px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 145,
+            width: 85,
+            right: 105,
+            top: 330,
           },
           painting: `/${autresURL.peinture}/260`,
         },
@@ -1901,82 +1799,75 @@ export const all = {
     NO: {
       id: 58,
       image: photos.EntNO,
-      left: {
+      leftTurn: {
         id: 57,
         link: `/${placeURL.Entree}/${directionURL.O}`,
       },
-      right: {
+      rightTurn: {
         id: 51,
         link: `/${placeURL.Entree}/${directionURL.N}`,
       },
       actions: [
         {
           style: {
-            height: '160px',
-            width: '115px',
-            left: 'calc(((100% - 627px) / 2) + 35px)',
-            borderRadius: '100%',
-            bottom: '360px',
+            height: 160,
+            width: 115,
+            left: 35,
+            bottom: 360,
           },
           painting: `/${autresURL.peinture}/266`,
         },
         {
           style: {
-            height: '60px',
-            width: '35px',
-            left: 'calc(((100% - 627px) / 2) + 117px)',
-            borderRadius: '100%',
-            bottom: '275px',
+            height: 60,
+            width: 35,
+            left: 117,
+            bottom: 275,
           },
           painting: `/${autresURL.Affiches}/Alain-Margoni`,
         },
         {
           style: {
-            height: '125px',
-            width: '70px',
-            left: 'calc(((100% - 627px) / 2) + 175px)',
-            borderRadius: '100%',
-            top: '338px',
+            height: 125,
+            width: 70,
+            left: 175,
+            top: 338,
           },
           painting: `/${autresURL.peinture}/260`,
         },
         {
           style: {
-            height: '95px',
-            width: '105px',
-            right: 'calc(((100% - 627px) / 2) + 237px)',
-            borderRadius: '100%',
-            top: '255px',
+            height: 95,
+            width: 105,
+            right: 237,
+            top: 255,
           },
           painting: `/${autresURL.peinture}/271`,
         },
         {
           style: {
-            height: '80px',
-            width: '88px',
-            right: 'calc(((100% - 627px) / 2) + 245px)',
-            borderRadius: '100%',
-            top: '370px',
+            height: 80,
+            width: 88,
+            right: 245,
+            top: 370,
           },
           painting: `/${autresURL.peinture}/396`,
         },
         {
           style: {
-            height: '65px',
-            width: '50px',
-            right: 'calc(((100% - 627px) / 2) + 265px)',
-            borderRadius: '100%',
-            bottom: '297px',
+            height: 65,
+            width: 50,
+            right: 265,
+            bottom: 297,
           },
           painting: `/${autresURL.peinture}/389`,
         },
         {
           style: {
-            height: '230px',
-            width: '150px',
-            right: 'calc(((100% - 627px) / 2) + 10px)',
-            borderRadius: '100%',
-            bottom: '297px',
+            height: 230,
+            width: 150,
+            right: 10,
+            bottom: 297,
           },
           painting: `/${autresURL.Affiches}/Entree`,
         },
@@ -1989,22 +1880,21 @@ export const all = {
     N: {
       id: 61,
       image: photos.FerN,
-      left: {
+      leftTurn: {
         id: 68,
         link: `/${placeURL.Fernand}/${directionURL.NO}`,
       },
-      right: {
+      rightTurn: {
         id: 62,
         link: `/${placeURL.Fernand}/${directionURL.NE}`,
       },
       actions: [
         {
           style: {
-            height: '200px',
-            width: '320px',
-            right: 'calc(((100% - 627px) / 2) + 165px)',
-            borderRadius: '100%',
-            top: '360px',
+            height: 200,
+            width: 320,
+            right: 165,
+            top: 360,
           },
           painting: `/${autresURL.peinture}/275`,
         },
@@ -2015,22 +1905,21 @@ export const all = {
     NE: {
       id: 62,
       image: photos.FerNE,
-      left: {
+      leftTurn: {
         id: 61,
         link: `/${placeURL.Fernand}/${directionURL.N}`,
       },
-      right: {
+      rightTurn: {
         id: 63,
         link: `/${placeURL.Fernand}/${directionURL.E}`,
       },
       actions: [
         {
           style: {
-            height: '200px',
-            width: '280px',
-            left: 'calc(((100% - 627px) / 2) + 150px)',
-            borderRadius: '100%',
-            top: '360px',
+            height: 200,
+            width: 280,
+            left: 150,
+            top: 360,
           },
           painting: `/${autresURL.Affiches}/Portraits`,
         },
@@ -2041,11 +1930,11 @@ export const all = {
     E: {
       id: 63,
       image: photos.FerE,
-      left: {
+      leftTurn: {
         id: 62,
         link: `/${placeURL.Fernand}/${directionURL.NE}`,
       },
-      right: {
+      rightTurn: {
         id: 64,
         link: `/${placeURL.Fernand}/${directionURL.SE}`,
       },
@@ -2056,32 +1945,30 @@ export const all = {
     SE: {
       id: 64,
       image: photos.FerSE,
-      left: {
+      leftTurn: {
         id: 63,
         link: `/${placeURL.Fernand}/${directionURL.E}`,
       },
-      right: {
+      rightTurn: {
         id: 65,
         link: `/${placeURL.Fernand}/${directionURL.S}`,
       },
       actions: [
         {
           style: {
-            height: '200px',
-            width: '115px',
-            right: 'calc(((100% - 627px) / 2) + 270px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 200,
+            width: 115,
+            right: 270,
+            top: 300,
           },
           painting: `/${autresURL.peinture}/289`,
         },
         {
           style: {
-            height: '300px',
-            width: '180px',
-            right: 'calc(((100% - 627px) / 2) + 20px)',
-            borderRadius: '100%',
-            top: '260px',
+            height: 300,
+            width: 180,
+            right: 20,
+            top: 260,
           },
           painting: `/${autresURL.peinture}/288`,
         },
@@ -2092,22 +1979,21 @@ export const all = {
     S: {
       id: 65,
       image: photos.FerS,
-      left: {
+      leftTurn: {
         id: 64,
         link: `/${placeURL.Fernand}/${directionURL.SE}`,
       },
-      right: {
+      rightTurn: {
         id: 66,
         link: `/${placeURL.Fernand}/${directionURL.SO}`,
       },
       actions: [
         {
           style: {
-            height: '295px',
-            width: '275px',
-            left: 'calc(((100% - 627px) / 2) + 75px)',
-            borderRadius: '100%',
-            top: '245px',
+            height: 295,
+            width: 275,
+            left: 75,
+            top: 245,
           },
           painting: `/${autresURL.peinture}/288`,
         },
@@ -2118,32 +2004,30 @@ export const all = {
     SO: {
       id: 66,
       image: photos.FerSO,
-      left: {
+      leftTurn: {
         id: 65,
         link: `/${placeURL.Fernand}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: 67,
         link: `/${placeURL.Fernand}/${directionURL.O}`,
       },
       actions: [
         {
           style: {
-            height: '92px',
-            width: '65px',
-            right: 'calc(((100% - 627px) / 2) + 262px)',
-            borderRadius: '100%',
-            top: '333px',
+            height: 92,
+            width: 65,
+            right: 262,
+            top: 333,
           },
           painting: `/${autresURL.peinture}/179`,
         },
         {
           style: {
-            height: '70px',
-            width: '75px',
-            right: 'calc(((100% - 627px) / 2) + 135px)',
-            borderRadius: '100%',
-            top: '346px',
+            height: 70,
+            width: 75,
+            right: 135,
+            top: 346,
           },
           painting: `/${autresURL.peinture}/178`,
         },
@@ -2154,62 +2038,57 @@ export const all = {
     O: {
       id: 67,
       image: photos.FerO,
-      left: {
+      leftTurn: {
         id: 66,
         link: `/${placeURL.Fernand}/${directionURL.SO}`,
       },
-      right: {
+      rightTurn: {
         id: 68,
         link: `/${placeURL.Fernand}/${directionURL.NO}`,
       },
       actions: [
         {
           style: {
-            height: '90px',
-            width: '45px',
-            left: 'calc(((100% - 627px) / 2) + 25px)',
-            borderRadius: '100%',
-            top: '335px',
+            height: 90,
+            width: 45,
+            left: 25,
+            top: 335,
           },
           painting: `/${autresURL.peinture}/179`,
         },
         {
           style: {
-            height: '70px',
-            width: '73px',
-            left: 'calc(((100% - 627px) / 2) + 115px)',
-            borderRadius: '100%',
-            top: '340px',
+            height: 70,
+            width: 73,
+            left: 115,
+            top: 340,
           },
           painting: `/${autresURL.peinture}/178`,
         },
         {
           style: {
-            height: '55px',
-            width: '43px',
-            right: 'calc(((100% - 627px) / 2) + 100px)',
-            borderRadius: '100%',
-            top: '310px',
+            height: 55,
+            width: 43,
+            right: 100,
+            top: 310,
           },
           painting: `/${autresURL.peinture}/94`,
         },
         {
           style: {
-            height: '70px',
-            width: '40px',
-            right: 'calc(((100% - 627px) / 2) + 100px)',
-            borderRadius: '100%',
-            top: '375px',
+            height: 70,
+            width: 40,
+            right: 100,
+            top: 375,
           },
           painting: `/${autresURL.peinture}/84`,
         },
         {
           style: {
-            height: '120px',
-            width: '60px',
-            right: 'calc(((100% - 627px) / 2) + 15px)',
-            borderRadius: '100%',
-            top: '320px',
+            height: 120,
+            width: 60,
+            right: 15,
+            top: 320,
           },
           painting: `/${autresURL.peinture}/69`,
         },
@@ -2220,72 +2099,66 @@ export const all = {
     NO: {
       id: 68,
       image: photos.FerNO,
-      left: {
+      leftTurn: {
         id: 67,
         link: `/${placeURL.Fernand}/${directionURL.O}`,
       },
-      right: {
+      rightTurn: {
         id: 61,
         link: `/${placeURL.Fernand}/${directionURL.N}`,
       },
       actions: [
         {
           style: {
-            height: '60px',
-            width: '43px',
-            left: 'calc(((100% - 627px) / 2) + 175px)',
-            borderRadius: '100%',
-            top: '310px',
+            height: 60,
+            width: 43,
+            left: 175,
+            top: 310,
           },
           painting: `/${autresURL.peinture}/94`,
         },
         {
           style: {
-            height: '60px',
-            width: '43px',
-            left: 'calc(((100% - 627px) / 2) + 175px)',
-            borderRadius: '100%',
-            top: '380px',
+            height: 60,
+            width: 43,
+            left: 175,
+            top: 380,
           },
           painting: `/${autresURL.peinture}/84`,
         },
         {
           style: {
-            height: '115px',
-            width: '68px',
-            left: 'calc(((100% - 627px) / 2) + 240px)',
-            borderRadius: '100%',
-            top: '323px',
+            height: 115,
+            width: 68,
+            left: 240,
+            top: 323,
           },
           painting: `/${autresURL.peinture}/69`,
         },
         {
           style: {
-            height: '100px',
-            width: '110px',
-            right: 'calc(((100% - 627px) / 2) + 172px)',
-            borderRadius: '100%',
-            top: '270px',
+            height: 100,
+            width: 110,
+            right: 172,
+            top: 270,
           },
           painting: `/${autresURL.peinture}/82`,
         },
         {
           style: {
-            height: '105px',
-            width: '110px',
-            right: 'calc(((100% - 627px) / 2) + 172px)',
-            borderRadius: '100%',
-            bottom: '340px',
+            height: 105,
+            width: 110,
+            right: 172,
+            bottom: 340,
           },
           painting: `/${autresURL.peinture}/319`,
         },
         {
           style: {
-            height: '200px',
-            width: '150px',
-            right: 'calc(((100% - 627px) / 2) + 10px)',
-            borderRadius: '100%',
-            bottom: '270px',
+            height: 200,
+            width: 150,
+            right: 10,
+            bottom: 270,
           },
           painting: `/${autresURL.peinture}/275`,
         },
@@ -2298,22 +2171,21 @@ export const all = {
     N: {
       id: 71,
       image: photos.MacN,
-      left: {
+      leftTurn: {
         id: 78,
         link: `/${placeURL.Machines}/${directionURL.NO}`,
       },
-      right: {
+      rightTurn: {
         id: 72,
         link: `/${placeURL.Machines}/${directionURL.NE}`,
       },
       actions: [
         {
           style: {
-            height: '263px',
-            width: '360px',
-            left: 'calc(((100% - 627px) / 2) + 135px)',
-            borderRadius: '100%',
-            bottom: '280px',
+            height: 263,
+            width: 360,
+            left: 135,
+            bottom: 280,
           },
           painting: `/${autresURL.peinture}/452`,
         },
@@ -2324,42 +2196,39 @@ export const all = {
     NE: {
       id: 72,
       image: photos.MacNE,
-      left: {
+      leftTurn: {
         id: 71,
         link: `/${placeURL.Machines}/${directionURL.N}`,
       },
-      right: {
+      rightTurn: {
         id: 73,
         link: `/${placeURL.Machines}/${directionURL.E}`,
       },
       actions: [
         {
           style: {
-            height: '70px',
-            width: '105px',
-            left: 'calc(((100% - 627px) / 2) + 230px)',
-            borderRadius: '100%',
-            top: '185px',
+            height: 70,
+            width: 105,
+            left: 230,
+            top: 185,
           },
           painting: `/${autresURL.peinture}/190`,
         },
         {
           style: {
-            height: '100px',
-            width: '105px',
-            left: 'calc(((100% - 627px) / 2) + 230px)',
-            borderRadius: '100%',
-            top: '280px',
+            height: 100,
+            width: 105,
+            left: 230,
+            top: 280,
           },
           painting: `/${autresURL.peinture}/451`,
         },
         {
           style: {
-            height: '165px',
-            width: '185px',
-            left: 'calc(((100% - 627px) / 2) + 200px)',
-            borderRadius: '100%',
-            bottom: '265px',
+            height: 165,
+            width: 185,
+            left: 200,
+            bottom: 265,
           },
           painting: `/${autresURL.peinture}/200`,
         },
@@ -2370,72 +2239,66 @@ export const all = {
     E: {
       id: 73,
       image: photos.MacE,
-      left: {
+      leftTurn: {
         id: 72,
         link: `/${placeURL.Machines}/${directionURL.NE}`,
       },
-      right: {
+      rightTurn: {
         id: 74,
         link: `/${placeURL.Machines}/${directionURL.SE}`,
       },
       actions: [
         {
           style: {
-            height: '50px',
-            width: '55px',
-            left: 'calc(((100% - 627px) / 2) + 125px)',
-            borderRadius: '100%',
-            top: '358px',
+            height: 50,
+            width: 55,
+            left: 125,
+            top: 358,
           },
           painting: `/${autresURL.peinture}/557`,
         },
         {
           style: {
-            height: '50px',
-            width: '43px',
-            left: 'calc(((100% - 627px) / 2) + 220px)',
-            borderRadius: '100%',
-            top: '359px',
+            height: 50,
+            width: 43,
+            left: 220,
+            top: 359,
           },
           painting: `/${autresURL.peinture}/750`,
         },
         {
           style: {
-            height: '60px',
-            width: '43px',
-            left: 'calc(((100% - 627px) / 2) + 280px)',
-            borderRadius: '100%',
-            top: '355px',
+            height: 60,
+            width: 43,
+            left: 280,
+            top: 355,
           },
           painting: `/${autresURL.peinture}/384`,
         },
         {
           style: {
-            height: '55px',
-            width: '40px',
-            right: 'calc(((100% - 627px) / 2) + 142px)',
-            borderRadius: '100%',
-            top: '365px',
+            height: 55,
+            width: 40,
+            right: 142,
+            top: 365,
           },
           painting: `/${autresURL.peinture}/223`,
         },
         {
           style: {
-            height: '90px',
-            width: '60px',
-            right: 'calc(((100% - 627px) / 2) + 75px)',
-            borderRadius: '100%',
-            top: '355px',
+            height: 90,
+            width: 60,
+            right: 75,
+            top: 355,
           },
           painting: `/${autresURL.peinture}/220`,
         },
         {
           style: {
-            height: '138px',
-            width: '50px',
-            right: 'calc(((100% - 627px) / 2) + 10px)',
-            borderRadius: '100%',
-            top: '340px',
+            height: 138,
+            width: 50,
+            right: 10,
+            top: 340,
           },
           painting: `/${autresURL.peinture}/221`,
         },
@@ -2446,82 +2309,75 @@ export const all = {
     SE: {
       id: 74,
       image: photos.MacSE,
-      left: {
+      leftTurn: {
         id: 73,
         link: `/${placeURL.Machines}/${directionURL.E}`,
       },
-      right: {
+      rightTurn: {
         id: 75,
         link: `/${placeURL.Machines}/${directionURL.S}`,
       },
       actions: [
         {
           style: {
-            height: '50px',
-            width: '33px',
-            left: 'calc(((100% - 627px) / 2) + 120px)',
-            borderRadius: '100%',
-            top: '370px',
+            height: 50,
+            width: 33,
+            left: 120,
+            top: 370,
           },
           painting: `/${autresURL.peinture}/223`,
         },
         {
           style: {
-            height: '90px',
-            width: '55px',
-            left: 'calc(((100% - 627px) / 2) + 160px)',
-            borderRadius: '100%',
-            top: '355px',
+            height: 90,
+            width: 55,
+            left: 160,
+            top: 355,
           },
           painting: `/${autresURL.peinture}/220`,
         },
         {
           style: {
-            height: '126px',
-            width: '60px',
-            left: 'calc(((100% - 627px) / 2) + 230px)',
-            borderRadius: '100%',
-            top: '343px',
+            height: 126,
+            width: 60,
+            left: 230,
+            top: 343,
           },
           painting: `/${autresURL.peinture}/221`,
         },
         {
           style: {
-            height: '98px',
-            width: '120px',
-            right: 'calc(((100% - 627px) / 2) + 180px)',
-            borderRadius: '100%',
-            top: '280px',
+            height: 98,
+            width: 120,
+            right: 180,
+            top: 280,
           },
           painting: `/${autresURL.peinture}/233`,
         },
         {
           style: {
-            height: '72px',
-            width: '102px',
-            right: 'calc(((100% - 627px) / 2) + 200px)',
-            borderRadius: '100%',
-            top: '395px',
+            height: 72,
+            width: 102,
+            right: 200,
+            top: 395,
           },
           painting: `/${autresURL.peinture}/230`,
         },
         {
           style: {
-            height: '90px',
-            width: '100px',
-            right: 'calc(((100% - 627px) / 2) + 45px)',
-            borderRadius: '100%',
-            top: '280px',
+            height: 90,
+            width: 100,
+            right: 45,
+            top: 280,
           },
           painting: `/${autresURL.peinture}/440`,
         },
         {
           style: {
-            height: '75px',
-            width: '105px',
-            right: 'calc(((100% - 627px) / 2) + 45px)',
-            borderRadius: '100%',
-            top: '405px',
+            height: 75,
+            width: 105,
+            right: 45,
+            top: 405,
           },
           painting: `/${autresURL.peinture}/191`,
         },
@@ -2532,72 +2388,66 @@ export const all = {
     S: {
       id: 75,
       image: photos.MacS,
-      left: {
+      leftTurn: {
         id: 74,
         link: `/${placeURL.Machines}/${directionURL.SE}`,
       },
-      right: {
+      rightTurn: {
         id: 76,
         link: `/${placeURL.Machines}/${directionURL.SO}`,
       },
       actions: [
         {
           style: {
-            height: '90px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 30px)',
-            borderRadius: '100%',
-            top: '288px',
+            height: 90,
+            width: 80,
+            left: 30,
+            top: 288,
           },
           painting: `/${autresURL.peinture}/233`,
         },
         {
           style: {
-            height: '73px',
-            width: '67px',
-            left: 'calc(((100% - 627px) / 2) + 30px)',
-            borderRadius: '100%',
-            top: '392px',
+            height: 73,
+            width: 67,
+            left: 30,
+            top: 392,
           },
           painting: `/${autresURL.peinture}/230`,
         },
         {
           style: {
-            height: '75px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 140px)',
-            borderRadius: '100%',
-            top: '280px',
+            height: 75,
+            width: 100,
+            left: 140,
+            top: 280,
           },
           painting: `/${autresURL.peinture}/440`,
         },
         {
           style: {
-            height: '71px',
-            width: '103px',
-            left: 'calc(((100% - 627px) / 2) + 135px)',
-            borderRadius: '100%',
-            top: '392px',
+            height: 71,
+            width: 103,
+            left: 135,
+            top: 392,
           },
           painting: `/${autresURL.peinture}/191`,
         },
         {
           style: {
-            height: '195px',
-            width: '145px',
-            right: 'calc(((100% - 627px) / 2) + 175px)',
-            borderRadius: '100%',
-            top: '320px',
+            height: 195,
+            width: 145,
+            right: 175,
+            top: 320,
           },
           painting: `/${autresURL.peinture}/228`,
         },
         {
           style: {
-            height: '158px',
-            width: '95px',
-            right: 'calc(((100% - 627px) / 2) + 42px)',
-            borderRadius: '100%',
-            top: '338px',
+            height: 158,
+            width: 95,
+            right: 42,
+            top: 338,
           },
           painting: `/${autresURL.peinture}/222`,
         },
@@ -2608,42 +2458,39 @@ export const all = {
     SO: {
       id: 76,
       image: photos.MacSO,
-      left: {
+      leftTurn: {
         id: 75,
         link: `/${placeURL.Machines}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: 77,
         link: `/${placeURL.Machines}/${directionURL.O}`,
       },
       actions: [
         {
           style: {
-            height: '210px',
-            width: '150px',
-            left: 'calc(((100% - 627px) / 2) + 80px)',
-            borderRadius: '100%',
-            top: '305px',
+            height: 210,
+            width: 150,
+            left: 80,
+            top: 305,
           },
           painting: `/${autresURL.peinture}/222`,
         },
         {
           style: {
-            height: '110px',
-            width: '90px',
-            left: 'calc(((100% - 627px) / 2) + 260px)',
-            borderRadius: '100%',
-            top: '345px',
+            height: 110,
+            width: 90,
+            left: 260,
+            top: 345,
           },
           painting: `/${autresURL.peinture}/227`,
         },
         {
           style: {
-            height: '200px',
-            width: '45px',
-            right: 'calc(((100% - 627px) / 2) + 205px)',
-            borderRadius: '100%',
-            bottom: '320px',
+            height: 200,
+            width: 45,
+            right: 205,
+            bottom: 320,
           },
           painting: `/${autresURL.Affiches}/Predilection`,
         },
@@ -2654,42 +2501,39 @@ export const all = {
     O: {
       id: 77,
       image: photos.MacO,
-      left: {
+      leftTurn: {
         id: 76,
         link: `/${placeURL.Machines}/${directionURL.SO}`,
       },
-      right: {
+      rightTurn: {
         id: 78,
         link: `/${placeURL.Machines}/${directionURL.NO}`,
       },
       actions: [
         {
           style: {
-            height: '150px',
-            width: '50px',
-            left: 'calc(((100% - 627px) / 2) + 97px)',
-            borderRadius: '100%',
-            top: '377px',
+            height: 150,
+            width: 50,
+            left: 97,
+            top: 377,
           },
           painting: `/${autresURL.Affiches}/Predilection`,
         },
         {
           style: {
-            height: '60px',
-            width: '50px',
-            left: 'calc(((100% - 627px) / 2) + 195px)',
-            borderRadius: '100%',
-            top: '370px',
+            height: 60,
+            width: 50,
+            left: 195,
+            top: 370,
           },
           painting: `/${autresURL.peinture}/679`,
         },
         {
           style: {
-            height: '60px',
-            width: '50px',
-            left: 'calc(((100% - 627px) / 2) + 272px)',
-            borderRadius: '100%',
-            top: '370px',
+            height: 60,
+            width: 50,
+            left: 272,
+            top: 370,
           },
           painting: `/${autresURL.peinture}/678`,
         },
@@ -2700,72 +2544,66 @@ export const all = {
     NO: {
       id: 78,
       image: photos.MacNO,
-      left: {
+      leftTurn: {
         id: 77,
         link: `/${placeURL.Machines}/${directionURL.O}`,
       },
-      right: {
+      rightTurn: {
         id: 71,
         link: `/${placeURL.Machines}/${directionURL.N}`,
       },
       actions: [
         {
           style: {
-            height: '77px',
-            width: '105px',
-            left: 'calc(((100% - 627px) / 2) + 153px)',
-            borderRadius: '100%',
-            top: '188px',
+            height: 77,
+            width: 105,
+            left: 153,
+            top: 188,
           },
           painting: `/${autresURL.peinture}/189`,
         },
         {
           style: {
-            height: '80px',
-            width: '92px',
-            left: 'calc(((100% - 627px) / 2) + 155px)',
-            borderRadius: '100%',
-            top: '286px',
+            height: 80,
+            width: 92,
+            left: 155,
+            top: 286,
           },
           painting: `/${autresURL.peinture}/450`,
         },
         {
           style: {
-            height: '168px',
-            width: '105px',
-            left: 'calc(((100% - 627px) / 2) + 145px)',
-            borderRadius: '100%',
-            bottom: '273px',
+            height: 168,
+            width: 105,
+            left: 145,
+            bottom: 273,
           },
           painting: `/${autresURL.peinture}/194`,
         },
         {
           style: {
-            height: '50px',
-            width: '48px',
-            left: 'calc(((100% - 627px) / 2) + 295px)',
-            borderRadius: '100%',
-            top: '235px',
+            height: 50,
+            width: 48,
+            left: 295,
+            top: 235,
           },
           painting: `/${autresURL.peinture}/183`,
         },
         {
           style: {
-            height: '68px',
-            width: '68px',
-            left: 'calc(((100% - 627px) / 2) + 283px)',
-            borderRadius: '100%',
-            top: '305px',
+            height: 68,
+            width: 68,
+            left: 283,
+            top: 305,
           },
           painting: `/${autresURL.peinture}/188`,
         },
         {
           style: {
-            height: '75px',
-            width: '65px',
-            left: 'calc(((100% - 627px) / 2) + 280px)',
-            borderRadius: '100%',
-            bottom: '365px',
+            height: 75,
+            width: 65,
+            left: 280,
+            bottom: 365,
           },
           painting: `/${autresURL.peinture}/193`,
         },
@@ -2778,42 +2616,39 @@ export const all = {
     N: {
       id: 81,
       image: photos.ManN,
-      left: {
+      leftTurn: {
         id: 88,
         link: `/${placeURL.Mannequin}/${directionURL.NO}`,
       },
-      right: {
+      rightTurn: {
         id: 82,
         link: `/${placeURL.Mannequin}/${directionURL.NE}`,
       },
       actions: [
         {
           style: {
-            height: '245px',
-            width: '187px',
-            left: 'calc(((100% - 627px) / 2) + 35px)',
-            borderRadius: '100%',
-            top: '260px',
+            height: 245,
+            width: 187,
+            left: 35,
+            top: 260,
           },
           painting: `/${autresURL.peinture}/1058`,
         },
         {
           style: {
-            height: '147px',
-            width: '162px',
-            right: 'calc(((100% - 627px) / 2) + 94px)',
-            borderRadius: '100%',
-            top: '263px',
+            height: 147,
+            width: 162,
+            right: 94,
+            top: 263,
           },
           painting: `/${autresURL.peinture}/316`,
         },
         {
           style: {
-            height: '135px',
-            width: '162px',
-            right: 'calc(((100% - 627px) / 2) + 100px)',
-            borderRadius: '100%',
-            bottom: '275px',
+            height: 135,
+            width: 162,
+            right: 100,
+            bottom: 275,
           },
           painting: `/${autresURL.peinture}/108`,
         },
@@ -2824,62 +2659,57 @@ export const all = {
     NE: {
       id: 82,
       image: photos.ManNE,
-      left: {
+      leftTurn: {
         id: 81,
         link: `/${placeURL.Mannequin}/${directionURL.N}`,
       },
-      right: {
+      rightTurn: {
         id: 83,
         link: `/${placeURL.Mannequin}/${directionURL.E}`,
       },
       actions: [
         {
           style: {
-            height: '160px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 10px)',
-            borderRadius: '100%',
-            top: '220px',
+            height: 160,
+            width: 100,
+            left: 10,
+            top: 220,
           },
           painting: `/${autresURL.peinture}/316`,
         },
         {
           style: {
-            height: '160px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 10px)',
-            borderRadius: '100%',
-            bottom: '270px',
+            height: 160,
+            width: 100,
+            left: 10,
+            bottom: 270,
           },
           painting: `/${autresURL.peinture}/108`,
         },
         {
           style: {
-            height: '110px',
-            width: '120px',
-            left: 'calc(((100% - 627px) / 2) + 175px)',
-            borderRadius: '100%',
-            top: '355px',
+            height: 110,
+            width: 120,
+            left: 175,
+            top: 355,
           },
           painting: `/${autresURL.peinture}/71`,
         },
         {
           style: {
-            height: '110px',
-            width: '90px',
-            right: 'calc(((100% - 627px) / 2) + 210px)',
-            borderRadius: '100%',
-            top: '260px',
+            height: 110,
+            width: 90,
+            right: 210,
+            top: 260,
           },
           painting: `/${autresURL.peinture}/79`,
         },
         {
           style: {
-            height: '95px',
-            width: '75px',
-            right: 'calc(((100% - 627px) / 2) + 215px)',
-            borderRadius: '100%',
-            top: '390px',
+            height: 95,
+            width: 75,
+            right: 215,
+            top: 390,
           },
           painting: `/${autresURL.peinture}/81`,
         },
@@ -2890,11 +2720,11 @@ export const all = {
     E: {
       id: 83,
       image: photos.ManE,
-      left: {
+      leftTurn: {
         id: 82,
         link: `/${placeURL.Mannequin}/${directionURL.NE}`,
       },
-      right: {
+      rightTurn: {
         id: 84,
         link: `/${placeURL.Mannequin}/${directionURL.SE}`,
       },
@@ -2905,32 +2735,30 @@ export const all = {
     SE: {
       id: 84,
       image: photos.ManSE,
-      left: {
+      leftTurn: {
         id: 83,
         link: `/${placeURL.Mannequin}/${directionURL.E}`,
       },
-      right: {
+      rightTurn: {
         id: 85,
         link: `/${placeURL.Mannequin}/${directionURL.S}`,
       },
       actions: [
         {
           style: {
-            height: '95px',
-            width: '53px',
-            left: 'calc(((100% - 627px) / 2) + 205px)',
-            borderRadius: '100%',
-            top: '335px',
+            height: 95,
+            width: 53,
+            left: 205,
+            top: 335,
           },
           painting: `/${autresURL.peinture}/428`,
         },
         {
           style: {
-            height: '75px',
-            width: '45px',
-            right: 'calc(((100% - 627px) / 2) + 273px)',
-            borderRadius: '100%',
-            top: '340px',
+            height: 75,
+            width: 45,
+            right: 273,
+            top: 340,
           },
           painting: `/${autresURL.peinture}/675`,
         },
@@ -2941,11 +2769,11 @@ export const all = {
     S: {
       id: 85,
       image: photos.ManS,
-      left: {
+      leftTurn: {
         id: 84,
         link: `/${placeURL.Mannequin}/${directionURL.SE}`,
       },
-      right: {
+      rightTurn: {
         id: 86,
         link: `/${placeURL.Mannequin}/${directionURL.SO}`,
       },
@@ -2956,52 +2784,48 @@ export const all = {
     SO: {
       id: 86,
       image: photos.ManSO,
-      left: {
+      leftTurn: {
         id: 85,
         link: `/${placeURL.Mannequin}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: 87,
         link: `/${placeURL.Mannequin}/${directionURL.O}`,
       },
       actions: [
         {
           style: {
-            height: '60px',
-            width: '60px',
-            right: 'calc(((100% - 627px) / 2) + 145px)',
-            borderRadius: '100%',
-            top: '93px',
+            height: 60,
+            width: 60,
+            right: 145,
+            top: 93,
           },
           painting: `/${autresURL.peinture}/918`,
         },
         {
           style: {
-            height: '100px',
-            width: '80px',
-            right: 'calc(((100% - 627px) / 2) + 113px)',
-            borderRadius: '100%',
-            top: '180px',
+            height: 100,
+            width: 80,
+            right: 113,
+            top: 180,
           },
           painting: `/${autresURL.peinture}/922`,
         },
         {
           style: {
-            height: '130px',
-            width: '90px',
-            right: 'calc(((100% - 627px) / 2) + 107px)',
-            borderRadius: '100%',
-            top: '315px',
+            height: 130,
+            width: 90,
+            right: 107,
+            top: 315,
           },
           painting: `/${autresURL.peinture}/9999999999`,
         },
         {
           style: {
-            height: '300px',
-            width: '230px',
-            left: 'calc(((100% - 627px) / 2) + 180px)',
-            borderRadius: '100%',
-            bottom: '150px',
+            height: 300,
+            width: 230,
+            left: 180,
+            bottom: 150,
           },
           painting: `/${autresURL.Affiches}/Mannequin`,
         },
@@ -3012,72 +2836,66 @@ export const all = {
     O: {
       id: 87,
       image: photos.ManO,
-      left: {
+      leftTurn: {
         id: 86,
         link: `/${placeURL.Mannequin}/${directionURL.SO}`,
       },
-      right: {
+      rightTurn: {
         id: 88,
         link: `/${placeURL.Mannequin}/${directionURL.NO}`,
       },
       actions: [
         {
           style: {
-            height: '90px',
-            width: '70px',
-            left: 'calc(((100% - 627px) / 2) + 190px)',
-            borderRadius: '100%',
-            top: '155px',
+            height: 90,
+            width: 70,
+            left: 190,
+            top: 155,
           },
           painting: `/${autresURL.peinture}/918`,
         },
         {
           style: {
-            height: '120px',
-            width: '90px',
-            left: 'calc(((100% - 627px) / 2) + 165px)',
-            borderRadius: '100%',
-            top: '280px',
+            height: 120,
+            width: 90,
+            left: 165,
+            top: 280,
           },
           painting: `/${autresURL.peinture}/922`,
         },
         {
           style: {
-            height: '130px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 155px)',
-            borderRadius: '100%',
-            bottom: '260px',
+            height: 130,
+            width: 100,
+            left: 155,
+            bottom: 260,
           },
           painting: `/${autresURL.peinture}/9999999999`,
         },
         {
           style: {
-            height: '90px',
-            width: '70px',
-            right: 'calc(((100% - 627px) / 2) + 203px)',
-            borderRadius: '100%',
-            top: '160px',
+            height: 90,
+            width: 70,
+            right: 203,
+            top: 160,
           },
           painting: `/${autresURL.peinture}/964`,
         },
         {
           style: {
-            height: '130px',
-            width: '90px',
-            right: 'calc(((100% - 627px) / 2) + 188px)',
-            borderRadius: '100%',
-            top: '280px',
+            height: 130,
+            width: 90,
+            right: 188,
+            top: 280,
           },
           painting: `/${autresURL.peinture}/963`,
         },
         {
           style: {
-            height: '130px',
-            width: '95px',
-            right: 'calc(((100% - 627px) / 2) + 190px)',
-            borderRadius: '100%',
-            bottom: '260px',
+            height: 130,
+            width: 95,
+            right: 190,
+            bottom: 260,
           },
           painting: `/${autresURL.peinture}/9999999999`,
         },
@@ -3088,52 +2906,48 @@ export const all = {
     NO: {
       id: 88,
       image: photos.ManNO,
-      left: {
+      leftTurn: {
         id: 87,
         link: `/${placeURL.Mannequin}/${directionURL.O}`,
       },
-      right: {
+      rightTurn: {
         id: 81,
         link: `/${placeURL.Mannequin}/${directionURL.N}`,
       },
       actions: [
         {
           style: {
-            height: '90px',
-            width: '70px',
-            left: 'calc(((100% - 627px) / 2) + 100px)',
-            borderRadius: '100%',
-            top: '130px',
+            height: 90,
+            width: 70,
+            left: 100,
+            top: 130,
           },
           painting: `/${autresURL.peinture}/964`,
         },
         {
           style: {
-            height: '130px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 55px)',
-            borderRadius: '100%',
-            top: '240px',
+            height: 130,
+            width: 80,
+            left: 55,
+            top: 240,
           },
           painting: `/${autresURL.peinture}/963`,
         },
         {
           style: {
-            height: '135px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 48px)',
-            borderRadius: '100%',
-            bottom: '295px',
+            height: 135,
+            width: 80,
+            left: 48,
+            bottom: 295,
           },
           painting: `/${autresURL.peinture}/9999999999`,
         },
         {
           style: {
-            height: '280px',
-            width: '210px',
-            right: 'calc(((100% - 627px) / 2) + 120px)',
-            borderRadius: '100%',
-            top: '260px',
+            height: 280,
+            width: 210,
+            right: 120,
+            top: 260,
           },
           painting: `/${autresURL.peinture}/1058`,
         },
@@ -3146,62 +2960,57 @@ export const all = {
     N: {
       id: 91,
       image: photos.ManAN,
-      left: {
+      leftTurn: {
         id: 98,
         link: `/${placeURL.Mannequin_avant}/${directionURL.NO}`,
       },
-      right: {
+      rightTurn: {
         id: 92,
         link: `/${placeURL.Mannequin_avant}/${directionURL.NE}`,
       },
       actions: [
         {
           style: {
-            height: '128px',
-            width: '88px',
-            left: 'calc(((100% - 627px) / 2) + 10px)',
-            borderRadius: '100%',
-            top: '282px',
+            height: 128,
+            width: 88,
+            left: 10,
+            top: 282,
           },
           painting: `/${autresURL.peinture}/316`,
         },
         {
           style: {
-            height: '124px',
-            width: '88px',
-            left: 'calc(((100% - 627px) / 2) + 10px)',
-            borderRadius: '100%',
-            bottom: '290px',
+            height: 124,
+            width: 88,
+            left: 10,
+            bottom: 290,
           },
           painting: `/${autresURL.peinture}/108`,
         },
         {
           style: {
-            height: '115px',
-            width: '140px',
-            left: 'calc(((100% - 627px) / 2) + 136px)',
-            borderRadius: '100%',
-            bottom: '333px',
+            height: 115,
+            width: 140,
+            left: 136,
+            bottom: 333,
           },
           painting: `/${autresURL.peinture}/71`,
         },
         {
           style: {
-            height: '160px',
-            width: '185px',
-            right: 'calc(((100% - 627px) / 2) + 108px)',
-            borderRadius: '100%',
-            top: '245px',
+            height: 160,
+            width: 185,
+            right: 108,
+            top: 245,
           },
           painting: `/${autresURL.peinture}/79`,
         },
         {
           style: {
-            height: '134px',
-            width: '160px',
-            right: 'calc(((100% - 627px) / 2) + 115px)',
-            borderRadius: '100%',
-            bottom: '270px',
+            height: 134,
+            width: 160,
+            right: 115,
+            bottom: 270,
           },
           painting: `/${autresURL.peinture}/81`,
         },
@@ -3212,82 +3021,75 @@ export const all = {
     NE: {
       id: 92,
       image: photos.ManANE,
-      left: {
+      leftTurn: {
         id: 91,
         link: `/${placeURL.Mannequin_avant}/${directionURL.N}`,
       },
-      right: {
+      rightTurn: {
         id: 93,
         link: `/${placeURL.Mannequin_avant}/${directionURL.E}`,
       },
       actions: [
         {
           style: {
-            height: '150px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 10px)',
-            borderRadius: '100%',
-            top: '200px',
+            height: 150,
+            width: 100,
+            left: 10,
+            top: 200,
           },
           painting: `/${autresURL.peinture}/79`,
         },
         {
           style: {
-            height: '143px',
-            width: '90px',
-            left: 'calc(((100% - 627px) / 2) + 10px)',
-            borderRadius: '100%',
-            bottom: '315px',
+            height: 143,
+            width: 90,
+            left: 10,
+            bottom: 315,
           },
           painting: `/${autresURL.peinture}/81`,
         },
         {
           style: {
-            height: '113px',
-            width: '105px',
-            left: 'calc(((100% - 627px) / 2) + 190px)',
-            borderRadius: '100%',
-            top: '310px',
+            height: 113,
+            width: 105,
+            left: 190,
+            top: 310,
           },
           painting: `/${autresURL.peinture}/310`,
         },
         {
           style: {
-            height: '66px',
-            width: '50px',
-            right: 'calc(((100% - 627px) / 2) + 240px)',
-            borderRadius: '100%',
-            top: '277px',
+            height: 66,
+            width: 50,
+            right: 240,
+            top: 277,
           },
           painting: `/${autresURL.peinture}/77`,
         },
         {
           style: {
-            height: '66px',
-            width: '48px',
-            right: 'calc(((100% - 627px) / 2) + 240px)',
-            borderRadius: '100%',
-            top: '366px',
+            height: 66,
+            width: 48,
+            right: 240,
+            top: 366,
           },
           painting: `/${autresURL.peinture}/76`,
         },
         {
           style: {
-            height: '62px',
-            width: '30px',
-            right: 'calc(((100% - 627px) / 2) + 190px)',
-            borderRadius: '100%',
-            top: '366px',
+            height: 62,
+            width: 30,
+            right: 190,
+            top: 366,
           },
           painting: `/${autresURL.peinture}/84`,
         },
         {
           style: {
-            height: '60px',
-            width: '33px',
-            right: 'calc(((100% - 627px) / 2) + 187px)',
-            borderRadius: '100%',
-            top: '295px',
+            height: 60,
+            width: 33,
+            right: 187,
+            top: 295,
           },
           painting: `/${autresURL.peinture}/94`,
         },
@@ -3298,42 +3100,39 @@ export const all = {
     E: {
       id: 93,
       image: photos.ManAE,
-      left: {
+      leftTurn: {
         id: 92,
         link: `/${placeURL.Mannequin_avant}/${directionURL.NE}`,
       },
-      right: {
+      rightTurn: {
         id: 94,
         link: `/${placeURL.Mannequin_avant}/${directionURL.SE}`,
       },
       actions: [
         {
           style: {
-            height: '40px',
-            width: '64px',
-            right: 'calc(((100% - 627px) / 2) + 148px)',
-            borderRadius: '100%',
-            top: '295px',
+            height: 40,
+            width: 64,
+            right: 148,
+            top: 295,
           },
           painting: `/${autresURL.peinture}/116`,
         },
         {
           style: {
-            height: '40px',
-            width: '64px',
-            right: 'calc(((100% - 627px) / 2) + 148px)',
-            borderRadius: '100%',
-            top: '354px',
+            height: 40,
+            width: 64,
+            right: 148,
+            top: 354,
           },
           painting: `/${autresURL.peinture}/118`,
         },
         {
           style: {
-            height: '40px',
-            width: '64px',
-            right: 'calc(((100% - 627px) / 2) + 150px)',
-            borderRadius: '100%',
-            bottom: '384px',
+            height: 40,
+            width: 64,
+            right: 150,
+            bottom: 384,
           },
           painting: `/${autresURL.peinture}/117`,
         },
@@ -3344,52 +3143,48 @@ export const all = {
     SE: {
       id: 94,
       image: photos.ManASE,
-      left: {
+      leftTurn: {
         id: 93,
         link: `/${placeURL.Mannequin_avant}/${directionURL.E}`,
       },
-      right: {
+      rightTurn: {
         id: 95,
         link: `/${placeURL.Mannequin_avant}/${directionURL.S}`,
       },
       actions: [
         {
           style: {
-            height: '40px',
-            width: '64px',
-            left: 'calc(((100% - 627px) / 2) + 115px)',
-            borderRadius: '100%',
-            top: '297px',
+            height: 40,
+            width: 64,
+            left: 115,
+            top: 297,
           },
           painting: `/${autresURL.peinture}/116`,
         },
         {
           style: {
-            height: '40px',
-            width: '64px',
-            left: 'calc(((100% - 627px) / 2) + 113px)',
-            borderRadius: '100%',
-            top: '355px',
+            height: 40,
+            width: 64,
+            left: 113,
+            top: 355,
           },
           painting: `/${autresURL.peinture}/118`,
         },
         {
           style: {
-            height: '40px',
-            width: '64px',
-            left: 'calc(((100% - 627px) / 2) + 114px)',
-            borderRadius: '100%',
-            bottom: '385px',
+            height: 40,
+            width: 64,
+            left: 114,
+            bottom: 385,
           },
           painting: `/${autresURL.peinture}/117`,
         },
         {
           style: {
-            height: '175px',
-            width: '64px',
-            right: 'calc(((100% - 627px) / 2) + 220px)',
-            borderRadius: '100%',
-            top: '290px',
+            height: 175,
+            width: 64,
+            right: 220,
+            top: 290,
           },
           painting: `/${autresURL.peinture}/428`,
         },
@@ -3400,32 +3195,30 @@ export const all = {
     S: {
       id: 95,
       image: photos.ManAS,
-      left: {
+      leftTurn: {
         id: 94,
         link: `/${placeURL.Mannequin_avant}/${directionURL.SE}`,
       },
-      right: {
+      rightTurn: {
         id: 96,
         link: `/${placeURL.Mannequin_avant}/${directionURL.SO}`,
       },
       actions: [
         {
           style: {
-            height: '190px',
-            width: '66px',
-            left: 'calc(((100% - 627px) / 2) + 40px)',
-            borderRadius: '100%',
-            top: '294px',
+            height: 190,
+            width: 66,
+            left: 40,
+            top: 294,
           },
           painting: `/${autresURL.peinture}/428`,
         },
         {
           style: {
-            height: '105px',
-            width: '38px',
-            left: 'calc(((100% - 627px) / 2) + 160px)',
-            borderRadius: '100%',
-            top: '325px',
+            height: 105,
+            width: 38,
+            left: 160,
+            top: 325,
           },
           painting: `/${autresURL.peinture}/675`,
         },
@@ -3436,82 +3229,75 @@ export const all = {
     SO: {
       id: 96,
       image: photos.ManASO,
-      left: {
+      leftTurn: {
         id: 95,
         link: `/${placeURL.Mannequin_avant}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: 97,
         link: `/${placeURL.Mannequin_avant}/${directionURL.O}`,
       },
       actions: [
         {
           style: {
-            height: '55px',
-            width: '42px',
-            right: 'calc(((100% - 627px) / 2) + 145px)',
-            borderRadius: '100%',
-            top: '255px',
+            height: 55,
+            width: 42,
+            right: 145,
+            top: 255,
           },
           painting: `/${autresURL.peinture}/918`,
         },
         {
           style: {
-            height: '62px',
-            width: '45px',
-            right: 'calc(((100% - 627px) / 2) + 140px)',
-            borderRadius: '100%',
-            top: '325px',
+            height: 62,
+            width: 45,
+            right: 140,
+            top: 325,
           },
           painting: `/${autresURL.peinture}/922`,
         },
         {
           style: {
-            height: '55px',
-            width: '42px',
-            right: 'calc(((100% - 627px) / 2) + 141px)',
-            borderRadius: '100%',
-            top: '403px',
+            height: 55,
+            width: 42,
+            right: 141,
+            top: 403,
           },
           painting: `/${autresURL.peinture}/9999999999`,
         },
         {
           style: {
-            height: '58px',
-            width: '40px',
-            right: 'calc(((100% - 627px) / 2) + 72px)',
-            borderRadius: '100%',
-            top: '255px',
+            height: 58,
+            width: 40,
+            right: 72,
+            top: 255,
           },
           painting: `/${autresURL.peinture}/964`,
         },
         {
           style: {
-            height: '58px',
-            width: '40px',
-            right: 'calc(((100% - 627px) / 2) + 65px)',
-            borderRadius: '100%',
-            top: '328px',
+            height: 58,
+            width: 40,
+            right: 65,
+            top: 328,
           },
           painting: `/${autresURL.peinture}/963`,
         },
         {
           style: {
-            height: '62px',
-            width: '40px',
-            right: 'calc(((100% - 627px) / 2) + 65px)',
-            borderRadius: '100%',
-            top: '405px',
+            height: 62,
+            width: 40,
+            right: 65,
+            top: 405,
           },
           painting: `/${autresURL.peinture}/9999999999`,
         },
         {
           style: {
-            height: '200px',
-            width: '100px',
-            right: 'calc(((100% - 627px) / 2) + 190px)',
-            borderRadius: '100%',
-            bottom: '190px',
+            height: 200,
+            width: 100,
+            right: 190,
+            bottom: 190,
           },
           painting: `/${autresURL.Affiches}/Mannequin`,
         },
@@ -3522,92 +3308,84 @@ export const all = {
     O: {
       id: 97,
       image: photos.ManAO,
-      left: {
+      leftTurn: {
         id: 96,
         link: `/${placeURL.Mannequin_avant}/${directionURL.SO}`,
       },
-      right: {
+      rightTurn: {
         id: 98,
         link: `/${placeURL.Mannequin_avant}/${directionURL.NO}`,
       },
       actions: [
         {
           style: {
-            height: '58px',
-            width: '45px',
-            left: 'calc(((100% - 627px) / 2) + 209px)',
-            borderRadius: '100%',
-            top: '240px',
+            height: 58,
+            width: 45,
+            left: 209,
+            top: 240,
           },
           painting: `/${autresURL.peinture}/918`,
         },
         {
           style: {
-            height: '60px',
-            width: '45px',
-            left: 'calc(((100% - 627px) / 2) + 205px)',
-            borderRadius: '100%',
-            top: '312px',
+            height: 60,
+            width: 45,
+            left: 205,
+            top: 312,
           },
           painting: `/${autresURL.peinture}/922`,
         },
         {
           style: {
-            height: '60px',
-            width: '45px',
-            left: 'calc(((100% - 627px) / 2) + 202px)',
-            borderRadius: '100%',
-            top: '388px',
+            height: 60,
+            width: 45,
+            left: 202,
+            top: 388,
           },
           painting: `/${autresURL.peinture}/9999999999`,
         },
         {
           style: {
-            height: '60px',
-            width: '45px',
-            left: 'calc(((100% - 627px) / 2) + 290px)',
-            borderRadius: '100%',
-            top: '240px',
+            height: 60,
+            width: 45,
+            left: 290,
+            top: 240,
           },
           painting: `/${autresURL.peinture}/964`,
         },
         {
           style: {
-            height: '60px',
-            width: '45px',
-            left: 'calc(((100% - 627px) / 2) + 288px)',
-            borderRadius: '100%',
-            top: '313px',
+            height: 60,
+            width: 45,
+            left: 288,
+            top: 313,
           },
           painting: `/${autresURL.peinture}/963`,
         },
         {
           style: {
-            height: '60px',
-            width: '45px',
-            left: 'calc(((100% - 627px) / 2) + 286px)',
-            borderRadius: '100%',
-            top: '389px',
+            height: 60,
+            width: 45,
+            left: 286,
+            top: 389,
           },
           painting: `/${autresURL.peinture}/9999999999`,
         },
         {
           style: {
-            height: '230px',
-            width: '110px',
-            left: 'calc(((100% - 627px) / 2) + 100px)',
-            borderRadius: '100%',
-            bottom: '190px',
+            height: 230,
+            width: 110,
+            left: 100,
+            bottom: 190,
           },
           painting: `/${autresURL.Affiches}/Mannequin`,
         },
         {
           style: {
-            height: '137px',
-            width: '60px',
-            right: 'calc(((100% - 627px) / 2) + 152px)',
-            borderRadius: '100%',
-            top: '315px',
+            height: 137,
+            width: 60,
+            right: 152,
+            top: 315,
           },
           painting: `/${autresURL.peinture}/1058`,
         },
@@ -3618,52 +3396,48 @@ export const all = {
     NO: {
       id: 98,
       image: photos.ManANO,
-      left: {
+      leftTurn: {
         id: 97,
         link: `/${placeURL.Mannequin_avant}/${directionURL.O}`,
       },
-      right: {
+      rightTurn: {
         id: 91,
         link: `/${placeURL.Mannequin_avant}/${directionURL.N}`,
       },
       actions: [
         {
           style: {
-            height: '130px',
-            width: '50px',
-            left: 'calc(((100% - 627px) / 2) + 125px)',
-            borderRadius: '100%',
-            top: '315px',
+            height: 130,
+            width: 50,
+            left: 125,
+            top: 315,
           },
           painting: `/${autresURL.peinture}/1058`,
         },
         {
           style: {
-            height: '130px',
-            width: '130px',
-            right: 'calc(((100% - 627px) / 2) + 225px)',
-            borderRadius: '100%',
-            top: '265px',
+            height: 130,
+            width: 130,
+            right: 225,
+            top: 265,
           },
           painting: `/${autresURL.peinture}/316`,
         },
         {
           style: {
-            height: '127px',
-            width: '128px',
-            right: 'calc(((100% - 627px) / 2) + 228px)',
-            borderRadius: '100%',
-            bottom: '300px',
+            height: 127,
+            width: 128,
+            right: 228,
+            bottom: 300,
           },
           painting: `/${autresURL.peinture}/108`,
         },
         {
           style: {
-            height: '127px',
-            width: '128px',
-            right: 'calc(((100% - 627px) / 2) + 50px)',
-            borderRadius: '100%',
-            bottom: '333px',
+            height: 127,
+            width: 128,
+            right: 50,
+            bottom: 333,
           },
           painting: `/${autresURL.peinture}/71`,
         },
@@ -3676,62 +3450,57 @@ export const all = {
     N: {
       id: 101,
       image: photos.MilN,
-      left: {
+      leftTurn: {
         id: 108,
         link: `/${placeURL.Milieu}/${directionURL.NO}`,
       },
-      right: {
+      rightTurn: {
         id: 102,
         link: `/${placeURL.Milieu}/${directionURL.NE}`,
       },
       actions: [
         {
           style: {
-            height: '90px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 25px)',
-            borderRadius: '100%',
-            top: '290px',
+            height: 90,
+            width: 80,
+            left: 25,
+            top: 290,
           },
           painting: `/${autresURL.peinture}/94`,
         },
         {
           style: {
-            height: '100px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 28px)',
-            borderRadius: '100%',
-            bottom: '340px',
+            height: 100,
+            width: 80,
+            left: 28,
+            bottom: 340,
           },
           painting: `/${autresURL.peinture}/84`,
         },
         {
           style: {
-            height: '175px',
-            width: '143px',
-            left: 'calc(((100% - 627px) / 2) + 155px)',
-            borderRadius: '100%',
-            bottom: '360px',
+            height: 175,
+            width: 143,
+            left: 155,
+            bottom: 360,
           },
           painting: `/${autresURL.peinture}/69`,
         },
         {
           style: {
-            height: '120px',
-            width: '135px',
-            right: 'calc(((100% - 627px) / 2) + 130px)',
-            borderRadius: '100%',
-            top: '255px',
+            height: 120,
+            width: 135,
+            right: 130,
+            top: 255,
           },
           painting: `/${autresURL.peinture}/82`,
         },
         {
           style: {
-            height: '120px',
-            width: '135px',
-            right: 'calc(((100% - 627px) / 2) + 130px)',
-            borderRadius: '100%',
-            bottom: '315px',
+            height: 120,
+            width: 135,
+            right: 130,
+            bottom: 315,
           },
           painting: `/${autresURL.peinture}/319`,
         },
@@ -3742,42 +3511,39 @@ export const all = {
     NE: {
       id: 102,
       image: photos.MilNE,
-      left: {
+      leftTurn: {
         id: 101,
         link: `/${placeURL.Milieu}/${directionURL.N}`,
       },
-      right: {
+      rightTurn: {
         id: 103,
         link: `/${placeURL.Milieu}/${directionURL.E}`,
       },
       actions: [
         {
           style: {
-            height: '110px',
-            width: '105px',
-            left: 'calc(((100% - 627px) / 2) + 15px)',
-            borderRadius: '100%',
-            top: '235px',
+            height: 110,
+            width: 105,
+            left: 15,
+            top: 235,
           },
           painting: `/${autresURL.peinture}/82`,
         },
         {
           style: {
-            height: '116px',
-            width: '110px',
-            left: 'calc(((100% - 627px) / 2) + 11px)',
-            borderRadius: '100%',
-            top: '370px',
+            height: 116,
+            width: 110,
+            left: 11,
+            top: 370,
           },
           painting: `/${autresURL.peinture}/319`,
         },
         {
           style: {
-            height: '135px',
-            width: '130px',
-            left: 'calc(((100% - 627px) / 2) + 245px)',
-            borderRadius: '100%',
-            top: '338px',
+            height: 135,
+            width: 130,
+            left: 245,
+            top: 338,
           },
           painting: `/${autresURL.peinture}/275`,
         },
@@ -3788,22 +3554,21 @@ export const all = {
     E: {
       id: 103,
       image: photos.MilE,
-      left: {
+      leftTurn: {
         id: 102,
         link: `/${placeURL.Milieu}/${directionURL.NE}`,
       },
-      right: {
+      rightTurn: {
         id: 104,
         link: `/${placeURL.Milieu}/${directionURL.SE}`,
       },
       actions: [
         {
           style: {
-            height: '185px',
-            width: '80px',
-            right: 'calc(((100% - 627px) / 2) + 95px)',
-            borderRadius: '100%',
-            top: '290px',
+            height: 185,
+            width: 80,
+            right: 95,
+            top: 290,
           },
           painting: `/${autresURL.peinture}/288`,
         },
@@ -3814,52 +3579,48 @@ export const all = {
     SE: {
       id: 104,
       image: photos.MilSE,
-      left: {
+      leftTurn: {
         id: 103,
         link: `/${placeURL.Milieu}/${directionURL.E}`,
       },
-      right: {
+      rightTurn: {
         id: 105,
         link: `/${placeURL.Milieu}/${directionURL.S}`,
       },
       actions: [
         {
           style: {
-            height: '180px',
-            width: '68px',
-            left: 'calc(((100% - 627px) / 2) + 95px)',
-            borderRadius: '100%',
-            top: '285px',
+            height: 180,
+            width: 68,
+            left: 95,
+            top: 285,
           },
           painting: `/${autresURL.peinture}/288`,
         },
         {
           style: {
-            height: '90px',
-            width: '68px',
-            left: 'calc(((100% - 627px) / 2) + 260px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 90,
+            width: 68,
+            left: 260,
+            top: 330,
           },
           painting: `/${autresURL.peinture}/557`,
         },
         {
           style: {
-            height: '60px',
-            width: '30px',
-            right: 'calc(((100% - 627px) / 2) + 238px)',
-            borderRadius: '100%',
-            top: '340px',
+            height: 60,
+            width: 30,
+            right: 238,
+            top: 340,
           },
           painting: `/${autresURL.peinture}/750`,
         },
         {
           style: {
-            height: '60px',
-            width: '20px',
-            right: 'calc(((100% - 627px) / 2) + 210px)',
-            borderRadius: '100%',
-            top: '340px',
+            height: 60,
+            width: 20,
+            right: 210,
+            top: 340,
           },
           painting: `/${autresURL.peinture}/384`,
         },
@@ -3870,11 +3631,11 @@ export const all = {
     S: {
       id: 105,
       image: photos.MilS,
-      left: {
+      leftTurn: {
         id: 104,
         link: `/${placeURL.Milieu}/${directionURL.SE}`,
       },
-      right: {
+      rightTurn: {
         id: 106,
         link: `/${placeURL.Milieu}/${directionURL.SO}`,
       },
@@ -3885,32 +3646,30 @@ export const all = {
     SO: {
       id: 106,
       image: photos.MilSO,
-      left: {
+      leftTurn: {
         id: 105,
         link: `/${placeURL.Milieu}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: 107,
         link: `/${placeURL.Milieu}/${directionURL.O}`,
       },
       actions: [
         {
           style: {
-            height: '135px',
-            width: '40px',
-            left: 'calc(((100% - 627px) / 2) + 90px)',
-            borderRadius: '100%',
-            top: '305px',
+            height: 135,
+            width: 40,
+            left: 90,
+            top: 305,
           },
           painting: `/${autresURL.peinture}/179`,
         },
         {
           style: {
-            height: '143px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 174px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 143,
+            width: 100,
+            left: 174,
+            top: 300,
           },
           painting: `/${autresURL.peinture}/178`,
         },
@@ -3921,11 +3680,11 @@ export const all = {
     O: {
       id: 107,
       image: photos.MilO,
-      left: {
+      leftTurn: {
         id: 106,
         link: `/${placeURL.Milieu}/${directionURL.SO}`,
       },
-      right: {
+      rightTurn: {
         id: 108,
         link: `/${placeURL.Milieu}/${directionURL.NO}`,
       },
@@ -3936,62 +3695,57 @@ export const all = {
     NO: {
       id: 108,
       image: photos.MilNO,
-      left: {
+      leftTurn: {
         id: 107,
         link: `/${placeURL.Milieu}/${directionURL.O}`,
       },
-      right: {
+      rightTurn: {
         id: 101,
         link: `/${placeURL.Milieu}/${directionURL.N}`,
       },
       actions: [
         {
           style: {
-            height: '58px',
-            width: '55px',
-            left: 'calc(((100% - 627px) / 2) + 195px)',
-            borderRadius: '100%',
-            top: '308px',
+            height: 58,
+            width: 55,
+            left: 195,
+            top: 308,
           },
           painting: `/${autresURL.peinture}/77`,
         },
         {
           style: {
-            height: '58px',
-            width: '55px',
-            left: 'calc(((100% - 627px) / 2) + 195px)',
-            borderRadius: '100%',
-            top: '390px',
+            height: 58,
+            width: 55,
+            left: 195,
+            top: 390,
           },
           painting: `/${autresURL.peinture}/76`,
         },
         {
           style: {
-            height: '92px',
-            width: '110px',
-            left: 'calc(((100% - 627px) / 2) + 285px)',
-            borderRadius: '100%',
-            top: '275px',
+            height: 92,
+            width: 110,
+            left: 285,
+            top: 275,
           },
           painting: `/${autresURL.peinture}/94`,
         },
         {
           style: {
-            height: '102px',
-            width: '110px',
-            left: 'calc(((100% - 627px) / 2) + 288px)',
-            borderRadius: '100%',
-            top: '387px',
+            height: 102,
+            width: 110,
+            left: 288,
+            top: 387,
           },
           painting: `/${autresURL.peinture}/84`,
         },
         {
           style: {
-            height: '185px',
-            width: '135px',
-            right: 'calc(((100% - 627px) / 2) + 35px)',
-            borderRadius: '100%',
-            top: '298px',
+            height: 185,
+            width: 135,
+            right: 35,
+            top: 298,
           },
           painting: `/${autresURL.peinture}/69`,
         },
@@ -4004,32 +3758,30 @@ export const all = {
     N: {
       id: 111,
       image: photos.OrcN,
-      left: {
+      leftTurn: {
         id: 118,
         link: `/${placeURL.Orchestre}/${directionURL.NO}`,
       },
-      right: {
+      rightTurn: {
         id: 112,
         link: `/${placeURL.Orchestre}/${directionURL.NE}`,
       },
       actions: [
         {
           style: {
-            height: '120px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 10px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 120,
+            width: 100,
+            left: 10,
+            top: 330,
           },
           painting: `/${autresURL.peinture}/10`,
         },
         {
           style: {
-            height: '150px',
-            width: '180px',
-            left: 'calc(((100% - 627px) / 2) + 160px)',
-            borderRadius: '100%',
-            top: '310px',
+            height: 150,
+            width: 180,
+            left: 160,
+            top: 310,
           },
           painting: `/${autresURL.peinture}/213`,
         },
@@ -4040,22 +3792,21 @@ export const all = {
     NE: {
       id: 112,
       image: photos.OrcNE,
-      left: {
+      leftTurn: {
         id: 111,
         link: `/${placeURL.Orchestre}/${directionURL.N}`,
       },
-      right: {
+      rightTurn: {
         id: 113,
         link: `/${placeURL.Orchestre}/${directionURL.E}`,
       },
       actions: [
         {
           style: {
-            height: '250px',
-            width: '200px',
-            left: 'calc(((100% - 627px) / 2) + 200px)',
-            borderRadius: '100%',
-            top: '250px',
+            height: 250,
+            width: 200,
+            left: 200,
+            top: 250,
           },
           painting: `/${autresURL.Affiches}/Fauve`,
         },
@@ -4066,32 +3817,30 @@ export const all = {
     E: {
       id: 113,
       image: photos.OrcE,
-      left: {
+      leftTurn: {
         id: 112,
         link: `/${placeURL.Orchestre}/${directionURL.NE}`,
       },
-      right: {
+      rightTurn: {
         id: 114,
         link: `/${placeURL.Orchestre}/${directionURL.SE}`,
       },
       actions: [
         {
           style: {
-            height: '250px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 10px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 250,
+            width: 100,
+            left: 10,
+            top: 300,
           },
           painting: `/${autresURL.Affiches}/Fauve`,
         },
         {
           style: {
-            height: '130px',
-            width: '130px',
-            right: 'calc(((100% - 627px) / 2) + 40px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 130,
+            width: 130,
+            right: 40,
+            top: 300,
           },
           painting: `/${autresURL.peinture}/520`,
         },
@@ -4102,62 +3851,57 @@ export const all = {
     SE: {
       id: 114,
       image: photos.OrcSE,
-      left: {
+      leftTurn: {
         id: 113,
         link: `/${placeURL.Orchestre}/${directionURL.E}`,
       },
-      right: {
+      rightTurn: {
         id: 115,
         link: `/${placeURL.Orchestre}/${directionURL.S}`,
       },
       actions: [
         {
           style: {
-            height: '130px',
-            width: '130px',
-            left: 'calc(((100% - 627px) / 2) + 160px)',
-            borderRadius: '100%',
-            top: '285px',
+            height: 130,
+            width: 130,
+            left: 160,
+            top: 285,
           },
           painting: `/${autresURL.peinture}/520`,
         },
         {
           style: {
-            height: '60px',
-            width: '60px',
-            left: 'calc(((100% - 627px) / 2) + 330px)',
-            borderRadius: '100%',
-            top: '320px',
+            height: 60,
+            width: 60,
+            left: 330,
+            top: 320,
           },
           painting: `/${autresURL.peinture}/519`,
         },
         // {
         //   style: {
-        //     height: '70px',
-        //     width: '40px',
-        //     right: 'calc(((100% - 627px) / 2) + 180px)',
-        //     borderRadius: '100%',
-        //     top: '320px',
+        //     height: 70,
+        //     width: 40,
+        //     right: 180,
+        //     top: 320,
         //   },
         //   painting: `/${autresURL.peinture}/7`,
         // },
         // {
         //   style: {
-        //     height: '40px',
-        //     width: '60px',
-        //     right: 'calc(((100% - 627px) / 2) + 90px)',
-        //     borderRadius: '100%',
-        //     top: '310px',
+        //     height: 40,
+        //     width: 60,
+        //     right: 90,
+        //     top: 310,
         //   },
         //   painting: `/${autresURL.peinture}/453`,
         // },
         // {
         //   style: {
-        //     height: '40px',
-        //     width: '60px',
-        //     right: 'calc(((100% - 627px) / 2) + 90px)',
-        //     borderRadius: '100%',
-        //     top: '375px',
+        //     height: 40,
+        //     width: 60,
+        //     right: 90,
+        //     top: 375,
         //   },
         //   painting: `/${autresURL.peinture}/455`,
         // },
@@ -4168,11 +3912,11 @@ export const all = {
     S: {
       id: 115,
       image: photos.OrcS,
-      left: {
+      leftTurn: {
         id: 114,
         link: `/${placeURL.Orchestre}/${directionURL.SE}`,
       },
-      right: {
+      rightTurn: {
         id: 116,
         link: `/${placeURL.Orchestre}/${directionURL.SO}`,
       },
@@ -4183,22 +3927,21 @@ export const all = {
     SO: {
       id: 116,
       image: photos.OrcSO,
-      left: {
+      leftTurn: {
         id: 115,
         link: `/${placeURL.Orchestre}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: 117,
         link: `/${placeURL.Orchestre}/${directionURL.O}`,
       },
       actions: [
         {
           style: {
-            height: '100px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 150px)',
-            borderRadius: '100%',
-            bottom: '175px',
+            height: 100,
+            width: 100,
+            left: 150,
+            bottom: 175,
           },
           painting: `/${placeURL.Table}/8`,
         },
@@ -4209,11 +3952,11 @@ export const all = {
     O: {
       id: 117,
       image: photos.OrcO,
-      left: {
+      leftTurn: {
         id: 116,
         link: `/${placeURL.Orchestre}/${directionURL.SO}`,
       },
-      right: {
+      rightTurn: {
         id: 118,
         link: `/${placeURL.Orchestre}/${directionURL.NO}`,
       },
@@ -4224,42 +3967,39 @@ export const all = {
     NO: {
       id: 118,
       image: photos.OrcNO,
-      left: {
+      leftTurn: {
         id: 117,
         link: `/${placeURL.Orchestre}/${directionURL.O}`,
       },
-      right: {
+      rightTurn: {
         id: 111,
         link: `/${placeURL.Orchestre}/${directionURL.N}`,
       },
       actions: [
         {
           style: {
-            height: '70px',
-            width: '50px',
-            left: 'calc(((100% - 627px) / 2) + 180px)',
-            borderRadius: '100%',
-            top: '325px',
+            height: 70,
+            width: 50,
+            left: 180,
+            top: 325,
           },
           painting: `/${autresURL.peinture}/210`,
         },
         {
           style: {
-            height: '55px',
-            width: '60px',
-            left: 'calc(((100% - 627px) / 2) + 250px)',
-            borderRadius: '100%',
-            top: '333px',
+            height: 55,
+            width: 60,
+            left: 250,
+            top: 333,
           },
           painting: `/${autresURL.peinture}/208`,
         },
         {
           style: {
-            height: '130px',
-            width: '135px',
-            right: 'calc(((100% - 627px) / 2) + 150px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 130,
+            width: 135,
+            right: 150,
+            top: 300,
           },
           painting: `/${autresURL.peinture}/10`,
         },
@@ -4272,42 +4012,39 @@ export const all = {
     N: {
       id: 121,
       image: photos.OrcMN,
-      left: {
+      leftTurn: {
         id: 128,
         link: `/${placeURL.Orchestre_milieu}/${directionURL.NO}`,
       },
-      right: {
+      rightTurn: {
         id: 122,
         link: `/${placeURL.Orchestre_milieu}/${directionURL.NE}`,
       },
       actions: [
         {
           style: {
-            height: '90px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 50px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 90,
+            width: 80,
+            left: 50,
+            top: 330,
           },
           painting: `/${autresURL.peinture}/10`,
         },
         {
           style: {
-            height: '100px',
-            width: '120px',
-            left: 'calc(((100% - 627px) / 2) + 155px)',
-            borderRadius: '100%',
-            top: '315px',
+            height: 100,
+            width: 120,
+            left: 155,
+            top: 315,
           },
           painting: `/${autresURL.peinture}/213`,
         },
         {
           style: {
-            height: '200px',
-            width: '120px',
-            right: 'calc(((100% - 627px) / 2) + 80px)',
-            borderRadius: '100%',
-            top: '315px',
+            height: 200,
+            width: 120,
+            right: 80,
+            top: 315,
           },
           painting: `/${autresURL.Affiches}/Fauve`,
         },
@@ -4318,22 +4055,21 @@ export const all = {
     NE: {
       id: 122,
       image: photos.OrcMNE,
-      left: {
+      leftTurn: {
         id: 121,
         link: `/${placeURL.Orchestre_milieu}/${directionURL.N}`,
       },
-      right: {
+      rightTurn: {
         id: 123,
         link: `/${placeURL.Orchestre_milieu}/${directionURL.E}`,
       },
       actions: [
         {
           style: {
-            height: '200px',
-            width: '120px',
-            left: 'calc(((100% - 627px) / 2) + 180px)',
-            borderRadius: '100%',
-            top: '315px',
+            height: 200,
+            width: 120,
+            left: 180,
+            top: 315,
           },
           painting: `/${autresURL.Affiches}/Fauve`,
         },
@@ -4344,32 +4080,30 @@ export const all = {
     E: {
       id: 123,
       image: photos.OrcME,
-      left: {
+      leftTurn: {
         id: 122,
         link: `/${placeURL.Orchestre_milieu}/${directionURL.NE}`,
       },
-      right: {
+      rightTurn: {
         id: 124,
         link: `/${placeURL.Orchestre_milieu}/${directionURL.SE}`,
       },
       actions: [
         {
           style: {
-            height: '160px',
-            width: '190px',
-            left: 'calc(((100% - 627px) / 2) + 210px)',
-            borderRadius: '100%',
-            top: '290px',
+            height: 160,
+            width: 190,
+            left: 210,
+            top: 290,
           },
           painting: `/${autresURL.peinture}/520`,
         },
         {
           style: {
-            height: '80px',
-            width: '80px',
-            right: 'calc(((100% - 627px) / 2) + 55px)',
-            borderRadius: '100%',
-            top: '340px',
+            height: 80,
+            width: 80,
+            right: 55,
+            top: 340,
           },
           painting: `/${autresURL.peinture}/519`,
         },
@@ -4380,52 +4114,48 @@ export const all = {
     SE: {
       id: 124,
       image: photos.OrcMSE,
-      left: {
+      leftTurn: {
         id: 123,
         link: `/${placeURL.Orchestre_milieu}/${directionURL.E}`,
       },
-      right: {
+      rightTurn: {
         id: 125,
         link: `/${placeURL.Orchestre_milieu}/${directionURL.S}`,
       },
       actions: [
         {
           style: {
-            height: '90px',
-            width: '95px',
-            left: 'calc(((100% - 627px) / 2) + 160px)',
-            borderRadius: '100%',
-            top: '315px',
+            height: 90,
+            width: 95,
+            left: 160,
+            top: 315,
           },
           painting: `/${autresURL.peinture}/519`,
         },
         {
           style: {
-            height: '90px',
-            width: '60px',
-            left: 'calc(((100% - 627px) / 2) + 300px)',
-            borderRadius: '100%',
-            top: '315px',
+            height: 90,
+            width: 60,
+            left: 300,
+            top: 315,
           },
           painting: `/${autresURL.peinture}/7`,
         },
         {
           style: {
-            height: '60px',
-            width: '80px',
-            right: 'calc(((100% - 627px) / 2) + 140px)',
-            borderRadius: '100%',
-            top: '295px',
+            height: 60,
+            width: 80,
+            right: 140,
+            top: 295,
           },
           painting: `/${autresURL.peinture}/453`,
         },
         {
           style: {
-            height: '60px',
-            width: '90px',
-            right: 'calc(((100% - 627px) / 2) + 140px)',
-            borderRadius: '100%',
-            top: '380px',
+            height: 60,
+            width: 90,
+            right: 140,
+            top: 380,
           },
           painting: `/${autresURL.peinture}/455`,
         },
@@ -4436,62 +4166,57 @@ export const all = {
     S: {
       id: 125,
       image: photos.OrcMS,
-      left: {
+      leftTurn: {
         id: 124,
         link: `/${placeURL.Orchestre_milieu}/${directionURL.SE}`,
       },
-      right: {
+      rightTurn: {
         id: 126,
         link: `/${placeURL.Orchestre_milieu}/${directionURL.SO}`,
       },
       actions: [
         {
           style: {
-            height: '60px',
-            width: '70px',
-            left: 'calc(((100% - 627px) / 2) + 115px)',
-            borderRadius: '100%',
-            top: '290px',
+            height: 60,
+            width: 70,
+            left: 115,
+            top: 290,
           },
           painting: `/${autresURL.peinture}/453`,
         },
         {
           style: {
-            height: '60px',
-            width: '90px',
-            left: 'calc(((100% - 627px) / 2) + 110px)',
-            borderRadius: '100%',
-            top: '370px',
+            height: 60,
+            width: 90,
+            left: 110,
+            top: 370,
           },
           painting: `/${autresURL.peinture}/455`,
         },
         {
           style: {
-            height: '60px',
-            width: '90px',
-            left: 'calc(((100% - 627px) / 2) + 245px)',
-            borderRadius: '100%',
-            top: '285px',
+            height: 60,
+            width: 90,
+            left: 245,
+            top: 285,
           },
           painting: `/${autresURL.peinture}/456`,
         },
         {
           style: {
-            height: '60px',
-            width: '90px',
-            left: 'calc(((100% - 627px) / 2) + 245px)',
-            borderRadius: '100%',
-            top: '370px',
+            height: 60,
+            width: 90,
+            left: 245,
+            top: 370,
           },
           painting: `/${autresURL.peinture}/457`,
         },
         {
           style: {
-            height: '60px',
-            width: '60px',
-            right: 'calc(((100% - 627px) / 2) + 170px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 60,
+            width: 60,
+            right: 170,
+            top: 330,
           },
           painting: `/${autresURL.peinture}/518`,
         },
@@ -4502,22 +4227,21 @@ export const all = {
     SO: {
       id: 126,
       image: photos.OrcMSO,
-      left: {
+      leftTurn: {
         id: 125,
         link: `/${placeURL.Orchestre_milieu}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: 127,
         link: `/${placeURL.Orchestre_milieu}/${directionURL.O}`,
       },
       actions: [
         {
           style: {
-            height: '100px',
-            width: '100px',
-            right: 'calc(((100% - 627px) / 2) + 170px)',
-            borderRadius: '100%',
-            bottom: '130px',
+            height: 100,
+            width: 100,
+            right: 170,
+            bottom: 130,
           },
           painting: `/${placeURL.Table}/1`,
         },
@@ -4528,32 +4252,30 @@ export const all = {
     O: {
       id: 127,
       image: photos.OrcMO,
-      left: {
+      leftTurn: {
         id: 126,
         link: `/${placeURL.Orchestre_milieu}/${directionURL.SO}`,
       },
-      right: {
+      rightTurn: {
         id: 128,
         link: `/${placeURL.Orchestre_milieu}/${directionURL.NO}`,
       },
       actions: [
         {
           style: {
-            height: '100px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 120px)',
-            borderRadius: '100%',
-            bottom: '120px',
+            height: 100,
+            width: 100,
+            left: 120,
+            bottom: 120,
           },
           painting: `/${placeURL.Table}/1`,
         },
         {
           style: {
-            height: '100px',
-            width: '100px',
-            right: 'calc(((100% - 627px) / 2) + 250px)',
-            borderRadius: '100%',
-            bottom: '100px',
+            height: 100,
+            width: 100,
+            right: 250,
+            bottom: 100,
           },
           painting: `/${placeURL.Table}/8`,
         },
@@ -4564,32 +4286,30 @@ export const all = {
     NO: {
       id: 128,
       image: photos.OrcMNO,
-      left: {
+      leftTurn: {
         id: 127,
         link: `/${placeURL.Orchestre_milieu}/${directionURL.O}`,
       },
-      right: {
+      rightTurn: {
         id: 121,
         link: `/${placeURL.Orchestre_milieu}/${directionURL.N}`,
       },
       actions: [
         {
           style: {
-            height: '90px',
-            width: '95px',
-            right: 'calc(((100% - 627px) / 2) + 170px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 90,
+            width: 95,
+            right: 170,
+            top: 330,
           },
           painting: `/${autresURL.peinture}/10`,
         },
         {
           style: {
-            height: '105px',
-            width: '110px',
-            right: 'calc(((100% - 627px) / 2) + 35px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 105,
+            width: 110,
+            right: 35,
+            top: 330,
           },
           painting: `/${autresURL.peinture}/213`,
         },
@@ -4602,11 +4322,11 @@ export const all = {
     N: {
       id: 131,
       image: photos.OrcON,
-      left: {
+      leftTurn: {
         id: 138,
         link: `/${placeURL.Orchestre_oppose}/${directionURL.NO}`,
       },
-      right: {
+      rightTurn: {
         id: 132,
         link: `/${placeURL.Orchestre_oppose}/${directionURL.NE}`,
       },
@@ -4617,32 +4337,30 @@ export const all = {
     NE: {
       id: 132,
       image: photos.OrcONE,
-      left: {
+      leftTurn: {
         id: 131,
         link: `/${placeURL.Orchestre_oppose}/${directionURL.N}`,
       },
-      right: {
+      rightTurn: {
         id: 133,
         link: `/${placeURL.Orchestre_oppose}/${directionURL.E}`,
       },
       actions: [
         {
           style: {
-            height: '130px',
-            width: '135px',
-            right: 'calc(((100% - 627px) / 2) + 275px)',
-            borderRadius: '100%',
-            top: '315px',
+            height: 130,
+            width: 135,
+            right: 275,
+            top: 315,
           },
           painting: `/${autresURL.peinture}/520`,
         },
         {
           style: {
-            height: '110px',
-            width: '150px',
-            right: 'calc(((100% - 627px) / 2) + 15px)',
-            borderRadius: '100%',
-            top: '335px',
+            height: 110,
+            width: 150,
+            right: 15,
+            top: 335,
           },
           painting: `/${autresURL.peinture}/519`,
         },
@@ -4653,32 +4371,30 @@ export const all = {
     E: {
       id: 133,
       image: photos.OrcOE,
-      left: {
+      leftTurn: {
         id: 132,
         link: `/${placeURL.Orchestre_oppose}/${directionURL.NE}`,
       },
-      right: {
+      rightTurn: {
         id: 134,
         link: `/${placeURL.Orchestre_oppose}/${directionURL.SE}`,
       },
       actions: [
         {
           style: {
-            height: '120px',
-            width: '180px',
-            left: 'calc(((100% - 627px) / 2) + 110px)',
-            borderRadius: '100%',
-            top: '320px',
+            height: 120,
+            width: 180,
+            left: 110,
+            top: 320,
           },
           painting: `/${autresURL.peinture}/519`,
         },
         {
           style: {
-            height: '189px',
-            width: '180px',
-            right: 'calc(((100% - 627px) / 2) + 45px)',
-            borderRadius: '100%',
-            top: '295px',
+            height: 189,
+            width: 180,
+            right: 45,
+            top: 295,
           },
           painting: `/${autresURL.peinture}/7`,
         },
@@ -4689,42 +4405,39 @@ export const all = {
     SE: {
       id: 134,
       image: photos.OrcOSE,
-      left: {
+      leftTurn: {
         id: 133,
         link: `/${placeURL.Orchestre_oppose}/${directionURL.E}`,
       },
-      right: {
+      rightTurn: {
         id: 135,
         link: `/${placeURL.Orchestre_oppose}/${directionURL.S}`,
       },
       actions: [
         {
           style: {
-            height: '190px',
-            width: '185px',
-            left: 'calc(((100% - 627px) / 2) + 50px)',
-            borderRadius: '100%',
-            top: '285px',
+            height: 190,
+            width: 185,
+            left: 50,
+            top: 285,
           },
           painting: `/${autresURL.peinture}/7`,
         },
         {
           style: {
-            height: '110px',
-            width: '145px',
-            right: 'calc(((100% - 627px) / 2) + 165px)',
-            borderRadius: '100%',
-            top: '255px',
+            height: 110,
+            width: 145,
+            right: 165,
+            top: 255,
           },
           painting: `/${autresURL.peinture}/453`,
         },
         {
           style: {
-            height: '90px',
-            width: '145px',
-            right: 'calc(((100% - 627px) / 2) + 165px)',
-            borderRadius: '100%',
-            bottom: '320px',
+            height: 90,
+            width: 145,
+            right: 165,
+            bottom: 320,
           },
           painting: `/${autresURL.peinture}/455`,
         },
@@ -4735,62 +4448,57 @@ export const all = {
     S: {
       id: 135,
       image: photos.OrcOS,
-      left: {
+      leftTurn: {
         id: 134,
         link: `/${placeURL.Orchestre_oppose}/${directionURL.SE}`,
       },
-      right: {
+      rightTurn: {
         id: 136,
         link: `/${placeURL.Orchestre_oppose}/${directionURL.SO}`,
       },
       actions: [
         {
           style: {
-            height: '100px',
-            width: '110px',
-            left: 'calc(((100% - 627px) / 2) + 30px)',
-            borderRadius: '100%',
-            top: '255px',
+            height: 100,
+            width: 110,
+            left: 30,
+            top: 255,
           },
           painting: `/${autresURL.peinture}/453`,
         },
         {
           style: {
-            height: '100px',
-            width: '110px',
-            left: 'calc(((100% - 627px) / 2) + 30px)',
-            borderRadius: '100%',
-            bottom: '325px',
+            height: 100,
+            width: 110,
+            left: 30,
+            bottom: 325,
           },
           painting: `/${autresURL.peinture}/455`,
         },
         {
           style: {
-            height: '120px',
-            width: '190px',
-            right: 'calc(((100% - 627px) / 2) + 170px)',
-            borderRadius: '100%',
-            top: '230px',
+            height: 120,
+            width: 190,
+            right: 170,
+            top: 230,
           },
           painting: `/${autresURL.peinture}/456`,
         },
         {
           style: {
-            height: '115px',
-            width: '190px',
-            right: 'calc(((100% - 627px) / 2) + 170px)',
-            borderRadius: '100%',
-            bottom: '310px',
+            height: 115,
+            width: 190,
+            right: 170,
+            bottom: 310,
           },
           painting: `/${autresURL.peinture}/457`,
         },
         {
           style: {
-            height: '90px',
-            width: '55px',
-            right: 'calc(((100% - 627px) / 2) + 15px)',
-            borderRadius: '100%',
-            top: '350px',
+            height: 90,
+            width: 55,
+            right: 15,
+            top: 350,
           },
           painting: `/${autresURL.peinture}/518`,
         },
@@ -4801,42 +4509,39 @@ export const all = {
     SO: {
       id: 136,
       image: photos.OrcOSO,
-      left: {
+      leftTurn: {
         id: 135,
         link: `/${placeURL.Orchestre_oppose}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: 137,
         link: `/${placeURL.Orchestre_oppose}/${directionURL.O}`,
       },
       actions: [
         {
           style: {
-            height: '90px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 165px)',
-            borderRadius: '100%',
-            top: '324px',
+            height: 90,
+            width: 80,
+            left: 165,
+            top: 324,
           },
           painting: `/${autresURL.peinture}/518`,
         },
         {
           style: {
-            height: '55px',
-            width: '40px',
-            right: 'calc(((100% - 627px) / 2) + 270px)',
-            borderRadius: '100%',
-            top: '295px',
+            height: 55,
+            width: 40,
+            right: 270,
+            top: 295,
           },
           painting: `/${autresURL.peinture}/217`,
         },
         {
           style: {
-            height: '55px',
-            width: '50px',
-            right: 'calc(((100% - 627px) / 2) + 265px)',
-            borderRadius: '100%',
-            top: '380px',
+            height: 55,
+            width: 50,
+            right: 265,
+            top: 380,
           },
           painting: `/${autresURL.peinture}/454`,
         },
@@ -4847,11 +4552,11 @@ export const all = {
     O: {
       id: 137,
       image: photos.OrcOO,
-      left: {
+      leftTurn: {
         id: 136,
         link: `/${placeURL.Orchestre_oppose}/${directionURL.SO}`,
       },
-      right: {
+      rightTurn: {
         id: 138,
         link: `/${placeURL.Orchestre_oppose}/${directionURL.NO}`,
       },
@@ -4862,22 +4567,21 @@ export const all = {
     NO: {
       id: 138,
       image: photos.OrcONO,
-      left: {
+      leftTurn: {
         id: 137,
         link: `/${placeURL.Orchestre_oppose}/${directionURL.O}`,
       },
-      right: {
+      rightTurn: {
         id: 131,
         link: `/${placeURL.Orchestre_oppose}/${directionURL.N}`,
       },
       actions: [
         {
           style: {
-            height: '60px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 200px)',
-            borderRadius: '100%',
-            bottom: '260px',
+            height: 60,
+            width: 80,
+            left: 200,
+            bottom: 260,
           },
           painting: `/${placeURL.Table}/1`,
         },
@@ -4890,11 +4594,11 @@ export const all = {
     N: {
       id: 141,
       image: photos.ParN,
-      left: {
+      leftTurn: {
         id: 148,
         link: `/${placeURL.Parfum}/${directionURL.NO}`,
       },
-      right: {
+      rightTurn: {
         id: 142,
         link: `/${placeURL.Parfum}/${directionURL.NE}`,
       },
@@ -4905,22 +4609,21 @@ export const all = {
     NE: {
       id: 142,
       image: photos.ParNE,
-      left: {
+      leftTurn: {
         id: 141,
         link: `/${placeURL.Parfum}/${directionURL.N}`,
       },
-      right: {
+      rightTurn: {
         id: 143,
         link: `/${placeURL.Parfum}/${directionURL.E}`,
       },
       actions: [
         {
           style: {
-            height: '80px',
-            width: '60px',
-            right: 'calc(((100% - 627px) / 2) + 172px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 80,
+            width: 60,
+            right: 172,
+            top: 330,
           },
           painting: `/${autresURL.peinture}/675`,
         },
@@ -4931,42 +4634,39 @@ export const all = {
     E: {
       id: 143,
       image: photos.ParE,
-      left: {
+      leftTurn: {
         id: 142,
         link: `/${placeURL.Parfum}/${directionURL.NE}`,
       },
-      right: {
+      rightTurn: {
         id: 144,
         link: `/${placeURL.Parfum}/${directionURL.SE}`,
       },
       actions: [
         {
           style: {
-            height: '80px',
-            width: '55px',
-            left: 'calc(((100% - 627px) / 2) + 95px)',
-            borderRadius: '100%',
-            top: '315px',
+            height: 80,
+            width: 55,
+            left: 95,
+            top: 315,
           },
           painting: `/${autresURL.peinture}/675`,
         },
         {
           style: {
-            height: '80px',
-            width: '45px',
-            right: 'calc(((100% - 627px) / 2) + 130px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 80,
+            width: 45,
+            right: 130,
+            top: 330,
           },
           painting: `/${autresURL.peinture}/227`,
         },
         {
           style: {
-            height: '230px',
-            width: '80px',
-            right: 'calc(((100% - 627px) / 2) + 20px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 230,
+            width: 80,
+            right: 20,
+            top: 330,
           },
           painting: `/${autresURL.Affiches}/Predilection`,
         },
@@ -4977,42 +4677,39 @@ export const all = {
     SE: {
       id: 144,
       image: photos.ParSE,
-      left: {
+      leftTurn: {
         id: 143,
         link: `/${placeURL.Parfum}/${directionURL.E}`,
       },
-      right: {
+      rightTurn: {
         id: 145,
         link: `/${placeURL.Parfum}/${directionURL.S}`,
       },
       actions: [
         {
           style: {
-            height: '80px',
-            width: '40px',
-            left: 'calc(((100% - 627px) / 2) + 150px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 80,
+            width: 40,
+            left: 150,
+            top: 330,
           },
           painting: `/${autresURL.peinture}/227`,
         },
         {
           style: {
-            height: '200px',
-            width: '110px',
-            left: 'calc(((100% - 627px) / 2) + 240px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 200,
+            width: 110,
+            left: 240,
+            top: 330,
           },
           painting: `/${autresURL.Affiches}/Predilection`,
         },
         {
           style: {
-            height: '260px',
-            width: '110px',
-            right: 'calc(((100% - 627px) / 2) + 80px)',
-            borderRadius: '100%',
-            top: '370px',
+            height: 260,
+            width: 110,
+            right: 80,
+            top: 370,
           },
           painting: `/${autresURL.Affiches}/Parfum`,
         },
@@ -5023,42 +4720,39 @@ export const all = {
     S: {
       id: 145,
       image: photos.ParS,
-      left: {
+      leftTurn: {
         id: 144,
         link: `/${placeURL.Parfum}/${directionURL.SE}`,
       },
-      right: {
+      rightTurn: {
         id: 146,
         link: `/${placeURL.Parfum}/${directionURL.SO}`,
       },
       actions: [
         {
           style: {
-            height: '220px',
-            width: '130px',
-            left: 'calc(((100% - 627px) / 2) + 50px)',
-            borderRadius: '100%',
-            bottom: '180px',
+            height: 220,
+            width: 130,
+            left: 50,
+            bottom: 180,
           },
           painting: `/${autresURL.Affiches}/Parfum`,
         },
         {
           style: {
-            height: '130px',
-            width: '200px',
-            right: 'calc(((100% - 627px) / 2) + 100px)',
-            borderRadius: '100%',
-            top: '225px',
+            height: 130,
+            width: 200,
+            right: 100,
+            top: 225,
           },
           painting: `/${autresURL.peinture}/699`,
         },
         {
           style: {
-            height: '180px',
-            width: '150px',
-            right: 'calc(((100% - 627px) / 2) + 125px)',
-            borderRadius: '100%',
-            bottom: '220px',
+            height: 180,
+            width: 150,
+            right: 125,
+            bottom: 220,
           },
           painting: `/${autresURL.peinture}/1042`,
         },
@@ -5069,42 +4763,39 @@ export const all = {
     SO: {
       id: 146,
       image: photos.ParSO,
-      left: {
+      leftTurn: {
         id: 145,
         link: `/${placeURL.Parfum}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: 147,
         link: `/${placeURL.Parfum}/${directionURL.O}`,
       },
       actions: [
         {
           style: {
-            height: '140px',
-            width: '220px',
-            left: 'calc(((100% - 627px) / 2) + 38px)',
-            borderRadius: '100%',
-            top: '205px',
+            height: 140,
+            width: 220,
+            left: 38,
+            top: 205,
           },
           painting: `/${autresURL.peinture}/699`,
         },
         {
           style: {
-            height: '210px',
-            width: '160px',
-            left: 'calc(((100% - 627px) / 2) + 60px)',
-            borderRadius: '100%',
-            top: '430px',
+            height: 210,
+            width: 160,
+            left: 60,
+            top: 430,
           },
           painting: `/${autresURL.peinture}/1042`,
         },
         {
           style: {
-            height: '245px',
-            width: '175px',
-            right: 'calc(((100% - 627px) / 2) + 100px)',
-            borderRadius: '100%',
-            top: '310px',
+            height: 245,
+            width: 175,
+            right: 100,
+            top: 310,
           },
           painting: `/${autresURL.peinture}/679`,
         },
@@ -5115,32 +4806,30 @@ export const all = {
     O: {
       id: 147,
       image: photos.ParO,
-      left: {
+      leftTurn: {
         id: 146,
         link: `/${placeURL.Parfum}/${directionURL.SO}`,
       },
-      right: {
+      rightTurn: {
         id: 148,
         link: `/${placeURL.Parfum}/${directionURL.NO}`,
       },
       actions: [
         {
           style: {
-            height: '240px',
-            width: '175px',
-            left: 'calc(((100% - 627px) / 2) + 30px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 240,
+            width: 175,
+            left: 30,
+            top: 300,
           },
           painting: `/${autresURL.peinture}/679`,
         },
         {
           style: {
-            height: '240px',
-            width: '175px',
-            right: 'calc(((100% - 627px) / 2) + 90px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 240,
+            width: 175,
+            right: 90,
+            top: 300,
           },
           painting: `/${autresURL.peinture}/678`,
         },
@@ -5151,22 +4840,21 @@ export const all = {
     NO: {
       id: 148,
       image: photos.ParNO,
-      left: {
+      leftTurn: {
         id: 147,
         link: `/${placeURL.Parfum}/${directionURL.O}`,
       },
-      right: {
+      rightTurn: {
         id: 141,
         link: `/${placeURL.Parfum}/${directionURL.N}`,
       },
       actions: [
         {
           style: {
-            height: '270px',
-            width: '195px',
-            left: 'calc(((100% - 627px) / 2) + 53px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 270,
+            width: 195,
+            left: 53,
+            top: 300,
           },
           painting: `/${autresURL.peinture}/678`,
         },
@@ -5179,22 +4867,21 @@ export const all = {
     N: {
       id: 151,
       image: photos.PorN,
-      left: {
+      leftTurn: {
         id: 158,
         link: `/${placeURL.Portrait}/${directionURL.NO}`,
       },
-      right: {
+      rightTurn: {
         id: 152,
         link: `/${placeURL.Portrait}/${directionURL.NE}`,
       },
       actions: [
         {
           style: {
-            height: '200px',
-            width: '200px',
-            left: 'calc(((100% - 627px) / 2) + 200px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 200,
+            width: 200,
+            left: 200,
+            top: 300,
           },
           painting: `/${autresURL.Affiches}/Portraits`,
         },
@@ -5205,22 +4892,21 @@ export const all = {
     NE: {
       id: 152,
       image: photos.PorNE,
-      left: {
+      leftTurn: {
         id: 151,
         link: `/${placeURL.Portrait}/${directionURL.N}`,
       },
-      right: {
+      rightTurn: {
         id: 153,
         link: `/${placeURL.Portrait}/${directionURL.E}`,
       },
       actions: [
         {
           style: {
-            height: '200px',
-            width: '60px',
-            right: 'calc(((100% - 627px) / 2) + 180px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 200,
+            width: 60,
+            right: 180,
+            top: 300,
           },
           painting: `/${autresURL.Affiches}/Bretagne`,
         },
@@ -5231,62 +4917,57 @@ export const all = {
     E: {
       id: 153,
       image: photos.PorE,
-      left: {
+      leftTurn: {
         id: 152,
         link: `/${placeURL.Portrait}/${directionURL.NE}`,
       },
-      right: {
+      rightTurn: {
         id: 154,
         link: `/${placeURL.Portrait}/${directionURL.SE}`,
       },
       actions: [
         {
           style: {
-            height: '120px',
-            width: '60px',
-            left: 'calc(((100% - 627px) / 2) + 70px)',
-            borderRadius: '100%',
-            top: '350px',
+            height: 120,
+            width: 60,
+            left: 70,
+            top: 350,
           },
           painting: `/${autresURL.Affiches}/Bretagne`,
         },
         {
           style: {
-            height: '50px',
-            width: '35px',
-            right: 'calc(((100% - 627px) / 2) + 190px)',
-            borderRadius: '100%',
-            top: '370px',
+            height: 50,
+            width: 35,
+            right: 190,
+            top: 370,
           },
           painting: `/${autresURL.Affiches}/Eugenio`,
         },
         {
           style: {
-            height: '55px',
-            width: '80px',
-            right: 'calc(((100% - 627px) / 2) + 105px)',
-            borderRadius: '100%',
-            top: '275px',
+            height: 55,
+            width: 80,
+            right: 105,
+            top: 275,
           },
           painting: `/${autresURL.peinture}/9999999999`,
         },
         {
           style: {
-            height: '35px',
-            width: '40px',
-            right: 'calc(((100% - 627px) / 2) + 120px)',
-            borderRadius: '100%',
-            top: '350px',
+            height: 35,
+            width: 40,
+            right: 120,
+            top: 350,
           },
           painting: `/${autresURL.peinture}/9999999999`,
         },
         {
           style: {
-            height: '100px',
-            width: '55px',
-            right: 'calc(((100% - 627px) / 2) + 120px)',
-            borderRadius: '100%',
-            top: '400px',
+            height: 100,
+            width: 55,
+            right: 120,
+            top: 400,
           },
           painting: `/${autresURL.peinture}/9999999999`,
         },
@@ -5297,62 +4978,57 @@ export const all = {
     SE: {
       id: 154,
       image: photos.PorSE,
-      left: {
+      leftTurn: {
         id: 153,
         link: `/${placeURL.Portrait}/${directionURL.E}`,
       },
-      right: {
+      rightTurn: {
         id: 155,
         link: `/${placeURL.Portrait}/${directionURL.S}`,
       },
       actions: [
         {
           style: {
-            height: '70px',
-            width: '45px',
-            left: 'calc(((100% - 627px) / 2) + 90px)',
-            borderRadius: '100%',
-            top: '360px',
+            height: 70,
+            width: 45,
+            left: 90,
+            top: 360,
           },
           painting: `/${autresURL.Affiches}/Eugenio`,
         },
         {
           style: {
-            height: '58px',
-            width: '85px',
-            left: 'calc(((100% - 627px) / 2) + 140px)',
-            borderRadius: '100%',
-            top: '270px',
+            height: 58,
+            width: 85,
+            left: 140,
+            top: 270,
           },
           painting: `/${autresURL.peinture}/9999999999`,
         },
         {
           style: {
-            height: '30px',
-            width: '40px',
-            left: 'calc(((100% - 627px) / 2) + 160px)',
-            borderRadius: '100%',
-            top: '350px',
+            height: 30,
+            width: 40,
+            left: 160,
+            top: 350,
           },
           painting: `/${autresURL.peinture}/9999999999`,
         },
         {
           style: {
-            height: '105px',
-            width: '60px',
-            left: 'calc(((100% - 627px) / 2) + 150px)',
-            borderRadius: '100%',
-            top: '395px',
+            height: 105,
+            width: 60,
+            left: 150,
+            top: 395,
           },
           painting: `/${autresURL.peinture}/9999999999`,
         },
         {
           style: {
-            height: '140px',
-            width: '135px',
-            right: 'calc(((100% - 627px) / 2) + 220px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 140,
+            width: 135,
+            right: 220,
+            top: 300,
           },
           painting: `/${autresURL.peinture}/287`,
         },
@@ -5363,32 +5039,30 @@ export const all = {
     S: {
       id: 155,
       image: photos.PorS,
-      left: {
+      leftTurn: {
         id: 154,
         link: `/${placeURL.Portrait}/${directionURL.SE}`,
       },
-      right: {
+      rightTurn: {
         id: 156,
         link: `/${placeURL.Portrait}/${directionURL.SO}`,
       },
       actions: [
         {
           style: {
-            height: '300px',
-            width: '280px',
-            left: 'calc(((100% - 627px) / 2) + 60px)',
-            borderRadius: '100%',
-            top: '240px',
+            height: 300,
+            width: 280,
+            left: 60,
+            top: 240,
           },
           painting: `/${autresURL.peinture}/289`,
         },
         {
           style: {
-            height: '255px',
-            width: '180px',
-            right: 'calc(((100% - 627px) / 2) + 10px)',
-            borderRadius: '100%',
-            top: '273px',
+            height: 255,
+            width: 180,
+            right: 10,
+            top: 273,
           },
           painting: `/${autresURL.peinture}/288`,
         },
@@ -5399,22 +5073,21 @@ export const all = {
     SO: {
       id: 156,
       image: photos.PorSO,
-      left: {
+      leftTurn: {
         id: 155,
         link: `/${placeURL.Portrait}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: 157,
         link: `/${placeURL.Portrait}/${directionURL.O}`,
       },
       actions: [
         {
           style: {
-            height: '265px',
-            width: '205px',
-            left: 'calc(((100% - 627px) / 2) + 85px)',
-            borderRadius: '100%',
-            top: '240px',
+            height: 265,
+            width: 205,
+            left: 85,
+            top: 240,
           },
           painting: `/${autresURL.peinture}/288`,
         },
@@ -5425,11 +5098,11 @@ export const all = {
     O: {
       id: 157,
       image: photos.PorO,
-      left: {
+      leftTurn: {
         id: 156,
         link: `/${placeURL.Portrait}/${directionURL.SO}`,
       },
-      right: {
+      rightTurn: {
         id: 158,
         link: `/${placeURL.Portrait}/${directionURL.NO}`,
       },
@@ -5440,32 +5113,30 @@ export const all = {
     NO: {
       id: 158,
       image: photos.PorNO,
-      left: {
+      leftTurn: {
         id: 157,
         link: `/${placeURL.Portrait}/${directionURL.O}`,
       },
-      right: {
+      rightTurn: {
         id: 151,
         link: `/${placeURL.Portrait}/${directionURL.N}`,
       },
       actions: [
         {
           style: {
-            height: '135px',
-            width: '105px',
-            left: 'calc(((100% - 627px) / 2) + 215px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 135,
+            width: 105,
+            left: 215,
+            top: 330,
           },
           painting: `/${autresURL.peinture}/275`,
         },
         {
           style: {
-            height: '180px',
-            width: '200px',
-            right: 'calc(((100% - 627px) / 2) + 10px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 180,
+            width: 200,
+            right: 10,
+            top: 330,
           },
           painting: `/${autresURL.Affiches}/Portraits`,
         },
@@ -5478,62 +5149,57 @@ export const all = {
     1: {
       id: 161,
       image: photos.Tab1,
-      left: {
+      leftTurn: {
         id: 162,
         link: `/${placeURL.Table}/2`,
       },
-      right: {
+      rightTurn: {
         id: 168,
         link: `/${placeURL.Table}/8`,
       },
       actions: [
         {
           style: {
-            height: '80px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 170px)',
-            borderRadius: '100%',
-            top: '230px',
+            height: 80,
+            width: 100,
+            left: 170,
+            top: 230,
           },
           painting: `/${autresURL.dessins_table}/4161`,
         },
         {
           style: {
-            height: '80px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 140px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 80,
+            width: 100,
+            left: 140,
+            top: 330,
           },
           painting: `/${autresURL.dessins_table}/9999999999`,
         },
         {
           style: {
-            height: '180px',
-            width: '150px',
-            right: 'calc(((100% - 627px) / 2) + 155px)',
-            borderRadius: '100%',
-            top: '235px',
+            height: 180,
+            width: 150,
+            right: 155,
+            top: 235,
           },
           painting: `/${autresURL.Affiches}/Livre`,
         },
         {
           style: {
-            height: '150px',
-            width: '210px',
-            left: 'calc(((100% - 627px) / 2) + 43px)',
-            borderRadius: '100%',
-            bottom: '255px',
+            height: 150,
+            width: 210,
+            left: 43,
+            bottom: 255,
           },
           painting: `/${autresURL.dessins_table}/4157`,
         },
         {
           style: {
-            height: '130px',
-            width: '180px',
-            right: 'calc(((100% - 627px) / 2) + 170px)',
-            borderRadius: '100%',
-            bottom: '230px',
+            height: 130,
+            width: 180,
+            right: 170,
+            bottom: 230,
           },
           painting: `/${autresURL.dessins_table}/4158`,
         },
@@ -5544,52 +5210,48 @@ export const all = {
     2: {
       id: 162,
       image: photos.Tab2,
-      left: {
+      leftTurn: {
         id: 163,
         link: `/${placeURL.Table}/3`,
       },
-      right: {
+      rightTurn: {
         id: 161,
         link: `/${placeURL.Table}/1`,
       },
       actions: [
         {
           style: {
-            height: '80px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 150px)',
-            borderRadius: '100%',
-            top: '225px',
+            height: 80,
+            width: 100,
+            left: 150,
+            top: 225,
           },
           painting: `/${autresURL.dessins_table}/4153`,
         },
         {
           style: {
-            height: '80px',
-            width: '130px',
-            right: 'calc(((100% - 627px) / 2) + 150px)',
-            borderRadius: '100%',
-            top: '213px',
+            height: 80,
+            width: 130,
+            right: 150,
+            top: 213,
           },
           painting: `/${autresURL.dessins_table}/4161`,
         },
         {
           style: {
-            height: '80px',
-            width: '120px',
-            right: 'calc(((100% - 627px) / 2) + 170px)',
-            borderRadius: '100%',
-            top: '310px',
+            height: 80,
+            width: 120,
+            right: 170,
+            top: 310,
           },
           painting: `/${autresURL.dessins_table}/9999999999`,
         },
         {
           style: {
-            height: '150px',
-            width: '200px',
-            right: 'calc(((100% - 627px) / 2) + 180px)',
-            borderRadius: '100%',
-            bottom: '260px',
+            height: 150,
+            width: 200,
+            right: 180,
+            bottom: 260,
           },
           painting: `/${autresURL.dessins_table}/4157`,
         },
@@ -5600,62 +5262,57 @@ export const all = {
     3: {
       id: 163,
       image: photos.Tab3,
-      left: {
+      leftTurn: {
         id: 164,
         link: `/${placeURL.Table}/4`,
       },
-      right: {
+      rightTurn: {
         id: 162,
         link: `/${placeURL.Table}/2`,
       },
       actions: [
         {
           style: {
-            height: '80px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 130px)',
-            borderRadius: '100%',
-            top: '220px',
+            height: 80,
+            width: 100,
+            left: 130,
+            top: 220,
           },
           painting: `/${autresURL.dessins_table}/4142`,
         },
         {
           style: {
-            height: '80px',
-            width: '120px',
-            left: 'calc(((100% - 627px) / 2) + 255px)',
-            borderRadius: '100%',
-            top: '204px',
+            height: 80,
+            width: 120,
+            left: 255,
+            top: 204,
           },
           painting: `/${autresURL.dessins_table}/4152`,
         },
         {
           style: {
-            height: '70px',
-            width: '100px',
-            right: 'calc(((100% - 627px) / 2) + 110px)',
-            borderRadius: '100%',
-            top: '204px',
+            height: 70,
+            width: 100,
+            right: 110,
+            top: 204,
           },
           painting: `/${autresURL.dessins_table}/4153`,
         },
         {
           style: {
-            height: '120px',
-            width: '140px',
-            right: 'calc(((100% - 627px) / 2) + 155px)',
-            borderRadius: '100%',
-            top: '315px',
+            height: 120,
+            width: 140,
+            right: 155,
+            top: 315,
           },
           painting: `/${autresURL.dessins_table}/4155`,
         },
         {
           style: {
-            height: '120px',
-            width: '150px',
-            right: 'calc(((100% - 627px) / 2) + 180px)',
-            borderRadius: '100%',
-            bottom: '265px',
+            height: 120,
+            width: 150,
+            right: 180,
+            bottom: 265,
           },
           painting: `/${autresURL.dessins_table}/4156`,
         },
@@ -5666,42 +5323,39 @@ export const all = {
     4: {
       id: 164,
       image: photos.Tab4,
-      left: {
+      leftTurn: {
         id: 165,
         link: `/${placeURL.Table}/5`,
       },
-      right: {
+      rightTurn: {
         id: 163,
         link: `/${placeURL.Table}/3`,
       },
       actions: [
         {
           style: {
-            height: '80px',
-            width: '130px',
-            left: 'calc(((100% - 627px) / 2) + 205px)',
-            borderRadius: '100%',
-            top: '195px',
+            height: 80,
+            width: 130,
+            left: 205,
+            top: 195,
           },
           painting: `/${autresURL.dessins_table}/4141`,
         },
         {
           style: {
-            height: '75px',
-            width: '130px',
-            right: 'calc(((100% - 627px) / 2) + 154px)',
-            borderRadius: '100%',
-            top: '195px',
+            height: 75,
+            width: 130,
+            right: 154,
+            top: 195,
           },
           painting: `/${autresURL.dessins_table}/4142`,
         },
         {
           style: {
-            height: '200px',
-            width: '280px',
-            right: 'calc(((100% - 627px) / 2) + 140px)',
-            borderRadius: '100%',
-            bottom: '280px',
+            height: 200,
+            width: 280,
+            right: 140,
+            bottom: 280,
           },
           painting: `/${autresURL.dessins_table}/4154`,
         },
@@ -5712,52 +5366,48 @@ export const all = {
     5: {
       id: 165,
       image: photos.Tab5,
-      left: {
+      leftTurn: {
         id: 166,
         link: `/${placeURL.Table}/6`,
       },
-      right: {
+      rightTurn: {
         id: 164,
         link: `/${placeURL.Table}/4`,
       },
       actions: [
         {
           style: {
-            height: '100px',
-            width: '100px',
-            right: 'calc(((100% - 627px) / 2) + 150px)',
-            borderRadius: '100%',
-            bottom: '395px',
+            height: 100,
+            width: 100,
+            right: 150,
+            bottom: 395,
           },
           painting: `/${autresURL.dessins_table}/4141`,
         },
         {
           style: {
-            height: '100px',
-            width: '180px',
-            left: 'calc(((100% - 627px) / 2) + 170px)',
-            borderRadius: '100%',
-            bottom: '395px',
+            height: 100,
+            width: 180,
+            left: 170,
+            bottom: 395,
           },
           painting: `/${autresURL.dessins_table}/4142`,
         },
         {
           style: {
-            height: '100px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 50px)',
-            borderRadius: '100%',
-            bottom: '395px',
+            height: 100,
+            width: 100,
+            left: 50,
+            bottom: 395,
           },
           painting: `/${autresURL.dessins_table}/4152`,
         },
         {
           style: {
-            height: '100px',
-            width: '200px',
-            left: 'calc(((100% - 627px) / 2) + 240px)',
-            borderRadius: '100%',
-            top: '150px',
+            height: 100,
+            width: 200,
+            left: 240,
+            top: 150,
           },
           painting: `/${autresURL.dessins_table}/4154`,
         },
@@ -5768,62 +5418,57 @@ export const all = {
     6: {
       id: 166,
       image: photos.Tab6,
-      left: {
+      leftTurn: {
         id: 167,
         link: `/${placeURL.Table}/7`,
       },
-      right: {
+      rightTurn: {
         id: 165,
         link: `/${placeURL.Table}/5`,
       },
       actions: [
         {
           style: {
-            height: '100px',
-            width: '150px',
-            left: 'calc(((100% - 627px) / 2) + 90px)',
-            borderRadius: '100%',
-            bottom: '380px',
+            height: 100,
+            width: 150,
+            left: 90,
+            bottom: 380,
           },
           painting: `/${autresURL.dessins_table}/4153`,
         },
         {
           style: {
-            height: '100px',
-            width: '140px',
-            left: 'calc(((100% - 627px) / 2) + 300px)',
-            borderRadius: '100%',
-            bottom: '380px',
+            height: 100,
+            width: 140,
+            left: 300,
+            bottom: 380,
           },
           painting: `/${autresURL.dessins_table}/4152`,
         },
         {
           style: {
-            height: '100px',
-            width: '110px',
-            right: 'calc(((100% - 627px) / 2) + 60px)',
-            borderRadius: '100%',
-            bottom: '380px',
+            height: 100,
+            width: 110,
+            right: 60,
+            bottom: 380,
           },
           painting: `/${autresURL.dessins_table}/4142`,
         },
         {
           style: {
-            height: '90px',
-            width: '130px',
-            left: 'calc(((100% - 627px) / 2) + 230px)',
-            borderRadius: '100%',
-            top: '200px',
+            height: 90,
+            width: 130,
+            left: 230,
+            top: 200,
           },
           painting: `/${autresURL.dessins_table}/4155`,
         },
         {
           style: {
-            height: '60px',
-            width: '130px',
-            left: 'calc(((100% - 627px) / 2) + 270px)',
-            borderRadius: '100%',
-            top: '135px',
+            height: 60,
+            width: 130,
+            left: 270,
+            top: 135,
           },
           painting: `/${autresURL.dessins_table}/4156`,
         },
@@ -5834,52 +5479,48 @@ export const all = {
     7: {
       id: 167,
       image: photos.Tab7,
-      left: {
+      leftTurn: {
         id: 168,
         link: `/${placeURL.Table}/8`,
       },
-      right: {
+      rightTurn: {
         id: 166,
         link: `/${placeURL.Table}/6`,
       },
       actions: [
         {
           style: {
-            height: '90px',
-            width: '200px',
-            left: 'calc(((100% - 627px) / 2) + 220px)',
-            borderRadius: '100%',
-            top: '135px',
+            height: 90,
+            width: 200,
+            left: 220,
+            top: 135,
           },
           painting: `/${autresURL.dessins_table}/4157`,
         },
         {
           style: {
-            height: '80px',
-            width: '140px',
-            left: 'calc(((100% - 627px) / 2) + 180px)',
-            borderRadius: '100%',
-            top: '235px',
+            height: 80,
+            width: 140,
+            left: 180,
+            top: 235,
           },
           painting: `/${autresURL.dessins_table}/9999999999`,
         },
         {
           style: {
-            height: '140px',
-            width: '160px',
-            left: 'calc(((100% - 627px) / 2) + 140px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 140,
+            width: 160,
+            left: 140,
+            top: 330,
           },
           painting: `/${autresURL.dessins_table}/4161`,
         },
         {
           style: {
-            height: '120px',
-            width: '130px',
-            right: 'calc(((100% - 627px) / 2) + 95px)',
-            borderRadius: '100%',
-            top: '355px',
+            height: 120,
+            width: 130,
+            right: 95,
+            top: 355,
           },
           painting: `/${autresURL.dessins_table}/4153`,
         },
@@ -5890,52 +5531,48 @@ export const all = {
     8: {
       id: 168,
       image: photos.Tab8,
-      left: {
+      leftTurn: {
         id: 161,
         link: `/${placeURL.Table}/1`,
       },
-      right: {
+      rightTurn: {
         id: 167,
         link: `/${placeURL.Table}/7`,
       },
       actions: [
         {
           style: {
-            height: '100px',
-            width: '100px',
-            right: 'calc(((100% - 627px) / 2) + 70px)',
-            borderRadius: '100%',
-            bottom: '330px',
+            height: 100,
+            width: 100,
+            right: 70,
+            bottom: 330,
           },
           painting: `/${autresURL.dessins_table}/4161`,
         },
         {
           style: {
-            height: '80px',
-            width: '80px',
-            right: 'calc(((100% - 627px) / 2) + 80px)',
-            borderRadius: '100%',
-            top: '305px',
+            height: 80,
+            width: 80,
+            right: 80,
+            top: 305,
           },
           painting: `/${autresURL.dessins_table}/9999999999`,
         },
         {
           style: {
-            height: '250px',
-            width: '200px',
-            left: 'calc(((100% - 627px) / 2) + 190px)',
-            borderRadius: '100%',
-            bottom: '330px',
+            height: 250,
+            width: 200,
+            left: 190,
+            bottom: 330,
           },
           painting: `/${autresURL.Affiches}/Livre`,
         },
         {
           style: {
-            height: '80px',
-            width: '160px',
-            left: 'calc(((100% - 627px) / 2) + 260px)',
-            borderRadius: '100%',
-            top: '140px',
+            height: 80,
+            width: 160,
+            left: 260,
+            top: 140,
           },
           painting: `/${autresURL.dessins_table}/4158`,
         },
@@ -5948,52 +5585,48 @@ export const all = {
     N: {
       id: 171,
       image: photos.TabEN,
-      left: {
+      leftTurn: {
         id: 178,
         link: `/${placeURL.Table_entree}/${directionURL.NO}`,
       },
-      right: {
+      rightTurn: {
         id: 172,
         link: `/${placeURL.Table_entree}/${directionURL.NE}`,
       },
       actions: [
         {
           style: {
-            height: '60px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 70px)',
-            borderRadius: '100%',
-            bottom: '200px',
+            height: 60,
+            width: 80,
+            left: 70,
+            bottom: 200,
           },
           painting: `/${placeURL.Table}/4`,
         },
         {
           style: {
-            height: '60px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 200px)',
-            borderRadius: '100%',
-            bottom: '180px',
+            height: 60,
+            width: 80,
+            left: 200,
+            bottom: 180,
           },
           painting: `/${placeURL.Table}/3`,
         },
         {
           style: {
-            height: '60px',
-            width: '80px',
-            right: 'calc(((100% - 627px) / 2) + 200px)',
-            borderRadius: '100%',
-            bottom: '180px',
+            height: 60,
+            width: 80,
+            right: 200,
+            bottom: 180,
           },
           painting: `/${placeURL.Table}/2`,
         },
         {
           style: {
-            height: '60px',
-            width: '80px',
-            right: 'calc(((100% - 627px) / 2) + 70px)',
-            borderRadius: '100%',
-            bottom: '200px',
+            height: 60,
+            width: 80,
+            right: 70,
+            bottom: 200,
           },
           painting: `/${placeURL.Table}/1`,
         },
@@ -6004,32 +5637,30 @@ export const all = {
     NE: {
       id: 172,
       image: photos.TabENE,
-      left: {
+      leftTurn: {
         id: 171,
         link: `/${placeURL.Table_entree}/${directionURL.N}`,
       },
-      right: {
+      rightTurn: {
         id: 173,
         link: `/${placeURL.Table_entree}/${directionURL.E}`,
       },
       actions: [
         {
           style: {
-            height: '60px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 90px)',
-            borderRadius: '100%',
-            bottom: '220px',
+            height: 60,
+            width: 80,
+            left: 90,
+            bottom: 220,
           },
           painting: `/${placeURL.Table}/2`,
         },
         {
           style: {
-            height: '60px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 210px)',
-            borderRadius: '100%',
-            bottom: '240px',
+            height: 60,
+            width: 80,
+            left: 210,
+            bottom: 240,
           },
           painting: `/${placeURL.Table}/1`,
         },
@@ -6040,82 +5671,75 @@ export const all = {
     E: {
       id: 173,
       image: photos.TabEE,
-      left: {
+      leftTurn: {
         id: 172,
         link: `/${placeURL.Table_entree}/${directionURL.NE}`,
       },
-      right: {
+      rightTurn: {
         id: 174,
         link: `/${placeURL.Table_entree}/${directionURL.SE}`,
       },
       actions: [
         {
           style: {
-            height: '60px',
-            width: '70px',
-            left: 'calc(((100% - 627px) / 2) + 100px)',
-            borderRadius: '100%',
-            top: '350px',
+            height: 60,
+            width: 70,
+            left: 100,
+            top: 350,
           },
           painting: `/${autresURL.peinture}/520`,
         },
         {
           style: {
-            height: '50px',
-            width: '70px',
-            left: 'calc(((100% - 627px) / 2) + 220px)',
-            borderRadius: '100%',
-            top: '355px',
+            height: 50,
+            width: 70,
+            left: 220,
+            top: 355,
           },
           painting: `/${autresURL.peinture}/519`,
         },
         {
           style: {
-            height: '80px',
-            width: '95px',
-            right: 'calc(((100% - 627px) / 2) + 200px)',
-            borderRadius: '100%',
-            top: '345px',
+            height: 80,
+            width: 95,
+            right: 200,
+            top: 345,
           },
           painting: `/${autresURL.peinture}/7`,
         },
         {
           style: {
-            height: '60px',
-            width: '40px',
-            right: 'calc(((100% - 627px) / 2) + 120px)',
-            borderRadius: '100%',
-            top: '320px',
+            height: 60,
+            width: 40,
+            right: 120,
+            top: 320,
           },
           painting: `/${autresURL.peinture}/453`,
         },
         {
           style: {
-            height: '55px',
-            width: '45px',
-            right: 'calc(((100% - 627px) / 2) + 120px)',
-            borderRadius: '100%',
-            top: '410px',
+            height: 55,
+            width: 45,
+            right: 120,
+            top: 410,
           },
           painting: `/${autresURL.peinture}/455`,
         },
         {
           style: {
-            height: '90px',
-            width: '60px',
-            right: 'calc(((100% - 627px) / 2) + 20px)',
-            borderRadius: '100%',
-            top: '290px',
+            height: 90,
+            width: 60,
+            right: 20,
+            top: 290,
           },
           painting: `/${autresURL.peinture}/456`,
         },
         {
           style: {
-            height: '90px',
-            width: '60px',
-            right: 'calc(((100% - 627px) / 2) + 20px)',
-            borderRadius: '100%',
-            top: '415px',
+            height: 90,
+            width: 60,
+            right: 20,
+            top: 415,
           },
           painting: `/${autresURL.peinture}/457`,
         },
@@ -6126,62 +5750,57 @@ export const all = {
     SE: {
       id: 174,
       image: photos.TabESE,
-      left: {
+      leftTurn: {
         id: 173,
         link: `/${placeURL.Table_entree}/${directionURL.E}`,
       },
-      right: {
+      rightTurn: {
         id: 175,
         link: `/${placeURL.Table_entree}/${directionURL.S}`,
       },
       actions: [
         {
           style: {
-            height: '60px',
-            width: '40px',
-            left: 'calc(((100% - 627px) / 2) + 175px)',
-            borderRadius: '100%',
-            top: '315px',
+            height: 60,
+            width: 40,
+            left: 175,
+            top: 315,
           },
           painting: `/${autresURL.peinture}/453`,
         },
         {
           style: {
-            height: '55px',
-            width: '40px',
-            left: 'calc(((100% - 627px) / 2) + 175px)',
-            borderRadius: '100%',
-            bottom: '380px',
+            height: 55,
+            width: 40,
+            left: 175,
+            bottom: 380,
           },
           painting: `/${autresURL.peinture}/455`,
         },
         {
           style: {
-            height: '80px',
-            width: '90px',
-            left: 'calc(((100% - 627px) / 2) + 253px)',
-            borderRadius: '100%',
-            top: '285px',
+            height: 80,
+            width: 90,
+            left: 253,
+            top: 285,
           },
           painting: `/${autresURL.peinture}/456`,
         },
         {
           style: {
-            height: '80px',
-            width: '95px',
-            left: 'calc(((100% - 627px) / 2) + 250px)',
-            borderRadius: '100%',
-            bottom: '350px',
+            height: 80,
+            width: 95,
+            left: 250,
+            bottom: 350,
           },
           painting: `/${autresURL.peinture}/457`,
         },
         {
           style: {
-            height: '120px',
-            width: '125px',
-            right: 'calc(((100% - 627px) / 2) + 40px)',
-            borderRadius: '100%',
-            top: '340px',
+            height: 120,
+            width: 125,
+            right: 40,
+            top: 340,
           },
           painting: `/${autresURL.peinture}/518`,
         },
@@ -6192,42 +5811,39 @@ export const all = {
     S: {
       id: 175,
       image: photos.TabES,
-      left: {
+      leftTurn: {
         id: 174,
         link: `/${placeURL.Table_entree}/${directionURL.SE}`,
       },
-      right: {
+      rightTurn: {
         id: 176,
         link: `/${placeURL.Table_entree}/${directionURL.SO}`,
       },
       actions: [
         {
           style: {
-            height: '110px',
-            width: '110px',
-            left: 'calc(((100% - 627px) / 2) + 50px)',
-            borderRadius: '100%',
-            top: '340px',
+            height: 110,
+            width: 110,
+            left: 50,
+            top: 340,
           },
           painting: `/${autresURL.peinture}/518`,
         },
         {
           style: {
-            height: '100px',
-            width: '135px',
-            right: 'calc(((100% - 627px) / 2) + 155px)',
-            borderRadius: '100%',
-            top: '260px',
+            height: 100,
+            width: 135,
+            right: 155,
+            top: 260,
           },
           painting: `/${autresURL.peinture}/217`,
         },
         {
           style: {
-            height: '95px',
-            width: '155px',
-            right: 'calc(((100% - 627px) / 2) + 150px)',
-            borderRadius: '100%',
-            bottom: '315px',
+            height: 95,
+            width: 155,
+            right: 150,
+            bottom: 315,
           },
           painting: `/${autresURL.peinture}/454`,
         },
@@ -6238,32 +5854,30 @@ export const all = {
     SO: {
       id: 176,
       image: photos.TabESO,
-      left: {
+      leftTurn: {
         id: 175,
         link: `/${placeURL.Table_entree}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: 177,
         link: `/${placeURL.Table_entree}/${directionURL.O}`,
       },
       actions: [
         {
           style: {
-            height: '100px',
-            width: '105px',
-            left: 'calc(((100% - 627px) / 2) + 155px)',
-            borderRadius: '100%',
-            top: '275px',
+            height: 100,
+            width: 105,
+            left: 155,
+            top: 275,
           },
           painting: `/${autresURL.peinture}/216`,
         },
         {
           style: {
-            height: '85px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 160px)',
-            borderRadius: '100%',
-            top: '403px',
+            height: 85,
+            width: 100,
+            left: 160,
+            top: 403,
           },
           painting: `/${autresURL.peinture}/458`,
         },
@@ -6274,11 +5888,11 @@ export const all = {
     O: {
       id: 177,
       image: photos.TabEO,
-      left: {
+      leftTurn: {
         id: 176,
         link: `/${placeURL.Table_entree}/${directionURL.SO}`,
       },
-      right: {
+      rightTurn: {
         id: 178,
         link: `/${placeURL.Table_entree}/${directionURL.NO}`,
       },
@@ -6289,32 +5903,30 @@ export const all = {
     NO: {
       id: 178,
       image: photos.TabENO,
-      left: {
+      leftTurn: {
         id: 177,
         link: `/${placeURL.Table_entree}/${directionURL.O}`,
       },
-      right: {
+      rightTurn: {
         id: 171,
         link: `/${placeURL.Table_entree}/${directionURL.N}`,
       },
       actions: [
         {
           style: {
-            height: '85px',
-            width: '100px',
-            right: 'calc(((100% - 627px) / 2) + 220px)',
-            borderRadius: '100%',
-            bottom: '200px',
+            height: 85,
+            width: 100,
+            right: 220,
+            bottom: 200,
           },
           painting: `/${placeURL.Table}/4`,
         },
         {
           style: {
-            height: '85px',
-            width: '100px',
-            right: 'calc(((100% - 627px) / 2) + 70px)',
-            borderRadius: '100%',
-            bottom: '170px',
+            height: 85,
+            width: 100,
+            right: 70,
+            bottom: 170,
           },
           painting: `/${placeURL.Table}/3`,
         },
@@ -6327,42 +5939,39 @@ export const all = {
     N: {
       id: 181,
       image: photos.TabON,
-      left: {
+      leftTurn: {
         id: 188,
         link: `/${placeURL.Table_opposee}/${directionURL.NO}`,
       },
-      right: {
+      rightTurn: {
         id: 182,
         link: `/${placeURL.Table_opposee}/${directionURL.NE}`,
       },
       actions: [
         {
           style: {
-            height: '130px',
-            width: '130px',
-            left: 'calc(((100% - 627px) / 2) + 25px)',
-            borderRadius: '100%',
-            top: '355px',
+            height: 130,
+            width: 130,
+            left: 25,
+            top: 355,
           },
           painting: `/${autresURL.peinture}/210`,
         },
         {
           style: {
-            height: '100px',
-            width: '130px',
-            left: 'calc(((100% - 627px) / 2) + 220px)',
-            borderRadius: '100%',
-            top: '370px',
+            height: 100,
+            width: 130,
+            left: 220,
+            top: 370,
           },
           painting: `/${autresURL.peinture}/208`,
         },
         {
           style: {
-            height: '150px',
-            width: '150px',
-            right: 'calc(((100% - 627px) / 2) + 65px)',
-            borderRadius: '100%',
-            top: '345px',
+            height: 150,
+            width: 150,
+            right: 65,
+            top: 345,
           },
           painting: `/${autresURL.peinture}/10`,
         },
@@ -6373,32 +5982,30 @@ export const all = {
     NE: {
       id: 182,
       image: photos.TabONE,
-      left: {
+      leftTurn: {
         id: 181,
         link: `/${placeURL.Table_opposee}/${directionURL.N}`,
       },
-      right: {
+      rightTurn: {
         id: 183,
         link: `/${placeURL.Table_opposee}/${directionURL.E}`,
       },
       actions: [
         {
           style: {
-            height: '150px',
-            width: '150px',
-            left: 'calc(((100% - 627px) / 2) + 40px)',
-            borderRadius: '100%',
-            top: '270px',
+            height: 150,
+            width: 150,
+            left: 40,
+            top: 270,
           },
           painting: `/${autresURL.peinture}/10`,
         },
         {
           style: {
-            height: '120px',
-            width: '110px',
-            left: 'calc(((100% - 627px) / 2) + 240px)',
-            borderRadius: '100%',
-            top: '275px',
+            height: 120,
+            width: 110,
+            left: 240,
+            top: 275,
           },
           painting: `/${autresURL.peinture}/213`,
         },
@@ -6409,22 +6016,21 @@ export const all = {
     E: {
       id: 183,
       image: photos.TabOE,
-      left: {
+      leftTurn: {
         id: 182,
         link: `/${placeURL.Table_opposee}/${directionURL.NE}`,
       },
-      right: {
+      rightTurn: {
         id: 184,
         link: `/${placeURL.Table_opposee}/${directionURL.SE}`,
       },
       actions: [
         {
           style: {
-            height: '120px',
-            width: '110px',
-            left: 'calc(((100% - 627px) / 2) + 180px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 120,
+            width: 110,
+            left: 180,
+            top: 300,
           },
           painting: `/${autresURL.Affiches}/Fauve`,
         },
@@ -6435,22 +6041,21 @@ export const all = {
     SE: {
       id: 184,
       image: photos.TabOSE,
-      left: {
+      leftTurn: {
         id: 183,
         link: `/${placeURL.Table_opposee}/${directionURL.E}`,
       },
-      right: {
+      rightTurn: {
         id: 185,
         link: `/${placeURL.Table_opposee}/${directionURL.S}`,
       },
       actions: [
         {
           style: {
-            height: '100px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 250px)',
-            borderRadius: '100%',
-            bottom: '200px',
+            height: 100,
+            width: 100,
+            left: 250,
+            bottom: 200,
           },
           painting: `/${placeURL.Table}/8`,
         },
@@ -6461,42 +6066,39 @@ export const all = {
     S: {
       id: 185,
       image: photos.TabOS,
-      left: {
+      leftTurn: {
         id: 184,
         link: `/${placeURL.Table_opposee}/${directionURL.SE}`,
       },
-      right: {
+      rightTurn: {
         id: 186,
         link: `/${placeURL.Table_opposee}/${directionURL.SO}`,
       },
       actions: [
         {
           style: {
-            height: '100px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 100px)',
-            borderRadius: '100%',
-            bottom: '150px',
+            height: 100,
+            width: 100,
+            left: 100,
+            bottom: 150,
           },
           painting: `/${placeURL.Table}/7`,
         },
         {
           style: {
-            height: '100px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 260px)',
-            borderRadius: '100%',
-            bottom: '150px',
+            height: 100,
+            width: 100,
+            left: 260,
+            bottom: 150,
           },
           painting: `/${placeURL.Table}/6`,
         },
         {
           style: {
-            height: '100px',
-            width: '100px',
-            right: 'calc(((100% - 627px) / 2) + 100px)',
-            borderRadius: '100%',
-            bottom: '150px',
+            height: 100,
+            width: 100,
+            right: 100,
+            bottom: 150,
           },
           painting: `/${placeURL.Table}/5`,
         },
@@ -6507,42 +6109,39 @@ export const all = {
     SO: {
       id: 186,
       image: photos.TabOSO,
-      left: {
+      leftTurn: {
         id: 185,
         link: `/${placeURL.Table_opposee}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: 187,
         link: `/${placeURL.Table_opposee}/${directionURL.O}`,
       },
       actions: [
         {
           style: {
-            height: '100px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 150px)',
-            borderRadius: '100%',
-            bottom: '130px',
+            height: 100,
+            width: 100,
+            left: 150,
+            bottom: 130,
           },
           painting: `/${placeURL.Table}/5`,
         },
         {
           style: {
-            height: '80px',
-            width: '80px',
-            right: 'calc(((100% - 627px) / 2) + 100px)',
-            borderRadius: '100%',
-            top: '250px',
+            height: 80,
+            width: 80,
+            right: 100,
+            top: 250,
           },
           painting: `/${autresURL.peinture}/8`,
         },
         {
           style: {
-            height: '80px',
-            width: '80px',
-            right: 'calc(((100% - 627px) / 2) + 100px)',
-            borderRadius: '100%',
-            top: '365px',
+            height: 80,
+            width: 80,
+            right: 100,
+            top: 365,
           },
           painting: `/${autresURL.peinture}/438`,
         },
@@ -6553,32 +6152,30 @@ export const all = {
     O: {
       id: 187,
       image: photos.TabOO,
-      left: {
+      leftTurn: {
         id: 186,
         link: `/${placeURL.Table_opposee}/${directionURL.SO}`,
       },
-      right: {
+      rightTurn: {
         id: 188,
         link: `/${placeURL.Table_opposee}/${directionURL.NO}`,
       },
       actions: [
         {
           style: {
-            height: '80px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 120px)',
-            borderRadius: '100%',
-            top: '260px',
+            height: 80,
+            width: 80,
+            left: 120,
+            top: 260,
           },
           painting: `/${autresURL.peinture}/8`,
         },
         {
           style: {
-            height: '80px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 120px)',
-            borderRadius: '100%',
-            top: '365px',
+            height: 80,
+            width: 80,
+            left: 120,
+            top: 365,
           },
           painting: `/${autresURL.peinture}/438`,
         },
@@ -6589,32 +6186,30 @@ export const all = {
     NO: {
       id: 188,
       image: photos.TabONO,
-      left: {
+      leftTurn: {
         id: 187,
         link: `/${placeURL.Table_opposee}/${directionURL.O}`,
       },
-      right: {
+      rightTurn: {
         id: 181,
         link: `/${placeURL.Table_opposee}/${directionURL.N}`,
       },
       actions: [
         {
           style: {
-            height: '80px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 250px)',
-            borderRadius: '100%',
-            top: '340px',
+            height: 80,
+            width: 80,
+            left: 250,
+            top: 340,
           },
           painting: `/${autresURL.peinture}/205`,
         },
         {
           style: {
-            height: '130px',
-            width: '160px',
-            right: 'calc(((100% - 627px) / 2) + 110px)',
-            borderRadius: '100%',
-            top: '330px',
+            height: 130,
+            width: 160,
+            right: 110,
+            top: 330,
           },
           painting: `/${autresURL.peinture}/210`,
         },
@@ -6627,62 +6222,57 @@ export const all = {
     N: {
       id: 191,
       image: photos.VacN,
-      left: {
+      leftTurn: {
         id: 198,
         link: `/${placeURL.Vaches}/${directionURL.NO}`,
       },
-      right: {
+      rightTurn: {
         id: 192,
         link: `/${placeURL.Vaches}/${directionURL.NE}`,
       },
       actions: [
         {
           style: {
-            height: '125px',
-            width: '125px',
-            left: 'calc(((100% - 627px) / 2) + 63px)',
-            borderRadius: '100%',
-            top: '340px',
+            height: 125,
+            width: 125,
+            left: 63,
+            top: 340,
           },
           painting: `/${autresURL.peinture}/310`,
         },
         {
           style: {
-            height: '115px',
-            width: '168px',
-            right: 'calc(((100% - 627px) / 2) + 165px)',
-            borderRadius: '100%',
-            top: '240px',
+            height: 115,
+            width: 168,
+            right: 165,
+            top: 240,
           },
           painting: `/${autresURL.peinture}/77`,
         },
         {
           style: {
-            height: '115px',
-            width: '165px',
-            right: 'calc(((100% - 627px) / 2) + 165px)',
-            borderRadius: '100%',
-            top: '403px',
+            height: 115,
+            width: 165,
+            right: 165,
+            top: 403,
           },
           painting: `/${autresURL.peinture}/76`,
         },
         {
           style: {
-            height: '110px',
-            width: '92px',
-            right: 'calc(((100% - 627px) / 2) + 7px)',
-            borderRadius: '100%',
-            top: '265px',
+            height: 110,
+            width: 92,
+            right: 7,
+            top: 265,
           },
           painting: `/${autresURL.peinture}/94`,
         },
         {
           style: {
-            height: '110px',
-            width: '86px',
-            right: 'calc(((100% - 627px) / 2) + 7px)',
-            borderRadius: '100%',
-            top: '400px',
+            height: 110,
+            width: 86,
+            right: 7,
+            top: 400,
           },
           painting: `/${autresURL.peinture}/84`,
         },
@@ -6693,62 +6283,57 @@ export const all = {
     NE: {
       id: 192,
       image: photos.VacNE,
-      left: {
+      leftTurn: {
         id: 191,
         link: `/${placeURL.Vaches}/${directionURL.N}`,
       },
-      right: {
+      rightTurn: {
         id: 193,
         link: `/${placeURL.Vaches}/${directionURL.E}`,
       },
       actions: [
         {
           style: {
-            height: '110px',
-            width: '140px',
-            left: 'calc(((100% - 627px) / 2) + 138px)',
-            borderRadius: '100%',
-            top: '240px',
+            height: 110,
+            width: 140,
+            left: 138,
+            top: 240,
           },
           painting: `/${autresURL.peinture}/94`,
         },
         {
           style: {
-            height: '114px',
-            width: '130px',
-            left: 'calc(((100% - 627px) / 2) + 143px)',
-            borderRadius: '100%',
-            top: '373px',
+            height: 114,
+            width: 130,
+            left: 143,
+            top: 373,
           },
           painting: `/${autresURL.peinture}/84`,
         },
         {
           style: {
-            height: '125px',
-            width: '65px',
-            left: 'calc(((100% - 627px) / 2) + 318px)',
-            borderRadius: '100%',
-            top: '310px',
+            height: 125,
+            width: 65,
+            left: 318,
+            top: 310,
           },
           painting: `/${autresURL.peinture}/69`,
         },
         {
           style: {
-            height: '65px',
-            width: '38px',
-            right: 'calc(((100% - 627px) / 2) + 188px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 65,
+            width: 38,
+            right: 188,
+            top: 300,
           },
           painting: `/${autresURL.peinture}/82`,
         },
         {
           style: {
-            height: '65px',
-            width: '38px',
-            right: 'calc(((100% - 627px) / 2) + 190px)',
-            borderRadius: '100%',
-            top: '380px',
+            height: 65,
+            width: 38,
+            right: 190,
+            top: 380,
           },
           painting: `/${autresURL.peinture}/319`,
         },
@@ -6759,11 +6344,11 @@ export const all = {
     E: {
       id: 193,
       image: photos.VacE,
-      left: {
+      leftTurn: {
         id: 192,
         link: `/${placeURL.Vaches}/${directionURL.NE}`,
       },
-      right: {
+      rightTurn: {
         id: 194,
         link: `/${placeURL.Vaches}/${directionURL.SE}`,
       },
@@ -6774,42 +6359,39 @@ export const all = {
     SE: {
       id: 194,
       image: photos.VacSE,
-      left: {
+      leftTurn: {
         id: 193,
         link: `/${placeURL.Vaches}/${directionURL.E}`,
       },
-      right: {
+      rightTurn: {
         id: 195,
         link: `/${placeURL.Vaches}/${directionURL.S}`,
       },
       actions: [
         {
           style: {
-            height: '90px',
-            width: '130px',
-            right: 'calc(((100% - 627px) / 2) + 225px)',
-            borderRadius: '100%',
-            top: '215px',
+            height: 90,
+            width: 130,
+            right: 225,
+            top: 215,
           },
           painting: `/${autresURL.peinture}/116`,
         },
         {
           style: {
-            height: '105px',
-            width: '130px',
-            right: 'calc(((100% - 627px) / 2) + 227px)',
-            borderRadius: '100%',
-            top: '345px',
+            height: 105,
+            width: 130,
+            right: 227,
+            top: 345,
           },
           painting: `/${autresURL.peinture}/118`,
         },
         {
           style: {
-            height: '75px',
-            width: '114px',
-            right: 'calc(((100% - 627px) / 2) + 240px)',
-            borderRadius: '100%',
-            bottom: '271px',
+            height: 75,
+            width: 114,
+            right: 240,
+            bottom: 271,
           },
           painting: `/${autresURL.peinture}/117`,
         },
@@ -6820,22 +6402,21 @@ export const all = {
     S: {
       id: 195,
       image: photos.VacS,
-      left: {
+      leftTurn: {
         id: 194,
         link: `/${placeURL.Vaches}/${directionURL.SE}`,
       },
-      right: {
+      rightTurn: {
         id: 196,
         link: `/${placeURL.Vaches}/${directionURL.SO}`,
       },
       actions: [
         {
           style: {
-            height: '240px',
-            width: '240px',
-            right: 'calc(((100% - 627px) / 2) + 240px)',
-            borderRadius: '100%',
-            top: '270px',
+            height: 240,
+            width: 240,
+            right: 240,
+            top: 270,
           },
           painting: `/${autresURL.peinture}/122`,
         },
@@ -6846,22 +6427,21 @@ export const all = {
     SO: {
       id: 196,
       image: photos.VacSO,
-      left: {
+      leftTurn: {
         id: 195,
         link: `/${placeURL.Vaches}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: 197,
         link: `/${placeURL.Vaches}/${directionURL.O}`,
       },
       actions: [
         {
           style: {
-            height: '180px',
-            width: '100px',
-            left: 'calc(((100% - 627px) / 2) + 180px)',
-            borderRadius: '100%',
-            top: '300px',
+            height: 180,
+            width: 100,
+            left: 180,
+            top: 300,
           },
           painting: `/${autresURL.peinture}/666`,
         },
@@ -6872,62 +6452,57 @@ export const all = {
     O: {
       id: 197,
       image: photos.VacO,
-      left: {
+      leftTurn: {
         id: 196,
         link: `/${placeURL.Vaches}/${directionURL.SO}`,
       },
-      right: {
+      rightTurn: {
         id: 198,
         link: `/${placeURL.Vaches}/${directionURL.NO}`,
       },
       actions: [
         {
           style: {
-            height: '73px',
-            width: '40px',
-            right: 'calc(((100% - 627px) / 2) + 155px)',
-            borderRadius: '100%',
-            top: '305px',
+            height: 73,
+            width: 40,
+            right: 155,
+            top: 305,
           },
           painting: `/${autresURL.peinture}/316`,
         },
         {
           style: {
-            height: '73px',
-            width: '40px',
-            right: 'calc(((100% - 627px) / 2) + 157px)',
-            borderRadius: '100%',
-            top: '382px',
+            height: 73,
+            width: 40,
+            right: 157,
+            top: 382,
           },
           painting: `/${autresURL.peinture}/108`,
         },
         {
           style: {
-            height: '65px',
-            width: '38px',
-            right: 'calc(((100% - 627px) / 2) + 110px)',
-            borderRadius: '100%',
-            top: '365px',
+            height: 65,
+            width: 38,
+            right: 110,
+            top: 365,
           },
           painting: `/${autresURL.peinture}/71`,
         },
         {
           style: {
-            height: '115px',
-            width: '80px',
-            right: 'calc(((100% - 627px) / 2) + 7px)',
-            borderRadius: '100%',
-            top: '265px',
+            height: 115,
+            width: 80,
+            right: 7,
+            top: 265,
           },
           painting: `/${autresURL.peinture}/79`,
         },
         {
           style: {
-            height: '100px',
-            width: '75px',
-            right: 'calc(((100% - 627px) / 2) + 10px)',
-            borderRadius: '100%',
-            top: '400px',
+            height: 100,
+            width: 75,
+            right: 10,
+            top: 400,
           },
           painting: `/${autresURL.peinture}/81`,
         },
@@ -6938,72 +6513,66 @@ export const all = {
     NO: {
       id: 198,
       image: photos.VacNO,
-      left: {
+      leftTurn: {
         id: 197,
         link: `/${placeURL.Vaches}/${directionURL.O}`,
       },
-      right: {
+      rightTurn: {
         id: 191,
         link: `/${placeURL.Vaches}/${directionURL.N}`,
       },
       actions: [
         {
           style: {
-            height: '68px',
-            width: '35px',
-            left: 'calc(((100% - 627px) / 2) + 136px)',
-            borderRadius: '100%',
-            top: '305px',
+            height: 68,
+            width: 35,
+            left: 136,
+            top: 305,
           },
           painting: `/${autresURL.peinture}/316`,
         },
         {
           style: {
-            height: '68px',
-            width: '35px',
-            left: 'calc(((100% - 627px) / 2) + 136px)',
-            borderRadius: '100%',
-            top: '375px',
+            height: 68,
+            width: 35,
+            left: 136,
+            top: 375,
           },
           painting: `/${autresURL.peinture}/108`,
         },
         {
           style: {
-            height: '58px',
-            width: '37px',
-            left: 'calc(((100% - 627px) / 2) + 176px)',
-            borderRadius: '100%',
-            top: '360px',
+            height: 58,
+            width: 37,
+            left: 176,
+            top: 360,
           },
           painting: `/${autresURL.peinture}/71`,
         },
         {
           style: {
-            height: '105px',
-            width: '90px',
-            left: 'calc(((100% - 627px) / 2) + 233px)',
-            borderRadius: '100%',
-            top: '260px',
+            height: 105,
+            width: 90,
+            left: 233,
+            top: 260,
           },
           painting: `/${autresURL.peinture}/79`,
         },
         {
           style: {
-            height: '90px',
-            width: '80px',
-            left: 'calc(((100% - 627px) / 2) + 235px)',
-            borderRadius: '100%',
-            top: '382px',
+            height: 90,
+            width: 80,
+            left: 235,
+            top: 382,
           },
           painting: `/${autresURL.peinture}/81`,
         },
         {
           style: {
-            height: '130px',
-            width: '147px',
-            right: 'calc(((100% - 627px) / 2) + 102px)',
-            borderRadius: '100%',
-            top: '327px',
+            height: 130,
+            width: 147,
+            right: 102,
+            top: 327,
           },
           painting: `/${autresURL.peinture}/310`,
         },
@@ -7016,72 +6585,66 @@ export const all = {
     N: {
       id: 201,
       image: photos.VidN,
-      left: {
+      leftTurn: {
         id: 208,
         link: `/${placeURL.Video}/${directionURL.NO}`,
       },
-      right: {
+      rightTurn: {
         id: 202,
         link: `/${placeURL.Video}/${directionURL.NE}`,
       },
       actions: [
         {
           style: {
-            height: '70px',
-            width: '76px',
-            left: 'calc(((100% - 627px) / 2) + 129px)',
-            borderRadius: '100%',
-            top: '315px',
+            height: 70,
+            width: 76,
+            left: 129,
+            top: 315,
           },
           painting: `/${autresURL.peinture}/316`,
         },
         {
           style: {
-            height: '70px',
-            width: '79px',
-            left: 'calc(((100% - 627px) / 2) + 129px)',
-            borderRadius: '100%',
-            top: '392px',
+            height: 70,
+            width: 79,
+            left: 129,
+            top: 392,
           },
           painting: `/${autresURL.peinture}/108`,
         },
         {
           style: {
-            height: '50px',
-            width: '65px',
-            left: 'calc(((100% - 627px) / 2) + 228px)',
-            borderRadius: '100%',
-            top: '375px',
+            height: 50,
+            width: 65,
+            left: 228,
+            top: 375,
           },
           painting: `/${autresURL.peinture}/71`,
         },
         {
           style: {
-            height: '70px',
-            width: '86px',
-            right: 'calc(((100% - 627px) / 2) + 225px)',
-            borderRadius: '100%',
-            top: '310px',
+            height: 70,
+            width: 86,
+            right: 225,
+            top: 310,
           },
           painting: `/${autresURL.peinture}/79`,
         },
         {
           style: {
-            height: '65px',
-            width: '75px',
-            right: 'calc(((100% - 627px) / 2) + 228px)',
-            borderRadius: '100%',
-            top: '390px',
+            height: 65,
+            width: 75,
+            right: 228,
+            top: 390,
           },
           painting: `/${autresURL.peinture}/81`,
         },
         {
           style: {
-            height: '60px',
-            width: '60px',
-            right: 'calc(((100% - 627px) / 2) + 125px)',
-            borderRadius: '100%',
-            top: '360px',
+            height: 60,
+            width: 60,
+            right: 125,
+            top: 360,
           },
           painting: `/${autresURL.peinture}/310`,
         },
@@ -7092,72 +6655,66 @@ export const all = {
     NE: {
       id: 202,
       image: photos.VidNE,
-      left: {
+      leftTurn: {
         id: 201,
         link: `/${placeURL.Video}/${directionURL.N}`,
       },
-      right: {
+      rightTurn: {
         id: 203,
         link: `/${placeURL.Video}/${directionURL.E}`,
       },
       actions: [
         {
           style: {
-            height: '60px',
-            width: '65px',
-            left: 'calc(((100% - 627px) / 2) + 110px)',
-            borderRadius: '100%',
-            top: '335px',
+            height: 60,
+            width: 65,
+            left: 110,
+            top: 335,
           },
           painting: `/${autresURL.peinture}/310`,
         },
         {
           style: {
-            height: '45px',
-            width: '55px',
-            left: 'calc(((100% - 627px) / 2) + 200px)',
-            borderRadius: '100%',
-            top: '305px',
+            height: 45,
+            width: 55,
+            left: 200,
+            top: 305,
           },
           painting: `/${autresURL.peinture}/77`,
         },
         {
           style: {
-            height: '45px',
-            width: '53px',
-            left: 'calc(((100% - 627px) / 2) + 200px)',
-            borderRadius: '100%',
-            top: '363px',
+            height: 45,
+            width: 53,
+            left: 200,
+            top: 363,
           },
           painting: `/${autresURL.peinture}/76`,
         },
         {
           style: {
-            height: '45px',
-            width: '43px',
-            left: 'calc(((100% - 627px) / 2) + 268px)',
-            borderRadius: '100%',
-            top: '363px',
+            height: 45,
+            width: 43,
+            left: 268,
+            top: 363,
           },
           painting: `/${autresURL.peinture}/84`,
         },
         {
           style: {
-            height: '45px',
-            width: '43px',
-            left: 'calc(((100% - 627px) / 2) + 270px)',
-            borderRadius: '100%',
-            top: '312px',
+            height: 45,
+            width: 43,
+            left: 270,
+            top: 312,
           },
           painting: `/${autresURL.peinture}/94`,
         },
         {
           style: {
-            height: '260px',
-            width: '155px',
-            right: 'calc(((100% - 627px) / 2) + 68px)',
-            borderRadius: '100%',
-            top: '270px',
+            height: 260,
+            width: 155,
+            right: 68,
+            top: 270,
           },
           painting: `/${autresURL.peinture}/428`,
         },
@@ -7168,32 +6725,30 @@ export const all = {
     E: {
       id: 203,
       image: photos.VidE,
-      left: {
+      leftTurn: {
         id: 202,
         link: `/${placeURL.Video}/${directionURL.NE}`,
       },
-      right: {
+      rightTurn: {
         id: 204,
         link: `/${placeURL.Video}/${directionURL.SE}`,
       },
       actions: [
         {
           style: {
-            height: '205px',
-            width: '118px',
-            left: 'calc(((100% - 627px) / 2) + 85px)',
-            borderRadius: '100%',
-            top: '285px',
+            height: 205,
+            width: 118,
+            left: 85,
+            top: 285,
           },
           painting: `/${autresURL.peinture}/428`,
         },
         {
           style: {
-            height: '150px',
-            width: '93px',
-            right: 'calc(((100% - 627px) / 2) + 125px)',
-            borderRadius: '100%',
-            top: '328px',
+            height: 150,
+            width: 93,
+            right: 125,
+            top: 328,
           },
           painting: `/${autresURL.peinture}/675`,
         },
@@ -7204,52 +6759,48 @@ export const all = {
     SE: {
       id: 204,
       image: photos.VidSE,
-      left: {
+      leftTurn: {
         id: 203,
         link: `/${placeURL.Video}/${directionURL.E}`,
       },
-      right: {
+      rightTurn: {
         id: 205,
         link: `/${placeURL.Video}/${directionURL.S}`,
       },
       actions: [
         {
           style: {
-            height: '200px',
-            width: '125px',
-            left: 'calc(((100% - 627px) / 2) + 55px)',
-            borderRadius: '100%',
-            top: '288px',
+            height: 200,
+            width: 125,
+            left: 55,
+            top: 288,
           },
           painting: `/${autresURL.peinture}/675`,
         },
         {
           style: {
-            height: '80px',
-            width: '50px',
-            right: 'calc(((100% - 627px) / 2) + 250px)',
-            borderRadius: '100%',
-            top: '347px',
+            height: 80,
+            width: 50,
+            right: 250,
+            top: 347,
           },
           painting: `/${autresURL.peinture}/228`,
         },
         {
           style: {
-            height: '83px',
-            width: '65px',
-            right: 'calc(((100% - 627px) / 2) + 170px)',
-            borderRadius: '100%',
-            top: '353px',
+            height: 83,
+            width: 65,
+            right: 170,
+            top: 353,
           },
           painting: `/${autresURL.peinture}/222`,
         },
         {
           style: {
-            height: '70px',
-            width: '80px',
-            right: 'calc(((100% - 627px) / 2) + 75px)',
-            borderRadius: '100%',
-            top: '367px',
+            height: 70,
+            width: 80,
+            right: 75,
+            top: 367,
           },
           painting: `/${autresURL.peinture}/227`,
         },
@@ -7260,32 +6811,30 @@ export const all = {
     S: {
       id: 205,
       image: photos.VidS,
-      left: {
+      leftTurn: {
         id: 204,
         link: `/${placeURL.Video}/${directionURL.SE}`,
       },
-      right: {
+      rightTurn: {
         id: 206,
         link: `/${placeURL.Video}/${directionURL.SO}`,
       },
       actions: [
         {
           style: {
-            height: '65px',
-            width: '88px',
-            left: 'calc(((100% - 627px) / 2) + 160px)',
-            borderRadius: '100%',
-            top: '353px',
+            height: 65,
+            width: 88,
+            left: 160,
+            top: 353,
           },
           painting: `/${autresURL.peinture}/227`,
         },
         {
           style: {
-            height: '150px',
-            width: '95px',
-            left: 'calc(((100% - 627px) / 2) + 300px)',
-            borderRadius: '100%',
-            top: '353px',
+            height: 150,
+            width: 95,
+            left: 300,
+            top: 353,
           },
           painting: `/${autresURL.Affiches}/Predilection`,
         },
@@ -7296,11 +6845,11 @@ export const all = {
     SO: {
       id: 206,
       image: photos.VidSO,
-      left: {
+      leftTurn: {
         id: 205,
         link: `/${placeURL.Video}/${directionURL.S}`,
       },
-      right: {
+      rightTurn: {
         id: 207,
         link: `/${placeURL.Video}/${directionURL.O}`,
       },
@@ -7311,11 +6860,11 @@ export const all = {
     O: {
       id: 207,
       image: photos.VidO,
-      left: {
+      leftTurn: {
         id: 206,
         link: `/${placeURL.Video}/${directionURL.SO}`,
       },
-      right: {
+      rightTurn: {
         id: 208,
         link: `/${placeURL.Video}/${directionURL.NO}`,
       },
@@ -7326,11 +6875,11 @@ export const all = {
     NO: {
       id: 208,
       image: photos.VidNO,
-      left: {
+      leftTurn: {
         id: 207,
         link: `/${placeURL.Video}/${directionURL.O}`,
       },
-      right: {
+      rightTurn: {
         id: 201,
         link: `/${placeURL.Video}/${directionURL.N}`,
       },

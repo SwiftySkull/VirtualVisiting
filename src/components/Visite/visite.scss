@@ -11,7 +11,7 @@
     
     .picture {
       height: calc(100vh - vars.$header);
-      width: 100%;
+      width: fit-content;
       margin: auto;
       display: flex;
       justify-content: center;
@@ -25,20 +25,23 @@
 
       .info {
         position: absolute;
+        // border: 2px solid orangered;
+        border-radius: 100%;
 
         &:hover, &:focus {
-          border: 2px solid orangered;
+          border: 3px solid black;
           cursor: pointer;
+          background-color: rgba(255, 255, 255, 0.222);
+          animation: viewPaint infinite 1s 1s ease-in-out;
         }
       }
 
       // .tableau {
-      //   height: 115px;
-      //   width: 75px;
-      //   right: calc(((100% - 627px) / 2) + 30px);
-      //   border-radius: 100%;
-      //   top: 330px;
-      //   border-color: blue !important;
+      //   height: calc(115 * 100% / 837);
+      //   width: calc(75 * 100% / 627);
+      //   right: calc(30 * 100% / 627);
+      //   top: calc(330 * 100% / 837);
+      //   border: 2px solid blue;
       // }
     }
 
@@ -167,5 +170,11 @@
 @keyframes arrowRightMove {
   50% {
     transform: translateX(15px);
+  }
+}
+
+@keyframes viewPaint {
+  50% {
+    transform: scale(1.1);
   }
 }
