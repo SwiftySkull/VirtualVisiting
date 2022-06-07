@@ -1,7 +1,8 @@
+/* eslint-disable max-len */
 // == Import npm
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { NavLink, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 // == Import
 import './home.scss';
@@ -11,6 +12,8 @@ import Entree from 'src/assets/images/Canon/IMG_4064.JPG';
 // == Composant
 /**
  * Home component
+ *
+ * @param {function} closeModal Close the modal of the painting
  */
 const Home = ({
   closeModal,
@@ -39,6 +42,7 @@ const Home = ({
 };
 
 Home.propTypes = {
+  /** Close the modal of the painting */
   closeModal: PropTypes.func.isRequired,
 };
 

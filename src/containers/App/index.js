@@ -11,7 +11,7 @@ import App from 'src/components/App';
  */
 
 const mapStateToProps = (state) => ({
-  // cookieStatus: state.main.cookieStatus,
+
 });
 
 /**
@@ -23,9 +23,6 @@ const mapDispatchToProps = (dispatch) => ({
    *
    * @param {string} language Language chosen by the user
    */
-  // changeLanguage: (language) => {
-  //   dispatch(changeLanguage(language));
-  // },
 });
 
 // === Assistant creation for the component

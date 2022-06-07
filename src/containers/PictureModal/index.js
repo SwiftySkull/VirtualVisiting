@@ -19,10 +19,17 @@ const mapStateToProps = (state) => ({
  * To dispatch function in the component
  */
 const mapDispatchToProps = (dispatch) => ({
+  /**
+   * Get the informations of the painting in the DataBase
+   * @param {*} id ID of the painting selected
+   */
   selectedPaintingId: (id) => {
     dispatch(selectedPaintingId(id));
   },
 
+  /**
+   * Remove the painting from the screen and the memory
+   */
   unselectPainting: () => {
     dispatch(unselectPainting());
   },

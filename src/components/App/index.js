@@ -1,6 +1,6 @@
 // == Import npm
 import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { Route, Routes } from 'react-router-dom';
 
 // == Import
@@ -10,7 +10,6 @@ import PictureModal from 'src/containers/PictureModal';
 import TableModal from 'src/containers/TableModal';
 import TextDisplay from 'src/containers/TextDisplay';
 import Header from 'src/containers/Header';
-import Footer from 'src/containers/Footer';
 
 import './app.scss';
 
@@ -19,11 +18,9 @@ import './app.scss';
  * Application component
  *
  */
-const App = ({
-
-}) => {
+const App = () => {
   useEffect(() => {
-    
+
   }, []);
 
   return (
@@ -36,18 +33,17 @@ const App = ({
         <Route path="/:salle/:orientation" element={<Visite />} />
         <Route path="/" element={<Home />} />
       </Routes>
-      {/* <Footer /> */}
     </div>
   );
 };
 
-App.propTypes = {
+// App.propTypes = {
 
-};
+// };
 
-App.defaultProps = {
+// App.defaultProps = {
 
-};
+// };
 
 // == Export
 export default App;

@@ -16,6 +16,7 @@ const mapStateToProps = (state) => ({
  * To dispatch function in the component
  */
 const mapDispatchToProps = (dispatch) => ({
+  /** Close the modal of the painting */
   closeModal: () => {
     dispatch(closeModal());
   },

@@ -1,7 +1,7 @@
 // == Import npm
 import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
-import { NavLink, Link } from 'react-router-dom';
+// import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 // == Import
 import './header.scss';
@@ -10,9 +10,7 @@ import './header.scss';
 /**
  * Header component
  */
-const Header = ({
-
-}) => {
+const Header = () => {
   useEffect(() => {
 
   }, []);
@@ -31,13 +29,13 @@ const Header = ({
   );
 };
 
-Header.propTypes = {
+// Header.propTypes = {
 
-};
+// };
 
-Header.defaultProps = {
+// Header.defaultProps = {
 
-};
+// };
 
 // == Export
 export default Header;

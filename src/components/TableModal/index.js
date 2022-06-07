@@ -1,7 +1,6 @@
 // == Import npm
 import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
-import { NavLink, Link } from 'react-router-dom';
+// import PropTypes from 'prop-types';
 import { useParams } from 'react-router';
 
 // == Import
@@ -13,9 +12,7 @@ import tableIDs from 'src/data/tableIDs';
 /**
  * Header component
  */
-const TableModal = ({
-
-}) => {
+const TableModal = () => {
   const { id } = useParams();
 
   useEffect(() => {
@@ -43,13 +40,13 @@ const TableModal = ({
   );
 };
 
-TableModal.propTypes = {
+// TableModal.propTypes = {
 
-};
+// };
 
-TableModal.defaultProps = {
+// TableModal.defaultProps = {
 
-};
+// };
 
 // == Export
 export default TableModal;

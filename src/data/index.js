@@ -18,63 +18,18 @@ export const all = {
         link: `/${placeURL.Bretagne}/${directionURL.N}`,
       },
       actions: [
-        // {
-        //   style: {
-        //     height: 70,
-        //     width: 70,
-        //     right: 180,
-        //     top: 225,
-        //   },
-        //   painting: `/${autresURL.peinture}/757`,
-        // },
-        // {
-        //   style: {
-        //     height: 80,
-        //     width: 120,
-        //     left: 120,
-        //     top: 340,
-        //   },
-        //   painting: `/${autresURL.peinture}/217`,
-        // },
-        // {
-        //   style: {
-        //     height: 140,
-        //     width: 200,
-        //     left: 200,
-        //     bottom: 220,
-        //   },
-        //   painting: `/${autresURL.peinture}/208`,
-        // },
-        // {
-        //   style: {
-        //     height: 140,
-        //     width: 250,
-        //     right: 140,
-        //     top: 300,
-        //   },
-        //   painting: `/${autresURL.lecture}/Bretagne`,
-        // },
-        // {
-        //   style: {
-        //     height: 100,
-        //     width: 250,
-        //     left: 110,
-        //     top: 170,
-        //   },
-        //   painting: `/${autresURL.lecture}/Bretagne`,
-        // },
         {
           style: {
-            height: 100,
-            width: 300,
-            left: 110,
-            top: 40,
+            height: 300,
+            width: 250,
+            left: 170,
+            top: 200,
           },
           painting: `/${autresURL.lecture}/Bretagne`,
         },
       ],
       mouvement: true,
-      mouvementLink: `/${placeURL.Bretagne}/${directionURL.NO}`,
+      mouvementLink: 'Back',
     },
     Livre: {
       id: 212,
@@ -99,7 +54,7 @@ export const all = {
         },
       ],
       mouvement: true,
-      mouvementLink: `/${placeURL.Table}/8`,
+      mouvementLink: 'Back',
     },
     Fauve: {
       id: 213,
@@ -124,7 +79,7 @@ export const all = {
         },
       ],
       mouvement: true,
-      mouvementLink: `/${placeURL.Orchestre}/${directionURL.NE}`,
+      mouvementLink: 'Back',
     },
     Muret: {
       id: 214,
@@ -5204,7 +5159,7 @@ export const all = {
           painting: `/${autresURL.dessins_table}/4158`,
         },
       ],
-      mouvement: true,
+      mouvement: 'Back',
       mouvementLink: `/${placeURL.Orchestre_oppose}/${directionURL.NO}`,
     },
     2: {
@@ -5256,7 +5211,7 @@ export const all = {
           painting: `/${autresURL.dessins_table}/4157`,
         },
       ],
-      mouvement: true,
+      mouvement: 'Back',
       mouvementLink: `/${placeURL.Table_entree}/${directionURL.N}`,
     },
     3: {
@@ -5317,7 +5272,7 @@ export const all = {
           painting: `/${autresURL.dessins_table}/4156`,
         },
       ],
-      mouvement: true,
+      mouvement: 'Back',
       mouvementLink: `/${placeURL.Table_entree}/${directionURL.N}`,
     },
     4: {
@@ -5360,7 +5315,7 @@ export const all = {
           painting: `/${autresURL.dessins_table}/4154`,
         },
       ],
-      mouvement: true,
+      mouvement: 'Back',
       mouvementLink: `/${placeURL.Table_entree}/${directionURL.N}`,
     },
     5: {
@@ -5412,7 +5367,7 @@ export const all = {
           painting: `/${autresURL.dessins_table}/4154`,
         },
       ],
-      mouvement: true,
+      mouvement: 'Back',
       mouvementLink: `/${placeURL.Table_opposee}/${directionURL.S}`,
     },
     6: {
@@ -5473,7 +5428,7 @@ export const all = {
           painting: `/${autresURL.dessins_table}/4156`,
         },
       ],
-      mouvement: true,
+      mouvement: 'Back',
       mouvementLink: `/${placeURL.Table_opposee}/${directionURL.S}`,
     },
     7: {
@@ -5525,7 +5480,7 @@ export const all = {
           painting: `/${autresURL.dessins_table}/4153`,
         },
       ],
-      mouvement: true,
+      mouvement: 'Back',
       mouvementLink: `/${placeURL.Table_opposee}/${directionURL.S}`,
     },
     8: {
@@ -5577,7 +5532,7 @@ export const all = {
           painting: `/${autresURL.dessins_table}/4158`,
         },
       ],
-      mouvement: true,
+      mouvement: 'Back',
       mouvementLink: `/${placeURL.Orchestre}/${directionURL.SO}`,
     },
   },

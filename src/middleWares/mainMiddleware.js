@@ -14,7 +14,7 @@ export const URL = 'https://back.denise-margoni.fr/api';
  * MiddleWare for the main and authentification area.
  */
 const mainMiddleware = (store) => (next) => (action) => {
-  const state = store.getState();
+  // const state = store.getState();
 
   switch (action.type) {
     case SELECTED_PAINTING_ID:

@@ -1,7 +1,6 @@
 // == Import npm
 import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
-import { NavLink, Link } from 'react-router-dom';
+// import PropTypes from 'prop-types';
 import { useParams } from 'react-router';
 
 // == Import
@@ -15,9 +14,7 @@ import { createMarkup } from 'src/utils';
 /**
  * Header component
  */
-const TextDisplay = ({
-
-}) => {
+const TextDisplay = () => {
   const { texte } = useParams();
 
   useEffect(() => {
@@ -38,13 +35,13 @@ const TextDisplay = ({
   );
 };
 
-TextDisplay.propTypes = {
+// TextDisplay.propTypes = {
 
-};
+// };
 
-TextDisplay.defaultProps = {
+// TextDisplay.defaultProps = {
 
-};
+// };
 
 // == Export
 export default TextDisplay;

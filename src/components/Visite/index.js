@@ -1,6 +1,6 @@
 // == Import npm
 import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { useParams } from 'react-router';
 
@@ -13,11 +13,9 @@ import { all } from 'src/data';
 
 // == Composant
 /**
- * Visite component
+ * Visit component
  */
-const Visite = ({
-  
-}) => {
+const Visite = () => {
   useEffect(() => {
 
   }, []);
@@ -35,7 +33,6 @@ const Visite = ({
       <div className="visite">
         <div className="picture">
           <img src={all[salle][orientation].image} alt="" />
-          {/* <div className="tableau info" tabIndex="0" /> */}
           {all[salle][orientation].actions?.map((act) => (
             <Link
               className="info"
@@ -59,14 +56,17 @@ const Visite = ({
         {all[salle][orientation].rightTurn.id && (
           <Link to={all[salle][orientation].rightTurn.link} className="turn-right arrow" title="Se tourner vers la droite"><div className="bout" /><div className="pointe" /></Link>
         )}
-        {all[salle][orientation].mouvement && all[salle][orientation].mouvementLink !== 'Back' && all[salle][orientation].mouvementLink !== 'Margoni' && (
-          <Link to={all[salle][orientation].mouvementLink} className="go-forward arrow" value="" title="Se déplacer"><div className="intern-go" /></Link>
+        {salle !== 'Table' && all[salle][orientation].mouvement && all[salle][orientation].mouvementLink !== 'Back' && all[salle][orientation].mouvementLink !== 'Margoni' && (
+          <Link to={all[salle][orientation].mouvementLink} className="go-forward arrow" value="" title="Se déplacer"><div className="forward-pointe" /><div className="forward-bout" /></Link>
         )}
         {all[salle][orientation].mouvement && all[salle][orientation].mouvementLink === 'Margoni' && (
-          <a href="https://denise-margoni.fr/" target="_blank" rel="noreferrer noopener" className="go-forward arrow" title="Se déplacer"><p className="intern-go" /></a>
+          <a href="https://denise-margoni.fr/" target="_blank" rel="noreferrer noopener" className="go-website arrow" title="Se déplacer"><p className="intern-go" /></a>
         )}
         {all[salle][orientation].mouvement && all[salle][orientation].mouvementLink === 'Back' && (
-          <div onClick={back} onKeyDown={backByKey} className="go-forward arrow" value="" title="Se déplacer"><div className="intern-go" /></div>
+          <div onClick={back} onKeyDown={backByKey} className="go-back arrow" value="" title="Se déplacer"><div className="back-bout" /><div className="back-pointe" /></div>
+        )}
+        {all[salle][orientation].mouvement === 'Back' && (
+          <div onClick={back} onKeyDown={backByKey} className="go-back arrow" value="" title="Se déplacer"><div className="back-bout" /><div className="back-pointe" /></div>
         )}
       </div>
       <Modal />
@@ -74,13 +74,13 @@ const Visite = ({
   );
 };
 
-Visite.propTypes = {
+// Visite.propTypes = {
 
-};
+// };
 
-Visite.defaultProps = {
+// Visite.defaultProps = {
 
-};
+// };
 
 // == Export
 export default Visite;

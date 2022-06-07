@@ -1,7 +1,7 @@
+/* eslint-disable max-len */
 // == Import npm
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { NavLink, Link } from 'react-router-dom';
 
 // == Import
 import './modal.scss';
@@ -9,6 +9,9 @@ import './modal.scss';
 // == Composant
 /**
  * Footer component
+ *
+ * @param {boolean} modal Status of the modal, showed or hided
+ * @param {function} closeModal Close the modal of the painting
  */
 const Modal = ({
   modal,
@@ -38,14 +41,16 @@ const Modal = ({
 };
 
 Modal.propTypes = {
+  /** Status of the modal, showed or hided */
   modal: PropTypes.bool.isRequired,
 
+  /** Close the modal of the painting */
   closeModal: PropTypes.func.isRequired,
 };
 
-Modal.defaultProps = {
+// Modal.defaultProps = {
 
-};
+// };
 
 // == Export
 export default Modal;

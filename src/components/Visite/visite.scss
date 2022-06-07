@@ -24,7 +24,6 @@
 
       .info {
         position: absolute;
-        // border: 2px solid orangered;
         border-radius: 100%;
 
         &:hover, &:focus {
@@ -34,14 +33,6 @@
           animation: viewPaint infinite 1s 1s ease-in-out;
         }
       }
-
-      // .tableau {
-      //   height: calc(115 * 100% / 837);
-      //   width: calc(75 * 100% / 627);
-      //   right: calc(30 * 100% / 627);
-      //   top: calc(330 * 100% / 837);
-      //   border: 2px solid blue;
-      // }
     }
 
     .arrow {
@@ -128,8 +119,8 @@
       }
     }
 
-    .go-forward {
-      bottom: 160px;
+    .go-website {
+      bottom: 120px;
       left: calc(50% - 25px);
       border-radius: 100%;
       height: 40px;
@@ -161,6 +152,90 @@
 
       &:active {
         box-shadow: 0 4px 4px 3px black;
+      }
+    }
+    
+    .go-forward {
+      bottom: 100px;
+      left: calc(50% - 25px);
+      height: 70px;
+      width: 50px;
+      
+      @media (max-width: vars.$medium) {
+        bottom: 10%;
+      }
+      
+      .forward-pointe {
+        border-right: 25px solid transparent;
+        border-left: 25px solid transparent;
+        border-bottom: 30px solid rgb(152, 152, 152);
+        margin: auto;
+      }
+
+      .forward-bout {
+        background: rgb(152, 152, 152);
+        height: 50px;
+        width: 20px;
+        margin: auto;
+      }
+
+      &:hover, &:focus {
+        border-color: white;
+        animation: move 1.2s infinite linear;
+
+        .forward-pointe {
+          border-bottom-color: white;
+        }
+
+        .forward-bout {
+          background: white;
+        }
+      }
+
+      &:active {
+        transform: scale(1.3);
+      }
+    }
+
+    .go-back {
+      bottom: 60px;
+      left: calc(50% - 25px);
+      height: 70px;
+      width: 50px;
+      
+      @media (max-width: vars.$medium) {
+        bottom: 10%;
+      }
+      
+      .back-pointe {
+        border-right: 25px solid transparent;
+        border-left: 25px solid transparent;
+        border-top: 30px solid rgb(152, 152, 152);
+        margin: auto;
+      }
+
+      .back-bout {
+        background: rgb(152, 152, 152);
+        height: 50px;
+        width: 20px;
+        margin: auto;
+      }
+
+      &:hover, &:focus {
+        border-color: white;
+        animation: move 1.2s infinite linear;
+
+        .back-pointe {
+          border-top-color: white;
+        }
+
+        .back-bout {
+          background: white;
+        }
+      }
+
+      &:active {
+        transform: scale(1.3);
       }
     }
   }
@@ -224,7 +299,7 @@
 
 @keyframes move {
   50% {
-    transform: scale(1.3);
+    transform: scale(0.8);
   }
 }
 
